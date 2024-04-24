@@ -6,14 +6,7 @@ library(dclone)
 library(readxl)
 library(eurostat)
 
-# workdir <- "C:/Users/dyildiz/Dropbox/Mig_BigData/"
-# setwd("H:/MyDocuments/RAND/Mig_BigData/")
-# workdir <- "C://Users//yildiz//Dropbox//Mig_BigData//"
- setwd(workdir)
-# getwd()
- setwd("C://Users//dyildiz.VID-CALC1//Dropbox//Mig_BigData//")
-
-
+ 
  ###############################################################
  ###############################################################
  #                     15 - 64 year olds                      #
@@ -370,4 +363,4 @@ m <- jags.parfit(cl = cl,
 s1 <- Sys.time() - s0
 s1
 
-save(m, file = "W:/Users/dyildiz/Desktop/m_eurostat_only.RData", compress = "xz")
+# save(m, file = "W:/Users/dyildiz/Desktop/m_eurostat_only.RData", compress = "xz")

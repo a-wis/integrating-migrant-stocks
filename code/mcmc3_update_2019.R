@@ -35,7 +35,7 @@ library(rayshader)
 # dinput <- read.csv("./Paper/data_july19/input_update_2019_march_june_fbmau_oldcovgr_prec.csv")
 model_name <- "Naive2"
 model_name <- "Naive_cor05"
-folder_name <- paste0("./results/")
+folder_name <- paste0("results/")
 
 dinput_source_year <- dinput %>%
   select(year, source, flow) %>%
@@ -43,7 +43,7 @@ dinput_source_year <- dinput %>%
   summarise(flow = sum(flow, na.rm = T))
 
 # functions for building summary stats
-source("./code/fn1.R")
+source("code/read_functions.R")
 # data for building summary stats
 # load(file = "./model/d1.RData");
 
@@ -88,7 +88,7 @@ tot_year <- y %>%
 
 plot(density(tot_year$stock[tot_year$year==2015]))
 
-tot_un <- read_csv("C:/Users/dyildiz.VID-CALC1/Dropbox/ec-rand/data/total.csv") %>%
+tot_un <- read_csv("data/total.csv") %>%
    filter(source =="un")
 
 # 15-64
@@ -136,12 +136,12 @@ p <- ggplot(data = (tot %>% filter(year>=2011, source != "UN DESA (total populat
   guides(fill = FALSE)
 
 
-plot_name <- paste0("./figures/", model_name,"_total_80ci.pdf")
+plot_name <- paste0("figures/", model_name,"_total_80ci.pdf")
 pdf(plot_name)
 p
 dev.off()
 
-plot_name <- paste0("./figures/", model_name,"_total_80ci.png")
+plot_name <- paste0("figures/", model_name,"_total_80ci.png")
 png(plot_name)
 p
 dev.off()
@@ -169,12 +169,12 @@ p <- ggplot(data = tot2,
   labs(x= "Year", y= "Stocks of EU movers (millions), 15 - 64", colour = "", fill = "") +
   guides(fill = FALSE)
 
-plot_name <- paste0("./figures/", folder_name,model_name,"total_withoutUN_80ci.pdf")
+plot_name <- paste0("figures/", folder_name,model_name,"total_withoutUN_80ci.pdf")
 pdf(plot_name)
 p
 dev.off()
 
-plot_name <- paste0("./figures/",folder_name,model_name,"total.png")
+plot_name <- paste0("figures/",folder_name,model_name,"total.png")
 png(plot_name, height = 6, width = 5.5, units = "in", res = 300)
 p
 dev.off()
@@ -247,7 +247,7 @@ p <- ggplot(data = imm %>% filter(year>=2011),
 
 
 
-plot_name <- paste0("./figures/", model_name,"_imm2.png")
+plot_name <- paste0("figures/", model_name,"_imm2.png")
 png(plot_name, width = 10, height = 10, units = "in", res = 300)
 p
 dev.off()
@@ -312,7 +312,7 @@ p <- ggplot(data = emi %>% filter(year>=min(dinput$year)),
 
 
 
-plot_name <- paste0("./figures/",model_name,"_emi.png")
+plot_name <- paste0("figures/",model_name,"_emi.png")
 png(plot_name, width = 10, height = 10, units = "in", res = 300)
 p
 dev.off()
@@ -388,7 +388,7 @@ bilat_country_imm$orig[bilat_country_imm$orig == "United Kingdom"] = "UK"
 eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
-plotname <- paste0("./figures/", model_name, country, "_logimm_11_7.pdf")
+plotname <- paste0("figures/", model_name, country, "_logimm_11_7.pdf")
 
 pdf(plotname, height = 7, width = 11)
 ggplot(data = bilat_country_imm %>% filter(year>=min(dinput$year)),
@@ -428,7 +428,7 @@ p <- ggplot(data =(total_country_imm %>% filter(source_name != "mau", source_nam
   guides(fill = FALSE)
 
 
-plot_name <- paste0("./figures/",folder_name,model_name,"total_netherlands.png")
+plot_name <- paste0("figures/",folder_name,model_name,"total_netherlands.png")
 png(plot_name, height = 6, width = 5.5, units = "in", res = 300)
 p
 dev.off()
@@ -515,7 +515,7 @@ eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
 
 
-plotname <- paste0("./figures/", model_name, country, "_logemi_11_7.pdf")
+plotname <- paste0("figures/", model_name, country, "_logemi_11_7.pdf")
 
 pdf(plotname, height = 7, width = 11)
 ggplot(data = bilat_country_emi %>% filter(year>=min(dinput$year)),
@@ -540,7 +540,7 @@ dev.off()
 bilat_uk_imm <- dinput %>%
   filter(dest == "United Kingdom")
 
-pdf("./figures/input_uk_imm.pdf")
+pdf("figures/input_uk_imm.pdf")
 ggplot(data = bilat_uk_imm %>% filter(year>=min(dinput$year)),
        mapping = aes(x = year, y = log(flow)))+
   facet_geo(facets = "orig", grid = eu_grid1) +
@@ -560,7 +560,7 @@ dev.off()
 
 #Comparison plot
 
-eu_tot_imm <- read_excel("./migr_pop3ctb.xls", sheet = "Data", skip = 12)[1:38,-c(2,3,4)] %>%
+eu_tot_imm <- read_excel("data/migr_pop3ctb.xls", sheet = "Data", skip = 12)[1:38,-c(2,3,4)] %>%
   rename(name = "GEO/TIME") %>%
   gather(year, eu_tot, c(2,3,4,5)) %>%
   mutate(eu_tot = as.numeric(eu_tot),
@@ -581,7 +581,7 @@ p <- ggplot(data = imm_compare_eu_tot, aes(x = flow, y = eu_tot, colour = as.fac
   labs(x = "Estimate",y = "Eurostat total immigration") +
  labs(colour = "Year")
 
-plot_name <- paste0("./figures/", folder_name, model_name, "EU_vs_est_imm.pdf")
+plot_name <- paste0("figures/", folder_name, model_name, "EU_vs_est_imm.pdf")
 pdf(plot_name)
 p
 dev.off()

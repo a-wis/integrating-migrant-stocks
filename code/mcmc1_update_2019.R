@@ -9,17 +9,14 @@ library(forcats)
 library(stringr)
 library(ggmcmc)
 
-
-# load(file = "./model/m.RData"); 
-# load(file = "./model/d1.RData"); 
 model_name <- "naive_model_cor"
-# folder_name <- "C:/Users/dyildiz.VID-CALC1/Dropbox/Mig_BigData/Paper/update_2019/"
-folder_name <- "./results/"
+
+folder_name <- "results/"
 
 eurostat <- ggs(m, family = "eurostat")
 
 
-dinput <- read.csv("./data/dinput.csv")
+dinput <- read.csv("data/dinput.csv")
 # add corridors to eurostat
 
 eu <- eurostat %>% 

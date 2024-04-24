@@ -8,7 +8,7 @@ library(tidyverse)
 library(forcats)
 library(stringr)
 library(ggmcmc)
-source("./code/fn1.R")
+source("code/read_functions.R")
 
 
 # load(file = "./model/m5.RData"); 
@@ -19,7 +19,7 @@ eurostat <- ggs(m, family = "eurostat") %>%
   mutate(Para = gsub("\\[.*", "", Parameter)) %>% 
   filter(Para == "eurostat")
 
-# add corridors ro eurostat
+# add corridors to eurostat
 
 eu <- eurostat %>% 
   add_node() %>% 
@@ -53,7 +53,7 @@ ggplot(summary_eurostat_2018) +
   ylim(c(0, 15)) +
   theme_bw()
 
-ggsave("./figures/est_obs_eu18.png")
+# ggsave("./figures/est_obs_eu18.png")
 
 summary_eurostat_2015 <- eu %>% 
   filter(year == "2015") %>% 
@@ -117,7 +117,7 @@ kappa_fbmau_2019 <- ggs(m, family = "kappa_fbmau_2019")
 kappa_fbdau_2019 <- ggs(m, family = "kappa_fbdau_2019")
 
 
-plot_name <- paste0("./Paper/estimate_eurostat/", model_name, "traceplots", ".pdf")
+plot_name <- paste0("figures/", model_name, "traceplots", ".pdf")
 pdf(plot_name,  height = 12, width = 12)
 ggs_traceplot(mu)
 ggs_traceplot(gamma_eu)
@@ -139,7 +139,7 @@ dev.off()
 
 
 
-plot_name <- paste0("./Paper/estimate_eurostat/", model_name, "density", ".pdf")
+plot_name <- paste0("figures/", model_name, "density", ".pdf")
 pdf(plot_name,  height = 12, width = 12)
 ggs_density(mu)
 ggs_density(gamma_eu)
@@ -163,7 +163,7 @@ dev.off()
  
 
 
-plot_name <- plot_name <- paste0("./figures/", model_name, "taus", ".pdf")
+plot_name <- plot_name <- paste0("figures/", model_name, "taus", ".pdf")
 pdf(plot_name,  height = 12, width = 12)
 ggs_density(tau_eurostat)
 ggs_density(tau_census)

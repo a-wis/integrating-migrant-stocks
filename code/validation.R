@@ -5,20 +5,13 @@ library(geofacet)
 library(scales)
 library(readxl)
 
-workdir <- "S:/Rand/"
-# workdir <- "C:/Users/dyildiz/Dropbox/Mig_BigData/"
-# workdir <- "H:/MyDocuments/RAND/Mig_BigData/"
-# workdir <- "C://Users//yildiz//Dropbox//Mig_BigData//"
-# workdir <- "C://Users//dyildiz.VID-CALC1//Dropbox//Mig_BigData//"
-setwd(workdir)
-getwd()
 
-
-source("./Paper/fn1.R")
+source("code/read_functions.R")
 
 
 # Input data from the main model
-dinput <- read.csv("./Paper/data_july19/input_update_2019_march_june_fbmau_oldcovgr_prec.csv")
+# ?????
+dinput <- read.csv("data/data_july19/input_update_2019_march_june_fbmau_oldcovgr_prec.csv")
 
 # data frames for building summary states
 corridors <- dinput %>% 
