@@ -1,0 +1,757 @@
+"orig","dest","corridor_name","year","census","corridor"
+"Austria","Belgium","Austria->Belgium",2011,NA,1
+"Austria","Bulgaria","Austria->Bulgaria",2011,128,2
+"Austria","Croatia","Austria->Croatia",2011,3877,3
+"Austria","Cyprus","Austria->Cyprus",2011,130,4
+"Austria","Czech Republic","Austria->Czech Republic",2011,1756,5
+"Austria","Denmark","Austria->Denmark",2011,1159,6
+"Austria","Estonia","Austria->Estonia",2011,37,7
+"Austria","Finland","Austria->Finland",2011,404,8
+"Austria","France","Austria->France",2011,7771,9
+"Austria","Germany","Austria->Germany",2011,121790,10
+"Austria","Greece","Austria->Greece",2011,1663,11
+"Austria","Hungary","Austria->Hungary",2011,3131,12
+"Austria","Ireland","Austria->Ireland",2011,NA,13
+"Austria","Italy","Austria->Italy",2011,9216,14
+"Austria","Latvia","Austria->Latvia",2011,72,15
+"Austria","Lithuania","Austria->Lithuania",2011,0,16
+"Austria","Luxembourg","Austria->Luxembourg",2011,607,17
+"Austria","Malta","Austria->Malta",2011,79,18
+"Austria","Netherlands","Austria->Netherlands",2011,0,19
+"Austria","Poland","Austria->Poland",2011,1027,20
+"Austria","Portugal","Austria->Portugal",2011,352,21
+"Austria","Romania","Austria->Romania",2011,323,22
+"Austria","Slovakia","Austria->Slovakia",2011,462,23
+"Austria","Slovenia","Austria->Slovenia",2011,1822,24
+"Austria","Spain","Austria->Spain",2011,4560,25
+"Austria","Sweden","Austria->Sweden",2011,2777,26
+"Austria","United Kingdom","Austria->United Kingdom",2011,10895,27
+"Belgium","Austria","Belgium->Austria",2011,1546,28
+"Belgium","Bulgaria","Belgium->Bulgaria",2011,199,29
+"Belgium","Croatia","Belgium->Croatia",2011,173,30
+"Belgium","Cyprus","Belgium->Cyprus",2011,128,31
+"Belgium","Czech Republic","Belgium->Czech Republic",2011,442,32
+"Belgium","Denmark","Belgium->Denmark",2011,1283,33
+"Belgium","Estonia","Belgium->Estonia",2011,31,34
+"Belgium","Finland","Belgium->Finland",2011,268,35
+"Belgium","France","Belgium->France",2011,100588,36
+"Belgium","Germany","Belgium->Germany",2011,18490,37
+"Belgium","Greece","Belgium->Greece",2011,4669,38
+"Belgium","Hungary","Belgium->Hungary",2011,767,39
+"Belgium","Ireland","Belgium->Ireland",2011,NA,40
+"Belgium","Italy","Belgium->Italy",2011,39625,41
+"Belgium","Latvia","Belgium->Latvia",2011,31,42
+"Belgium","Lithuania","Belgium->Lithuania",2011,0,43
+"Belgium","Luxembourg","Belgium->Luxembourg",2011,13302,44
+"Belgium","Malta","Belgium->Malta",2011,118,45
+"Belgium","Netherlands","Belgium->Netherlands",2011,0,46
+"Belgium","Poland","Belgium->Poland",2011,747,47
+"Belgium","Portugal","Belgium->Portugal",2011,2555,48
+"Belgium","Romania","Belgium->Romania",2011,242,49
+"Belgium","Slovakia","Belgium->Slovakia",2011,107,50
+"Belgium","Slovenia","Belgium->Slovenia",2011,120,51
+"Belgium","Spain","Belgium->Spain",2011,30270,52
+"Belgium","Sweden","Belgium->Sweden",2011,1438,53
+"Belgium","United Kingdom","Belgium->United Kingdom",2011,19310,54
+"Bulgaria","Austria","Bulgaria->Austria",2011,13117,55
+"Bulgaria","Belgium","Bulgaria->Belgium",2011,NA,56
+"Bulgaria","Croatia","Bulgaria->Croatia",2011,193,57
+"Bulgaria","Cyprus","Bulgaria->Cyprus",2011,17162,58
+"Bulgaria","Czech Republic","Bulgaria->Czech Republic",2011,7414,59
+"Bulgaria","Denmark","Bulgaria->Denmark",2011,3218,60
+"Bulgaria","Estonia","Bulgaria->Estonia",2011,61,61
+"Bulgaria","Finland","Bulgaria->Finland",2011,998,62
+"Bulgaria","France","Bulgaria->France",2011,14353,63
+"Bulgaria","Germany","Bulgaria->Germany",2011,61570,64
+"Bulgaria","Greece","Bulgaria->Greece",2011,67684,65
+"Bulgaria","Hungary","Bulgaria->Hungary",2011,828,66
+"Bulgaria","Ireland","Bulgaria->Ireland",2011,NA,67
+"Bulgaria","Italy","Bulgaria->Italy",2011,38359,68
+"Bulgaria","Latvia","Bulgaria->Latvia",2011,89,69
+"Bulgaria","Lithuania","Bulgaria->Lithuania",2011,0,70
+"Bulgaria","Luxembourg","Bulgaria->Luxembourg",2011,696,71
+"Bulgaria","Malta","Bulgaria->Malta",2011,791,72
+"Bulgaria","Netherlands","Bulgaria->Netherlands",2011,0,73
+"Bulgaria","Poland","Bulgaria->Poland",2011,2341,74
+"Bulgaria","Portugal","Bulgaria->Portugal",2011,4824,75
+"Bulgaria","Romania","Bulgaria->Romania",2011,498,76
+"Bulgaria","Slovakia","Bulgaria->Slovakia",2011,576,77
+"Bulgaria","Slovenia","Bulgaria->Slovenia",2011,739,78
+"Bulgaria","Spain","Bulgaria->Spain",2011,109595,79
+"Bulgaria","Sweden","Bulgaria->Sweden",2011,5891,80
+"Bulgaria","United Kingdom","Bulgaria->United Kingdom",2011,44190,81
+"Croatia","Austria","Croatia->Austria",2011,30552,82
+"Croatia","Belgium","Croatia->Belgium",2011,NA,83
+"Croatia","Bulgaria","Croatia->Bulgaria",2011,41,84
+"Croatia","Cyprus","Croatia->Cyprus",2011,62,85
+"Croatia","Czech Republic","Croatia->Czech Republic",2011,1405,86
+"Croatia","Denmark","Croatia->Denmark",2011,621,87
+"Croatia","Estonia","Croatia->Estonia",2011,10,88
+"Croatia","Finland","Croatia->Finland",2011,151,89
+"Croatia","France","Croatia->France",2011,5772,90
+"Croatia","Germany","Croatia->Germany",2011,120950,91
+"Croatia","Greece","Croatia->Greece",2011,389,92
+"Croatia","Hungary","Croatia->Hungary",2011,1245,93
+"Croatia","Ireland","Croatia->Ireland",2011,NA,94
+"Croatia","Italy","Croatia->Italy",2011,24693,95
+"Croatia","Latvia","Croatia->Latvia",2011,6,96
+"Croatia","Lithuania","Croatia->Lithuania",2011,0,97
+"Croatia","Luxembourg","Croatia->Luxembourg",2011,302,98
+"Croatia","Malta","Croatia->Malta",2011,68,99
+"Croatia","Netherlands","Croatia->Netherlands",2011,0,100
+"Croatia","Poland","Croatia->Poland",2011,301,101
+"Croatia","Portugal","Croatia->Portugal",2011,107,102
+"Croatia","Romania","Croatia->Romania",2011,37,103
+"Croatia","Slovakia","Croatia->Slovakia",2011,363,104
+"Croatia","Slovenia","Croatia->Slovenia",2011,33857,105
+"Croatia","Spain","Croatia->Spain",2011,1835,106
+"Croatia","Sweden","Croatia->Sweden",2011,5023,107
+"Croatia","United Kingdom","Croatia->United Kingdom",2011,6985,108
+"Cyprus","Austria","Cyprus->Austria",2011,217,109
+"Cyprus","Belgium","Cyprus->Belgium",2011,NA,110
+"Cyprus","Bulgaria","Cyprus->Bulgaria",2011,145,111
+"Cyprus","Croatia","Cyprus->Croatia",2011,0,112
+"Cyprus","Czech Republic","Cyprus->Czech Republic",2011,173,113
+"Cyprus","Denmark","Cyprus->Denmark",2011,122,114
+"Cyprus","Estonia","Cyprus->Estonia",2011,1,115
+"Cyprus","Finland","Cyprus->Finland",2011,37,116
+"Cyprus","France","Cyprus->France",2011,857,117
+"Cyprus","Germany","Cyprus->Germany",2011,1060,118
+"Cyprus","Greece","Cyprus->Greece",2011,19173,119
+"Cyprus","Hungary","Cyprus->Hungary",2011,231,120
+"Cyprus","Ireland","Cyprus->Ireland",2011,NA,121
+"Cyprus","Italy","Cyprus->Italy",2011,424,122
+"Cyprus","Latvia","Cyprus->Latvia",2011,3,123
+"Cyprus","Lithuania","Cyprus->Lithuania",2011,0,124
+"Cyprus","Luxembourg","Cyprus->Luxembourg",2011,44,125
+"Cyprus","Malta","Cyprus->Malta",2011,40,126
+"Cyprus","Netherlands","Cyprus->Netherlands",2011,0,127
+"Cyprus","Poland","Cyprus->Poland",2011,48,128
+"Cyprus","Portugal","Cyprus->Portugal",2011,26,129
+"Cyprus","Romania","Cyprus->Romania",2011,94,130
+"Cyprus","Slovakia","Cyprus->Slovakia",2011,11,131
+"Cyprus","Slovenia","Cyprus->Slovenia",2011,13,132
+"Cyprus","Spain","Cyprus->Spain",2011,565,133
+"Cyprus","Sweden","Cyprus->Sweden",2011,455,134
+"Cyprus","United Kingdom","Cyprus->United Kingdom",2011,56215,135
+"Czech Republic","Austria","Czech Republic->Austria",2011,14934,136
+"Czech Republic","Belgium","Czech Republic->Belgium",2011,NA,137
+"Czech Republic","Bulgaria","Czech Republic->Bulgaria",2011,686,138
+"Czech Republic","Croatia","Czech Republic->Croatia",2011,653,139
+"Czech Republic","Cyprus","Czech Republic->Cyprus",2011,424,140
+"Czech Republic","Denmark","Czech Republic->Denmark",2011,706,141
+"Czech Republic","Estonia","Czech Republic->Estonia",2011,41,142
+"Czech Republic","Finland","Czech Republic->Finland",2011,108,143
+"Czech Republic","France","Czech Republic->France",2011,5489,144
+"Czech Republic","Germany","Czech Republic->Germany",2011,65980,145
+"Czech Republic","Greece","Czech Republic->Greece",2011,4353,146
+"Czech Republic","Hungary","Czech Republic->Hungary",2011,730,147
+"Czech Republic","Ireland","Czech Republic->Ireland",2011,NA,148
+"Czech Republic","Italy","Czech Republic->Italy",2011,7697,149
+"Czech Republic","Latvia","Czech Republic->Latvia",2011,100,150
+"Czech Republic","Lithuania","Czech Republic->Lithuania",2011,0,151
+"Czech Republic","Luxembourg","Czech Republic->Luxembourg",2011,353,152
+"Czech Republic","Malta","Czech Republic->Malta",2011,72,153
+"Czech Republic","Netherlands","Czech Republic->Netherlands",2011,0,154
+"Czech Republic","Poland","Czech Republic->Poland",2011,2404,155
+"Czech Republic","Portugal","Czech Republic->Portugal",2011,214,156
+"Czech Republic","Romania","Czech Republic->Romania",2011,144,157
+"Czech Republic","Slovakia","Czech Republic->Slovakia",2011,67878,158
+"Czech Republic","Slovenia","Czech Republic->Slovenia",2011,286,159
+"Czech Republic","Spain","Czech Republic->Spain",2011,4475,160
+"Czech Republic","Sweden","Czech Republic->Sweden",2011,1140,161
+"Czech Republic","United Kingdom","Czech Republic->United Kingdom",2011,32240,162
+"Denmark","Austria","Denmark->Austria",2011,847,163
+"Denmark","Belgium","Denmark->Belgium",2011,NA,164
+"Denmark","Bulgaria","Denmark->Bulgaria",2011,36,165
+"Denmark","Croatia","Denmark->Croatia",2011,75,166
+"Denmark","Cyprus","Denmark->Cyprus",2011,98,167
+"Denmark","Czech Republic","Denmark->Czech Republic",2011,251,168
+"Denmark","Estonia","Denmark->Estonia",2011,80,169
+"Denmark","Finland","Denmark->Finland",2011,617,170
+"Denmark","France","Denmark->France",2011,4038,171
+"Denmark","Germany","Denmark->Germany",2011,15210,172
+"Denmark","Greece","Denmark->Greece",2011,733,173
+"Denmark","Hungary","Denmark->Hungary",2011,195,174
+"Denmark","Ireland","Denmark->Ireland",2011,NA,175
+"Denmark","Italy","Denmark->Italy",2011,1965,176
+"Denmark","Latvia","Denmark->Latvia",2011,138,177
+"Denmark","Lithuania","Denmark->Lithuania",2011,0,178
+"Denmark","Luxembourg","Denmark->Luxembourg",2011,1266,179
+"Denmark","Malta","Denmark->Malta",2011,101,180
+"Denmark","Netherlands","Denmark->Netherlands",2011,0,181
+"Denmark","Poland","Denmark->Poland",2011,454,182
+"Denmark","Portugal","Denmark->Portugal",2011,280,183
+"Denmark","Romania","Denmark->Romania",2011,44,184
+"Denmark","Slovakia","Denmark->Slovakia",2011,48,185
+"Denmark","Slovenia","Denmark->Slovenia",2011,37,186
+"Denmark","Spain","Denmark->Spain",2011,4505,187
+"Denmark","Sweden","Denmark->Sweden",2011,28115,188
+"Denmark","United Kingdom","Denmark->United Kingdom",2011,16270,189
+"Estonia","Austria","Estonia->Austria",2011,309,190
+"Estonia","Belgium","Estonia->Belgium",2011,NA,191
+"Estonia","Bulgaria","Estonia->Bulgaria",2011,49,192
+"Estonia","Croatia","Estonia->Croatia",2011,12,193
+"Estonia","Cyprus","Estonia->Cyprus",2011,192,194
+"Estonia","Czech Republic","Estonia->Czech Republic",2011,158,195
+"Estonia","Denmark","Estonia->Denmark",2011,1076,196
+"Estonia","Finland","Estonia->Finland",2011,21706,197
+"Estonia","France","Estonia->France",2011,663,198
+"Estonia","Germany","Estonia->Germany",2011,7380,199
+"Estonia","Greece","Estonia->Greece",2011,120,200
+"Estonia","Hungary","Estonia->Hungary",2011,108,201
+"Estonia","Ireland","Estonia->Ireland",2011,NA,202
+"Estonia","Italy","Estonia->Italy",2011,997,203
+"Estonia","Latvia","Estonia->Latvia",2011,2603,204
+"Estonia","Lithuania","Estonia->Lithuania",2011,926,205
+"Estonia","Luxembourg","Estonia->Luxembourg",2011,362,206
+"Estonia","Malta","Estonia->Malta",2011,32,207
+"Estonia","Netherlands","Estonia->Netherlands",2011,0,208
+"Estonia","Poland","Estonia->Poland",2011,163,209
+"Estonia","Portugal","Estonia->Portugal",2011,105,210
+"Estonia","Romania","Estonia->Romania",2011,15,211
+"Estonia","Slovakia","Estonia->Slovakia",2011,19,212
+"Estonia","Slovenia","Estonia->Slovenia",2011,12,213
+"Estonia","Spain","Estonia->Spain",2011,650,214
+"Estonia","Sweden","Estonia->Sweden",2011,4541,215
+"Estonia","United Kingdom","Estonia->United Kingdom",2011,7410,216
+"Finland","Austria","Finland->Austria",2011,1147,217
+"Finland","Belgium","Finland->Belgium",2011,NA,218
+"Finland","Bulgaria","Finland->Bulgaria",2011,37,219
+"Finland","Croatia","Finland->Croatia",2011,22,220
+"Finland","Cyprus","Finland->Cyprus",2011,224,221
+"Finland","Czech Republic","Finland->Czech Republic",2011,244,222
+"Finland","Denmark","Finland->Denmark",2011,2386,223
+"Finland","Estonia","Finland->Estonia",2011,1388,224
+"Finland","France","Finland->France",2011,2914,225
+"Finland","Germany","Finland->Germany",2011,9160,226
+"Finland","Greece","Finland->Greece",2011,698,227
+"Finland","Hungary","Finland->Hungary",2011,401,228
+"Finland","Ireland","Finland->Ireland",2011,NA,229
+"Finland","Italy","Finland->Italy",2011,2004,230
+"Finland","Latvia","Finland->Latvia",2011,121,231
+"Finland","Lithuania","Finland->Lithuania",2011,0,232
+"Finland","Luxembourg","Finland->Luxembourg",2011,794,233
+"Finland","Malta","Finland->Malta",2011,64,234
+"Finland","Netherlands","Finland->Netherlands",2011,0,235
+"Finland","Poland","Finland->Poland",2011,214,236
+"Finland","Portugal","Finland->Portugal",2011,230,237
+"Finland","Romania","Finland->Romania",2011,37,238
+"Finland","Slovakia","Finland->Slovakia",2011,17,239
+"Finland","Slovenia","Finland->Slovenia",2011,26,240
+"Finland","Spain","Finland->Spain",2011,4030,241
+"Finland","Sweden","Finland->Sweden",2011,99550,242
+"Finland","United Kingdom","Finland->United Kingdom",2011,10850,243
+"France","Austria","France->Austria",2011,5759,244
+"France","Belgium","France->Belgium",2011,NA,245
+"France","Bulgaria","France->Bulgaria",2011,292,246
+"France","Croatia","France->Croatia",2011,1300,247
+"France","Cyprus","France->Cyprus",2011,512,248
+"France","Czech Republic","France->Czech Republic",2011,2194,249
+"France","Denmark","France->Denmark",2011,5234,250
+"France","Estonia","France->Estonia",2011,103,251
+"France","Finland","France->Finland",2011,1454,252
+"France","Germany","France->Germany",2011,82550,253
+"France","Greece","France->Greece",2011,5367,254
+"France","Hungary","France->Hungary",2011,2088,255
+"France","Ireland","France->Ireland",2011,NA,256
+"France","Italy","France->Italy",2011,89879,257
+"France","Latvia","France->Latvia",2011,84,258
+"France","Lithuania","France->Lithuania",2011,0,259
+"France","Luxembourg","France->Luxembourg",2011,23110,260
+"France","Malta","France->Malta",2011,310,261
+"France","Netherlands","France->Netherlands",2011,0,262
+"France","Poland","France->Poland",2011,3672,263
+"France","Portugal","France->Portugal",2011,86558,264
+"France","Romania","France->Romania",2011,1240,265
+"France","Slovakia","France->Slovakia",2011,289,266
+"France","Slovenia","France->Slovenia",2011,603,267
+"France","Spain","France->Spain",2011,167595,268
+"France","Sweden","France->Sweden",2011,6661,269
+"France","United Kingdom","France->United Kingdom",2011,114615,270
+"Germany","Austria","Germany->Austria",2011,140943,271
+"Germany","Belgium","Germany->Belgium",2011,NA,272
+"Germany","Bulgaria","Germany->Bulgaria",2011,1365,273
+"Germany","Croatia","Germany->Croatia",2011,28423,274
+"Germany","Cyprus","Germany->Cyprus",2011,1510,275
+"Germany","Czech Republic","Germany->Czech Republic",2011,11480,276
+"Germany","Denmark","Germany->Denmark",2011,24085,277
+"Germany","Estonia","Germany->Estonia",2011,925,278
+"Germany","Finland","Germany->Finland",2011,4628,279
+"Germany","France","Germany->France",2011,158935,280
+"Germany","Greece","Germany->Greece",2011,105522,281
+"Germany","Hungary","Germany->Hungary",2011,15285,282
+"Germany","Ireland","Germany->Ireland",2011,NA,283
+"Germany","Italy","Germany->Italy",2011,175018,284
+"Germany","Latvia","Germany->Latvia",2011,1933,285
+"Germany","Lithuania","Germany->Lithuania",2011,979,286
+"Germany","Luxembourg","Germany->Luxembourg",2011,10149,287
+"Germany","Malta","Germany->Malta",2011,759,288
+"Germany","Netherlands","Germany->Netherlands",2011,0,289
+"Germany","Poland","Germany->Poland",2011,16932,290
+"Germany","Portugal","Germany->Portugal",2011,22939,291
+"Germany","Romania","Germany->Romania",2011,1994,292
+"Germany","Slovakia","Germany->Slovakia",2011,905,293
+"Germany","Slovenia","Germany->Slovenia",2011,6171,294
+"Germany","Spain","Germany->Spain",2011,146595,295
+"Germany","Sweden","Germany->Sweden",2011,26687,296
+"Germany","United Kingdom","Germany->United Kingdom",2011,239020,297
+"Greece","Austria","Greece->Austria",2011,2632,298
+"Greece","Belgium","Greece->Belgium",2011,NA,299
+"Greece","Bulgaria","Greece->Bulgaria",2011,1156,300
+"Greece","Croatia","Greece->Croatia",2011,41,301
+"Greece","Cyprus","Greece->Cyprus",2011,15011,302
+"Greece","Czech Republic","Greece->Czech Republic",2011,468,303
+"Greece","Denmark","Greece->Denmark",2011,1225,304
+"Greece","Estonia","Greece->Estonia",2011,11,305
+"Greece","Finland","Greece->Finland",2011,164,306
+"Greece","France","Greece->France",2011,8396,307
+"Greece","Germany","Greece->Germany",2011,120040,308
+"Greece","Hungary","Greece->Hungary",2011,358,309
+"Greece","Ireland","Greece->Ireland",2011,NA,310
+"Greece","Italy","Greece->Italy",2011,7308,311
+"Greece","Latvia","Greece->Latvia",2011,13,312
+"Greece","Lithuania","Greece->Lithuania",2011,0,313
+"Greece","Luxembourg","Greece->Luxembourg",2011,1036,314
+"Greece","Malta","Greece->Malta",2011,63,315
+"Greece","Netherlands","Greece->Netherlands",2011,0,316
+"Greece","Poland","Greece->Poland",2011,1221,317
+"Greece","Portugal","Greece->Portugal",2011,155,318
+"Greece","Romania","Greece->Romania",2011,858,319
+"Greece","Slovakia","Greece->Slovakia",2011,84,320
+"Greece","Slovenia","Greece->Slovenia",2011,49,321
+"Greece","Spain","Greece->Spain",2011,1815,322
+"Greece","Sweden","Greece->Sweden",2011,8732,323
+"Greece","United Kingdom","Greece->United Kingdom",2011,31555,324
+"Hungary","Austria","Hungary->Austria",2011,31296,325
+"Hungary","Belgium","Hungary->Belgium",2011,NA,326
+"Hungary","Bulgaria","Hungary->Bulgaria",2011,219,327
+"Hungary","Croatia","Hungary->Croatia",2011,613,328
+"Hungary","Cyprus","Hungary->Cyprus",2011,569,329
+"Hungary","Czech Republic","Hungary->Czech Republic",2011,1180,330
+"Hungary","Denmark","Hungary->Denmark",2011,2257,331
+"Hungary","Estonia","Hungary->Estonia",2011,78,332
+"Hungary","Finland","Hungary->Finland",2011,1117,333
+"Hungary","France","Hungary->France",2011,6121,334
+"Hungary","Germany","Hungary->Germany",2011,66810,335
+"Hungary","Greece","Hungary->Greece",2011,1624,336
+"Hungary","Ireland","Hungary->Ireland",2011,NA,337
+"Hungary","Italy","Hungary->Italy",2011,8633,338
+"Hungary","Latvia","Hungary->Latvia",2011,212,339
+"Hungary","Lithuania","Hungary->Lithuania",2011,0,340
+"Hungary","Luxembourg","Hungary->Luxembourg",2011,774,341
+"Hungary","Malta","Hungary->Malta",2011,129,342
+"Hungary","Netherlands","Hungary->Netherlands",2011,0,343
+"Hungary","Poland","Hungary->Poland",2011,700,344
+"Hungary","Portugal","Hungary->Portugal",2011,338,345
+"Hungary","Romania","Hungary->Romania",2011,1051,346
+"Hungary","Slovakia","Hungary->Slovakia",2011,3525,347
+"Hungary","Slovenia","Hungary->Slovenia",2011,288,348
+"Hungary","Spain","Hungary->Spain",2011,3910,349
+"Hungary","Sweden","Hungary->Sweden",2011,9821,350
+"Hungary","United Kingdom","Hungary->United Kingdom",2011,43480,351
+"Ireland","Austria","Ireland->Austria",2011,688,352
+"Ireland","Belgium","Ireland->Belgium",2011,NA,353
+"Ireland","Bulgaria","Ireland->Bulgaria",2011,60,354
+"Ireland","Croatia","Ireland->Croatia",2011,23,355
+"Ireland","Cyprus","Ireland->Cyprus",2011,342,356
+"Ireland","Czech Republic","Ireland->Czech Republic",2011,429,357
+"Ireland","Denmark","Ireland->Denmark",2011,1221,358
+"Ireland","Estonia","Ireland->Estonia",2011,21,359
+"Ireland","Finland","Ireland->Finland",2011,100,360
+"Ireland","France","Ireland->France",2011,7130,361
+"Ireland","Germany","Ireland->Germany",2011,7830,362
+"Ireland","Greece","Ireland->Greece",2011,474,363
+"Ireland","Hungary","Ireland->Hungary",2011,339,364
+"Ireland","Italy","Ireland->Italy",2011,2187,365
+"Ireland","Latvia","Ireland->Latvia",2011,14,366
+"Ireland","Lithuania","Ireland->Lithuania",2011,0,367
+"Ireland","Luxembourg","Ireland->Luxembourg",2011,835,368
+"Ireland","Malta","Ireland->Malta",2011,169,369
+"Ireland","Netherlands","Ireland->Netherlands",2011,0,370
+"Ireland","Poland","Ireland->Poland",2011,280,371
+"Ireland","Portugal","Ireland->Portugal",2011,1071,372
+"Ireland","Romania","Ireland->Romania",2011,37,373
+"Ireland","Slovakia","Ireland->Slovakia",2011,47,374
+"Ireland","Slovenia","Ireland->Slovenia",2011,28,375
+"Ireland","Spain","Ireland->Spain",2011,9405,376
+"Ireland","Sweden","Ireland->Sweden",2011,1723,377
+"Ireland","United Kingdom","Ireland->United Kingdom",2011,264310,378
+"Italy","Austria","Italy->Austria",2011,13043,379
+"Italy","Belgium","Italy->Belgium",2011,NA,380
+"Italy","Bulgaria","Italy->Bulgaria",2011,442,381
+"Italy","Croatia","Italy->Croatia",2011,1388,382
+"Italy","Cyprus","Italy->Cyprus",2011,290,383
+"Italy","Czech Republic","Italy->Czech Republic",2011,2145,384
+"Italy","Denmark","Italy->Denmark",2011,4354,385
+"Italy","Estonia","Italy->Estonia",2011,158,386
+"Italy","Finland","Italy->Finland",2011,1542,387
+"Italy","France","Italy->France",2011,152059,388
+"Italy","Germany","Italy->Germany",2011,259930,389
+"Italy","Greece","Italy->Greece",2011,5126,390
+"Italy","Hungary","Italy->Hungary",2011,1894,391
+"Italy","Ireland","Italy->Ireland",2011,NA,392
+"Italy","Latvia","Italy->Latvia",2011,104,393
+"Italy","Lithuania","Italy->Lithuania",2011,0,394
+"Italy","Luxembourg","Italy->Luxembourg",2011,8870,395
+"Italy","Malta","Italy->Malta",2011,1166,396
+"Italy","Netherlands","Italy->Netherlands",2011,0,397
+"Italy","Poland","Italy->Poland",2011,2967,398
+"Italy","Portugal","Italy->Portugal",2011,2126,399
+"Italy","Romania","Italy->Romania",2011,2337,400
+"Italy","Slovakia","Italy->Slovakia",2011,505,401
+"Italy","Slovenia","Italy->Slovenia",2011,1483,402
+"Italy","Spain","Italy->Spain",2011,63315,403
+"Italy","Sweden","Italy->Sweden",2011,5388,404
+"Italy","United Kingdom","Italy->United Kingdom",2011,98580,405
+"Latvia","Austria","Latvia->Austria",2011,741,406
+"Latvia","Belgium","Latvia->Belgium",2011,NA,407
+"Latvia","Bulgaria","Latvia->Bulgaria",2011,107,408
+"Latvia","Croatia","Latvia->Croatia",2011,26,409
+"Latvia","Cyprus","Latvia->Cyprus",2011,802,410
+"Latvia","Czech Republic","Latvia->Czech Republic",2011,316,411
+"Latvia","Denmark","Latvia->Denmark",2011,2906,412
+"Latvia","Estonia","Latvia->Estonia",2011,2894,413
+"Latvia","Finland","Latvia->Finland",2011,817,414
+"Latvia","France","Latvia->France",2011,1573,415
+"Latvia","Germany","Latvia->Germany",2011,13300,416
+"Latvia","Greece","Latvia->Greece",2011,318,417
+"Latvia","Hungary","Latvia->Hungary",2011,131,418
+"Latvia","Ireland","Latvia->Ireland",2011,NA,419
+"Latvia","Italy","Latvia->Italy",2011,2137,420
+"Latvia","Lithuania","Latvia->Lithuania",2011,7006,421
+"Latvia","Luxembourg","Latvia->Luxembourg",2011,306,422
+"Latvia","Malta","Latvia->Malta",2011,69,423
+"Latvia","Netherlands","Latvia->Netherlands",2011,0,424
+"Latvia","Poland","Latvia->Poland",2011,715,425
+"Latvia","Portugal","Latvia->Portugal",2011,188,426
+"Latvia","Romania","Latvia->Romania",2011,14,427
+"Latvia","Slovakia","Latvia->Slovakia",2011,31,428
+"Latvia","Slovenia","Latvia->Slovenia",2011,31,429
+"Latvia","Spain","Latvia->Spain",2011,1630,430
+"Latvia","Sweden","Latvia->Sweden",2011,3891,431
+"Latvia","United Kingdom","Latvia->United Kingdom",2011,51870,432
+"Lithuania","Austria","Lithuania->Austria",2011,882,433
+"Lithuania","Belgium","Lithuania->Belgium",2011,NA,434
+"Lithuania","Bulgaria","Lithuania->Bulgaria",2011,95,435
+"Lithuania","Croatia","Lithuania->Croatia",2011,21,436
+"Lithuania","Cyprus","Lithuania->Cyprus",2011,633,437
+"Lithuania","Czech Republic","Lithuania->Czech Republic",2011,558,438
+"Lithuania","Denmark","Lithuania->Denmark",2011,5776,439
+"Lithuania","Estonia","Lithuania->Estonia",2011,1200,440
+"Lithuania","Finland","Lithuania->Finland",2011,482,441
+"Lithuania","France","Lithuania->France",2011,2067,442
+"Lithuania","Germany","Lithuania->Germany",2011,20960,443
+"Lithuania","Greece","Lithuania->Greece",2011,512,444
+"Lithuania","Hungary","Lithuania->Hungary",2011,130,445
+"Lithuania","Ireland","Lithuania->Ireland",2011,NA,446
+"Lithuania","Italy","Lithuania->Italy",2011,3503,447
+"Lithuania","Latvia","Lithuania->Latvia",2011,11696,448
+"Lithuania","Luxembourg","Lithuania->Luxembourg",2011,421,449
+"Lithuania","Malta","Lithuania->Malta",2011,36,450
+"Lithuania","Netherlands","Lithuania->Netherlands",2011,0,451
+"Lithuania","Poland","Lithuania->Poland",2011,8539,452
+"Lithuania","Portugal","Lithuania->Portugal",2011,337,453
+"Lithuania","Romania","Lithuania->Romania",2011,33,454
+"Lithuania","Slovakia","Lithuania->Slovakia",2011,39,455
+"Lithuania","Slovenia","Lithuania->Slovenia",2011,31,456
+"Lithuania","Spain","Lithuania->Spain",2011,9765,457
+"Lithuania","Sweden","Lithuania->Sweden",2011,6645,458
+"Lithuania","United Kingdom","Lithuania->United Kingdom",2011,94905,459
+"Luxembourg","Austria","Luxembourg->Austria",2011,586,460
+"Luxembourg","Belgium","Luxembourg->Belgium",2011,NA,461
+"Luxembourg","Bulgaria","Luxembourg->Bulgaria",2011,3,462
+"Luxembourg","Croatia","Luxembourg->Croatia",2011,22,463
+"Luxembourg","Cyprus","Luxembourg->Cyprus",2011,7,464
+"Luxembourg","Czech Republic","Luxembourg->Czech Republic",2011,11,465
+"Luxembourg","Denmark","Luxembourg->Denmark",2011,295,466
+"Luxembourg","Estonia","Luxembourg->Estonia",2011,3,467
+"Luxembourg","Finland","Luxembourg->Finland",2011,25,468
+"Luxembourg","France","Luxembourg->France",2011,7824,469
+"Luxembourg","Germany","Luxembourg->Germany",2011,11130,470
+"Luxembourg","Greece","Luxembourg->Greece",2011,117,471
+"Luxembourg","Hungary","Luxembourg->Hungary",2011,18,472
+"Luxembourg","Ireland","Luxembourg->Ireland",2011,NA,473
+"Luxembourg","Italy","Luxembourg->Italy",2011,3982,474
+"Luxembourg","Latvia","Luxembourg->Latvia",2011,0,475
+"Luxembourg","Lithuania","Luxembourg->Lithuania",2011,0,476
+"Luxembourg","Malta","Luxembourg->Malta",2011,4,477
+"Luxembourg","Netherlands","Luxembourg->Netherlands",2011,0,478
+"Luxembourg","Poland","Luxembourg->Poland",2011,16,479
+"Luxembourg","Portugal","Luxembourg->Portugal",2011,3105,480
+"Luxembourg","Romania","Luxembourg->Romania",2011,4,481
+"Luxembourg","Slovakia","Luxembourg->Slovakia",2011,5,482
+"Luxembourg","Slovenia","Luxembourg->Slovenia",2011,16,483
+"Luxembourg","Spain","Luxembourg->Spain",2011,1225,484
+"Luxembourg","Sweden","Luxembourg->Sweden",2011,106,485
+"Luxembourg","United Kingdom","Luxembourg->United Kingdom",2011,1660,486
+"Malta","Austria","Malta->Austria",2011,72,487
+"Malta","Belgium","Malta->Belgium",2011,NA,488
+"Malta","Bulgaria","Malta->Bulgaria",2011,18,489
+"Malta","Croatia","Malta->Croatia",2011,0,490
+"Malta","Cyprus","Malta->Cyprus",2011,41,491
+"Malta","Czech Republic","Malta->Czech Republic",2011,23,492
+"Malta","Denmark","Malta->Denmark",2011,75,493
+"Malta","Estonia","Malta->Estonia",2011,0,494
+"Malta","Finland","Malta->Finland",2011,12,495
+"Malta","France","Malta->France",2011,379,496
+"Malta","Germany","Malta->Germany",2011,480,497
+"Malta","Greece","Malta->Greece",2011,75,498
+"Malta","Hungary","Malta->Hungary",2011,33,499
+"Malta","Ireland","Malta->Ireland",2011,NA,500
+"Malta","Italy","Malta->Italy",2011,1243,501
+"Malta","Latvia","Malta->Latvia",2011,5,502
+"Malta","Lithuania","Malta->Lithuania",2011,0,503
+"Malta","Luxembourg","Malta->Luxembourg",2011,192,504
+"Malta","Netherlands","Malta->Netherlands",2011,0,505
+"Malta","Poland","Malta->Poland",2011,20,506
+"Malta","Portugal","Malta->Portugal",2011,36,507
+"Malta","Romania","Malta->Romania",2011,0,508
+"Malta","Slovakia","Malta->Slovakia",2011,5,509
+"Malta","Slovenia","Malta->Slovenia",2011,8,510
+"Malta","Spain","Malta->Spain",2011,435,511
+"Malta","Sweden","Malta->Sweden",2011,91,512
+"Malta","United Kingdom","Malta->United Kingdom",2011,22160,513
+"Netherlands","Austria","Netherlands->Austria",2011,5335,514
+"Netherlands","Belgium","Netherlands->Belgium",2011,NA,515
+"Netherlands","Bulgaria","Netherlands->Bulgaria",2011,184,516
+"Netherlands","Croatia","Netherlands->Croatia",2011,628,517
+"Netherlands","Cyprus","Netherlands->Cyprus",2011,278,518
+"Netherlands","Czech Republic","Netherlands->Czech Republic",2011,1907,519
+"Netherlands","Denmark","Netherlands->Denmark",2011,5152,520
+"Netherlands","Estonia","Netherlands->Estonia",2011,78,521
+"Netherlands","Finland","Netherlands->Finland",2011,815,522
+"Netherlands","France","Netherlands->France",2011,28042,523
+"Netherlands","Germany","Netherlands->Germany",2011,75320,524
+"Netherlands","Greece","Netherlands->Greece",2011,3076,525
+"Netherlands","Hungary","Netherlands->Hungary",2011,1684,526
+"Netherlands","Ireland","Netherlands->Ireland",2011,NA,527
+"Netherlands","Italy","Netherlands->Italy",2011,8683,528
+"Netherlands","Latvia","Netherlands->Latvia",2011,54,529
+"Netherlands","Lithuania","Netherlands->Lithuania",2011,0,530
+"Netherlands","Luxembourg","Netherlands->Luxembourg",2011,2509,531
+"Netherlands","Malta","Netherlands->Malta",2011,291,532
+"Netherlands","Poland","Netherlands->Poland",2011,1102,533
+"Netherlands","Portugal","Netherlands->Portugal",2011,2971,534
+"Netherlands","Romania","Netherlands->Romania",2011,292,535
+"Netherlands","Slovakia","Netherlands->Slovakia",2011,146,536
+"Netherlands","Slovenia","Netherlands->Slovenia",2011,169,537
+"Netherlands","Spain","Netherlands->Spain",2011,25315,538
+"Netherlands","Sweden","Netherlands->Sweden",2011,6437,539
+"Netherlands","United Kingdom","Netherlands->United Kingdom",2011,41050,540
+"Poland","Austria","Poland->Austria",2011,50067,541
+"Poland","Belgium","Poland->Belgium",2011,NA,542
+"Poland","Bulgaria","Poland->Bulgaria",2011,982,543
+"Poland","Croatia","Poland->Croatia",2011,585,544
+"Poland","Cyprus","Poland->Cyprus",2011,2680,545
+"Poland","Czech Republic","Poland->Czech Republic",2011,17979,546
+"Poland","Denmark","Poland->Denmark",2011,23592,547
+"Poland","Estonia","Poland->Estonia",2011,272,548
+"Poland","Finland","Poland->Finland",2011,2379,549
+"Poland","France","Poland->France",2011,67126,550
+"Poland","Germany","Poland->Germany",2011,1037110,551
+"Poland","Greece","Poland->Greece",2011,15173,552
+"Poland","Hungary","Poland->Hungary",2011,2287,553
+"Poland","Ireland","Poland->Ireland",2011,NA,554
+"Poland","Italy","Poland->Italy",2011,88798,555
+"Poland","Latvia","Poland->Latvia",2011,556,556
+"Poland","Lithuania","Poland->Lithuania",2011,648,557
+"Poland","Luxembourg","Poland->Luxembourg",2011,2502,558
+"Poland","Malta","Poland->Malta",2011,219,559
+"Poland","Netherlands","Poland->Netherlands",2011,0,560
+"Poland","Portugal","Poland->Portugal",2011,879,561
+"Poland","Romania","Poland->Romania",2011,306,562
+"Poland","Slovakia","Poland->Slovakia",2011,2620,563
+"Poland","Slovenia","Poland->Slovenia",2011,266,564
+"Poland","Spain","Poland->Spain",2011,45835,565
+"Poland","Sweden","Poland->Sweden",2011,60134,566
+"Poland","United Kingdom","Poland->United Kingdom",2011,560130,567
+"Portugal","Austria","Portugal->Austria",2011,1424,568
+"Portugal","Belgium","Portugal->Belgium",2011,NA,569
+"Portugal","Bulgaria","Portugal->Bulgaria",2011,35,570
+"Portugal","Croatia","Portugal->Croatia",2011,33,571
+"Portugal","Cyprus","Portugal->Cyprus",2011,128,572
+"Portugal","Czech Republic","Portugal->Czech Republic",2011,358,573
+"Portugal","Denmark","Portugal->Denmark",2011,1044,574
+"Portugal","Estonia","Portugal->Estonia",2011,23,575
+"Portugal","Finland","Portugal->Finland",2011,317,576
+"Portugal","France","Portugal->France",2011,492586,577
+"Portugal","Germany","Portugal->Germany",2011,62020,578
+"Portugal","Greece","Portugal->Greece",2011,281,579
+"Portugal","Hungary","Portugal->Hungary",2011,216,580
+"Portugal","Ireland","Portugal->Ireland",2011,NA,581
+"Portugal","Italy","Portugal->Italy",2011,4285,582
+"Portugal","Latvia","Portugal->Latvia",2011,18,583
+"Portugal","Lithuania","Portugal->Lithuania",2011,0,584
+"Portugal","Luxembourg","Portugal->Luxembourg",2011,53425,585
+"Portugal","Malta","Portugal->Malta",2011,46,586
+"Portugal","Netherlands","Portugal->Netherlands",2011,0,587
+"Portugal","Poland","Portugal->Poland",2011,170,588
+"Portugal","Romania","Portugal->Romania",2011,140,589
+"Portugal","Slovakia","Portugal->Slovakia",2011,23,590
+"Portugal","Slovenia","Portugal->Slovenia",2011,27,591
+"Portugal","Spain","Portugal->Spain",2011,80915,592
+"Portugal","Sweden","Portugal->Sweden",2011,2318,593
+"Portugal","United Kingdom","Portugal->United Kingdom",2011,75230,594
+"Romania","Austria","Romania->Austria",2011,56496,595
+"Romania","Belgium","Romania->Belgium",2011,NA,596
+"Romania","Bulgaria","Romania->Bulgaria",2011,424,597
+"Romania","Croatia","Romania->Croatia",2011,432,598
+"Romania","Cyprus","Romania->Cyprus",2011,22374,599
+"Romania","Czech Republic","Romania->Czech Republic",2011,6336,600
+"Romania","Denmark","Romania->Denmark",2011,7433,601
+"Romania","Estonia","Romania->Estonia",2011,46,602
+"Romania","Finland","Romania->Finland",2011,1316,603
+"Romania","France","Romania->France",2011,59590,604
+"Romania","Germany","Romania->Germany",2011,325450,605
+"Romania","Greece","Romania->Greece",2011,43509,606
+"Romania","Hungary","Romania->Hungary",2011,130281,607
+"Romania","Ireland","Romania->Ireland",2011,NA,608
+"Romania","Italy","Romania->Italy",2011,696954,609
+"Romania","Latvia","Romania->Latvia",2011,50,610
+"Romania","Lithuania","Romania->Lithuania",2011,0,611
+"Romania","Luxembourg","Romania->Luxembourg",2011,1732,612
+"Romania","Malta","Romania->Malta",2011,560,613
+"Romania","Netherlands","Romania->Netherlands",2011,0,614
+"Romania","Poland","Romania->Poland",2011,894,615
+"Romania","Portugal","Romania->Portugal",2011,20793,616
+"Romania","Slovakia","Romania->Slovakia",2011,3189,617
+"Romania","Slovenia","Romania->Slovenia",2011,287,618
+"Romania","Spain","Romania->Spain",2011,609290,619
+"Romania","Sweden","Romania->Sweden",2011,17647,620
+"Romania","United Kingdom","Romania->United Kingdom",2011,74580,621
+"Slovakia","Austria","Slovakia->Austria",2011,21964,622
+"Slovakia","Belgium","Slovakia->Belgium",2011,NA,623
+"Slovakia","Bulgaria","Slovakia->Bulgaria",2011,234,624
+"Slovakia","Croatia","Slovakia->Croatia",2011,532,625
+"Slovakia","Cyprus","Slovakia->Cyprus",2011,922,626
+"Slovakia","Czech Republic","Slovakia->Czech Republic",2011,202263,627
+"Slovakia","Denmark","Slovakia->Denmark",2011,851,628
+"Slovakia","Estonia","Slovakia->Estonia",2011,11,629
+"Slovakia","Finland","Slovakia->Finland",2011,62,630
+"Slovakia","France","Slovakia->France",2011,3608,631
+"Slovakia","Germany","Slovakia->Germany",2011,24740,632
+"Slovakia","Greece","Slovakia->Greece",2011,834,633
+"Slovakia","Hungary","Slovakia->Hungary",2011,12271,634
+"Slovakia","Ireland","Slovakia->Ireland",2011,NA,635
+"Slovakia","Italy","Slovakia->Italy",2011,8385,636
+"Slovakia","Latvia","Slovakia->Latvia",2011,23,637
+"Slovakia","Lithuania","Slovakia->Lithuania",2011,0,638
+"Slovakia","Luxembourg","Slovakia->Luxembourg",2011,530,639
+"Slovakia","Malta","Slovakia->Malta",2011,92,640
+"Slovakia","Netherlands","Slovakia->Netherlands",2011,0,641
+"Slovakia","Poland","Slovakia->Poland",2011,1055,642
+"Slovakia","Portugal","Slovakia->Portugal",2011,91,643
+"Slovakia","Romania","Slovakia->Romania",2011,99,644
+"Slovakia","Slovenia","Slovakia->Slovenia",2011,480,645
+"Slovakia","Spain","Slovakia->Spain",2011,2985,646
+"Slovakia","Sweden","Slovakia->Sweden",2011,1073,647
+"Slovakia","United Kingdom","Slovakia->United Kingdom",2011,55290,648
+"Slovenia","Austria","Slovenia->Austria",2011,10367,649
+"Slovenia","Belgium","Slovenia->Belgium",2011,NA,650
+"Slovenia","Bulgaria","Slovenia->Bulgaria",2011,25,651
+"Slovenia","Croatia","Slovenia->Croatia",2011,13418,652
+"Slovenia","Cyprus","Slovenia->Cyprus",2011,58,653
+"Slovenia","Czech Republic","Slovenia->Czech Republic",2011,231,654
+"Slovenia","Denmark","Slovenia->Denmark",2011,242,655
+"Slovenia","Estonia","Slovenia->Estonia",2011,6,656
+"Slovenia","Finland","Slovenia->Finland",2011,10,657
+"Slovenia","France","Slovenia->France",2011,1179,658
+"Slovenia","Germany","Slovenia->Germany",2011,19240,659
+"Slovenia","Greece","Slovenia->Greece",2011,106,660
+"Slovenia","Hungary","Slovenia->Hungary",2011,295,661
+"Slovenia","Ireland","Slovenia->Ireland",2011,NA,662
+"Slovenia","Italy","Slovenia->Italy",2011,8615,663
+"Slovenia","Latvia","Slovenia->Latvia",2011,2,664
+"Slovenia","Lithuania","Slovenia->Lithuania",2011,0,665
+"Slovenia","Luxembourg","Slovenia->Luxembourg",2011,332,666
+"Slovenia","Malta","Slovenia->Malta",2011,20,667
+"Slovenia","Netherlands","Slovenia->Netherlands",2011,0,668
+"Slovenia","Poland","Slovenia->Poland",2011,78,669
+"Slovenia","Portugal","Slovenia->Portugal",2011,49,670
+"Slovenia","Romania","Slovenia->Romania",2011,19,671
+"Slovenia","Slovakia","Slovenia->Slovakia",2011,113,672
+"Slovenia","Spain","Slovenia->Spain",2011,1425,673
+"Slovenia","Sweden","Slovenia->Sweden",2011,690,674
+"Slovenia","United Kingdom","Slovenia->United Kingdom",2011,1650,675
+"Spain","Austria","Spain->Austria",2011,2884,676
+"Spain","Belgium","Spain->Belgium",2011,NA,677
+"Spain","Bulgaria","Spain->Bulgaria",2011,157,678
+"Spain","Croatia","Spain->Croatia",2011,101,679
+"Spain","Cyprus","Spain->Cyprus",2011,133,680
+"Spain","Czech Republic","Spain->Czech Republic",2011,770,681
+"Spain","Denmark","Spain->Denmark",2011,4031,682
+"Spain","Estonia","Spain->Estonia",2011,85,683
+"Spain","Finland","Spain->Finland",2011,1419,684
+"Spain","France","Spain->France",2011,149888,685
+"Spain","Germany","Spain->Germany",2011,53050,686
+"Spain","Greece","Spain->Greece",2011,957,687
+"Spain","Hungary","Spain->Hungary",2011,677,688
+"Spain","Ireland","Spain->Ireland",2011,NA,689
+"Spain","Italy","Spain->Italy",2011,16387,690
+"Spain","Latvia","Spain->Latvia",2011,45,691
+"Spain","Lithuania","Spain->Lithuania",2011,0,692
+"Spain","Luxembourg","Spain->Luxembourg",2011,2363,693
+"Spain","Malta","Spain->Malta",2011,122,694
+"Spain","Netherlands","Spain->Netherlands",2011,0,695
+"Spain","Poland","Spain->Poland",2011,903,696
+"Spain","Portugal","Spain->Portugal",2011,10209,697
+"Spain","Romania","Spain->Romania",2011,430,698
+"Spain","Slovakia","Spain->Slovakia",2011,105,699
+"Spain","Slovenia","Spain->Slovenia",2011,326,700
+"Spain","Sweden","Spain->Sweden",2011,5171,701
+"Spain","United Kingdom","Spain->United Kingdom",2011,64295,702
+"Sweden","Austria","Sweden->Austria",2011,2238,703
+"Sweden","Belgium","Sweden->Belgium",2011,NA,704
+"Sweden","Bulgaria","Sweden->Bulgaria",2011,71,705
+"Sweden","Croatia","Sweden->Croatia",2011,529,706
+"Sweden","Cyprus","Sweden->Cyprus",2011,451,707
+"Sweden","Czech Republic","Sweden->Czech Republic",2011,411,708
+"Sweden","Denmark","Sweden->Denmark",2011,16535,709
+"Sweden","Estonia","Sweden->Estonia",2011,276,710
+"Sweden","Finland","Sweden->Finland",2011,28085,711
+"Sweden","France","Sweden->France",2011,6825,712
+"Sweden","Germany","Sweden->Germany",2011,10720,713
+"Sweden","Greece","Sweden->Greece",2011,5094,714
+"Sweden","Hungary","Sweden->Hungary",2011,976,715
+"Sweden","Ireland","Sweden->Ireland",2011,NA,716
+"Sweden","Italy","Sweden->Italy",2011,4501,717
+"Sweden","Latvia","Sweden->Latvia",2011,197,718
+"Sweden","Lithuania","Sweden->Lithuania",2011,0,719
+"Sweden","Luxembourg","Sweden->Luxembourg",2011,1175,720
+"Sweden","Malta","Sweden->Malta",2011,347,721
+"Sweden","Netherlands","Sweden->Netherlands",2011,0,722
+"Sweden","Poland","Sweden->Poland",2011,639,723
+"Sweden","Portugal","Sweden->Portugal",2011,621,724
+"Sweden","Romania","Sweden->Romania",2011,192,725
+"Sweden","Slovakia","Sweden->Slovakia",2011,54,726
+"Sweden","Slovenia","Sweden->Slovenia",2011,277,727
+"Sweden","Spain","Sweden->Spain",2011,9185,728
+"Sweden","United Kingdom","Sweden->United Kingdom",2011,25540,729
+"United Kingdom","Austria","United Kingdom->Austria",2011,7172,730
+"United Kingdom","Belgium","United Kingdom->Belgium",2011,NA,731
+"United Kingdom","Bulgaria","United Kingdom->Bulgaria",2011,2101,732
+"United Kingdom","Croatia","United Kingdom->Croatia",2011,388,733
+"United Kingdom","Cyprus","United Kingdom->Cyprus",2011,22488,734
+"United Kingdom","Czech Republic","United Kingdom->Czech Republic",2011,4018,735
+"United Kingdom","Denmark","United Kingdom->Denmark",2011,12768,736
+"United Kingdom","Estonia","United Kingdom->Estonia",2011,257,737
+"United Kingdom","Finland","United Kingdom->Finland",2011,3564,738
+"United Kingdom","France","United Kingdom->France",2011,117372,739
+"United Kingdom","Germany","United Kingdom->Germany",2011,64570,740
+"United Kingdom","Greece","United Kingdom->Greece",2011,14182,741
+"United Kingdom","Hungary","United Kingdom->Hungary",2011,2479,742
+"United Kingdom","Ireland","United Kingdom->Ireland",2011,NA,743
+"United Kingdom","Italy","United Kingdom->Italy",2011,47521,744
+"United Kingdom","Latvia","United Kingdom->Latvia",2011,217,745
+"United Kingdom","Lithuania","United Kingdom->Lithuania",2011,149,746
+"United Kingdom","Luxembourg","United Kingdom->Luxembourg",2011,3479,747
+"United Kingdom","Malta","United Kingdom->Malta",2011,7490,748
+"United Kingdom","Netherlands","United Kingdom->Netherlands",2011,0,749
+"United Kingdom","Poland","United Kingdom->Poland",2011,3147,750
+"United Kingdom","Portugal","United Kingdom->Portugal",2011,11704,751
+"United Kingdom","Romania","United Kingdom->Romania",2011,458,752
+"United Kingdom","Slovakia","United Kingdom->Slovakia",2011,447,753
+"United Kingdom","Slovenia","United Kingdom->Slovenia",2011,401,754
+"United Kingdom","Spain","United Kingdom->Spain",2011,184385,755
+"United Kingdom","Sweden","United Kingdom->Sweden",2011,16769,756

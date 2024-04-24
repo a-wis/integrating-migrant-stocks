@@ -1,0 +1,1513 @@
+"corridor_name","orig","dest","year","LFS","corridor"
+"Austria->Belgium","Austria","Belgium",2016,NA,1
+"Austria->Bulgaria","Austria","Bulgaria",2016,NA,2
+"Austria->Croatia","Austria","Croatia",2016,NA,3
+"Austria->Cyprus","Austria","Cyprus",2016,NA,4
+"Austria->Czech Republic","Austria","Czech Republic",2016,NA,5
+"Austria->Denmark","Austria","Denmark",2016,NA,6
+"Austria->Estonia","Austria","Estonia",2016,NA,7
+"Austria->Finland","Austria","Finland",2016,NA,8
+"Austria->France","Austria","France",2016,NA,9
+"Austria->Germany","Austria","Germany",2016,NA,10
+"Austria->Greece","Austria","Greece",2016,NA,11
+"Austria->Hungary","Austria","Hungary",2016,NA,12
+"Austria->Ireland","Austria","Ireland",2016,NA,13
+"Austria->Italy","Austria","Italy",2016,NA,14
+"Austria->Latvia","Austria","Latvia",2016,NA,15
+"Austria->Lithuania","Austria","Lithuania",2016,NA,16
+"Austria->Luxembourg","Austria","Luxembourg",2016,NA,17
+"Austria->Malta","Austria","Malta",2016,NA,18
+"Austria->Netherlands","Austria","Netherlands",2016,NA,19
+"Austria->Poland","Austria","Poland",2016,NA,20
+"Austria->Portugal","Austria","Portugal",2016,NA,21
+"Austria->Romania","Austria","Romania",2016,NA,22
+"Austria->Slovakia","Austria","Slovakia",2016,NA,23
+"Austria->Slovenia","Austria","Slovenia",2016,NA,24
+"Austria->Spain","Austria","Spain",2016,NA,25
+"Austria->Sweden","Austria","Sweden",2016,NA,26
+"Austria->United Kingdom","Austria","United Kingdom",2016,NA,27
+"Belgium->Austria","Belgium","Austria",2016,NA,28
+"Belgium->Bulgaria","Belgium","Bulgaria",2016,NA,29
+"Belgium->Croatia","Belgium","Croatia",2016,NA,30
+"Belgium->Cyprus","Belgium","Cyprus",2016,NA,31
+"Belgium->Czech Republic","Belgium","Czech Republic",2016,NA,32
+"Belgium->Denmark","Belgium","Denmark",2016,NA,33
+"Belgium->Estonia","Belgium","Estonia",2016,NA,34
+"Belgium->Finland","Belgium","Finland",2016,NA,35
+"Belgium->France","Belgium","France",2016,96005.32,36
+"Belgium->Germany","Belgium","Germany",2016,NA,37
+"Belgium->Greece","Belgium","Greece",2016,NA,38
+"Belgium->Hungary","Belgium","Hungary",2016,NA,39
+"Belgium->Ireland","Belgium","Ireland",2016,NA,40
+"Belgium->Italy","Belgium","Italy",2016,NA,41
+"Belgium->Latvia","Belgium","Latvia",2016,NA,42
+"Belgium->Lithuania","Belgium","Lithuania",2016,NA,43
+"Belgium->Luxembourg","Belgium","Luxembourg",2016,20480.96,44
+"Belgium->Malta","Belgium","Malta",2016,NA,45
+"Belgium->Netherlands","Belgium","Netherlands",2016,33900.025,46
+"Belgium->Poland","Belgium","Poland",2016,NA,47
+"Belgium->Portugal","Belgium","Portugal",2016,NA,48
+"Belgium->Romania","Belgium","Romania",2016,NA,49
+"Belgium->Slovakia","Belgium","Slovakia",2016,NA,50
+"Belgium->Slovenia","Belgium","Slovenia",2016,NA,51
+"Belgium->Spain","Belgium","Spain",2016,NA,52
+"Belgium->Sweden","Belgium","Sweden",2016,NA,53
+"Belgium->United Kingdom","Belgium","United Kingdom",2016,NA,54
+"Bulgaria->Austria","Bulgaria","Austria",2016,NA,55
+"Bulgaria->Belgium","Bulgaria","Belgium",2016,NA,56
+"Bulgaria->Croatia","Bulgaria","Croatia",2016,NA,57
+"Bulgaria->Cyprus","Bulgaria","Cyprus",2016,11802.915,58
+"Bulgaria->Czech Republic","Bulgaria","Czech Republic",2016,NA,59
+"Bulgaria->Denmark","Bulgaria","Denmark",2016,NA,60
+"Bulgaria->Estonia","Bulgaria","Estonia",2016,NA,61
+"Bulgaria->Finland","Bulgaria","Finland",2016,NA,62
+"Bulgaria->France","Bulgaria","France",2016,NA,63
+"Bulgaria->Germany","Bulgaria","Germany",2016,NA,64
+"Bulgaria->Greece","Bulgaria","Greece",2016,NA,65
+"Bulgaria->Hungary","Bulgaria","Hungary",2016,NA,66
+"Bulgaria->Ireland","Bulgaria","Ireland",2016,NA,67
+"Bulgaria->Italy","Bulgaria","Italy",2016,53745.55,68
+"Bulgaria->Latvia","Bulgaria","Latvia",2016,NA,69
+"Bulgaria->Lithuania","Bulgaria","Lithuania",2016,NA,70
+"Bulgaria->Luxembourg","Bulgaria","Luxembourg",2016,NA,71
+"Bulgaria->Malta","Bulgaria","Malta",2016,NA,72
+"Bulgaria->Netherlands","Bulgaria","Netherlands",2016,NA,73
+"Bulgaria->Poland","Bulgaria","Poland",2016,NA,74
+"Bulgaria->Portugal","Bulgaria","Portugal",2016,NA,75
+"Bulgaria->Romania","Bulgaria","Romania",2016,NA,76
+"Bulgaria->Slovakia","Bulgaria","Slovakia",2016,NA,77
+"Bulgaria->Slovenia","Bulgaria","Slovenia",2016,NA,78
+"Bulgaria->Spain","Bulgaria","Spain",2016,122463.7725,79
+"Bulgaria->Sweden","Bulgaria","Sweden",2016,NA,80
+"Bulgaria->United Kingdom","Bulgaria","United Kingdom",2016,NA,81
+"Croatia->Austria","Croatia","Austria",2016,39097.8625,82
+"Croatia->Belgium","Croatia","Belgium",2016,NA,83
+"Croatia->Bulgaria","Croatia","Bulgaria",2016,NA,84
+"Croatia->Cyprus","Croatia","Cyprus",2016,NA,85
+"Croatia->Czech Republic","Croatia","Czech Republic",2016,NA,86
+"Croatia->Denmark","Croatia","Denmark",2016,NA,87
+"Croatia->Estonia","Croatia","Estonia",2016,NA,88
+"Croatia->Finland","Croatia","Finland",2016,NA,89
+"Croatia->France","Croatia","France",2016,NA,90
+"Croatia->Germany","Croatia","Germany",2016,NA,91
+"Croatia->Greece","Croatia","Greece",2016,NA,92
+"Croatia->Hungary","Croatia","Hungary",2016,NA,93
+"Croatia->Ireland","Croatia","Ireland",2016,NA,94
+"Croatia->Italy","Croatia","Italy",2016,NA,95
+"Croatia->Latvia","Croatia","Latvia",2016,NA,96
+"Croatia->Lithuania","Croatia","Lithuania",2016,NA,97
+"Croatia->Luxembourg","Croatia","Luxembourg",2016,NA,98
+"Croatia->Malta","Croatia","Malta",2016,NA,99
+"Croatia->Netherlands","Croatia","Netherlands",2016,NA,100
+"Croatia->Poland","Croatia","Poland",2016,NA,101
+"Croatia->Portugal","Croatia","Portugal",2016,NA,102
+"Croatia->Romania","Croatia","Romania",2016,NA,103
+"Croatia->Slovakia","Croatia","Slovakia",2016,NA,104
+"Croatia->Slovenia","Croatia","Slovenia",2016,NA,105
+"Croatia->Spain","Croatia","Spain",2016,NA,106
+"Croatia->Sweden","Croatia","Sweden",2016,NA,107
+"Croatia->United Kingdom","Croatia","United Kingdom",2016,NA,108
+"Cyprus->Austria","Cyprus","Austria",2016,NA,109
+"Cyprus->Belgium","Cyprus","Belgium",2016,NA,110
+"Cyprus->Bulgaria","Cyprus","Bulgaria",2016,NA,111
+"Cyprus->Croatia","Cyprus","Croatia",2016,NA,112
+"Cyprus->Czech Republic","Cyprus","Czech Republic",2016,NA,113
+"Cyprus->Denmark","Cyprus","Denmark",2016,NA,114
+"Cyprus->Estonia","Cyprus","Estonia",2016,NA,115
+"Cyprus->Finland","Cyprus","Finland",2016,NA,116
+"Cyprus->France","Cyprus","France",2016,NA,117
+"Cyprus->Germany","Cyprus","Germany",2016,NA,118
+"Cyprus->Greece","Cyprus","Greece",2016,NA,119
+"Cyprus->Hungary","Cyprus","Hungary",2016,NA,120
+"Cyprus->Ireland","Cyprus","Ireland",2016,NA,121
+"Cyprus->Italy","Cyprus","Italy",2016,NA,122
+"Cyprus->Latvia","Cyprus","Latvia",2016,NA,123
+"Cyprus->Lithuania","Cyprus","Lithuania",2016,NA,124
+"Cyprus->Luxembourg","Cyprus","Luxembourg",2016,NA,125
+"Cyprus->Malta","Cyprus","Malta",2016,NA,126
+"Cyprus->Netherlands","Cyprus","Netherlands",2016,NA,127
+"Cyprus->Poland","Cyprus","Poland",2016,NA,128
+"Cyprus->Portugal","Cyprus","Portugal",2016,NA,129
+"Cyprus->Romania","Cyprus","Romania",2016,NA,130
+"Cyprus->Slovakia","Cyprus","Slovakia",2016,NA,131
+"Cyprus->Slovenia","Cyprus","Slovenia",2016,NA,132
+"Cyprus->Spain","Cyprus","Spain",2016,NA,133
+"Cyprus->Sweden","Cyprus","Sweden",2016,NA,134
+"Cyprus->United Kingdom","Cyprus","United Kingdom",2016,59798.25,135
+"Czech Republic->Austria","Czech Republic","Austria",2016,NA,136
+"Czech Republic->Belgium","Czech Republic","Belgium",2016,NA,137
+"Czech Republic->Bulgaria","Czech Republic","Bulgaria",2016,NA,138
+"Czech Republic->Croatia","Czech Republic","Croatia",2016,NA,139
+"Czech Republic->Cyprus","Czech Republic","Cyprus",2016,NA,140
+"Czech Republic->Denmark","Czech Republic","Denmark",2016,NA,141
+"Czech Republic->Estonia","Czech Republic","Estonia",2016,NA,142
+"Czech Republic->Finland","Czech Republic","Finland",2016,NA,143
+"Czech Republic->France","Czech Republic","France",2016,NA,144
+"Czech Republic->Germany","Czech Republic","Germany",2016,NA,145
+"Czech Republic->Greece","Czech Republic","Greece",2016,NA,146
+"Czech Republic->Hungary","Czech Republic","Hungary",2016,NA,147
+"Czech Republic->Ireland","Czech Republic","Ireland",2016,NA,148
+"Czech Republic->Italy","Czech Republic","Italy",2016,NA,149
+"Czech Republic->Latvia","Czech Republic","Latvia",2016,NA,150
+"Czech Republic->Lithuania","Czech Republic","Lithuania",2016,NA,151
+"Czech Republic->Luxembourg","Czech Republic","Luxembourg",2016,NA,152
+"Czech Republic->Malta","Czech Republic","Malta",2016,NA,153
+"Czech Republic->Netherlands","Czech Republic","Netherlands",2016,NA,154
+"Czech Republic->Poland","Czech Republic","Poland",2016,NA,155
+"Czech Republic->Portugal","Czech Republic","Portugal",2016,NA,156
+"Czech Republic->Romania","Czech Republic","Romania",2016,NA,157
+"Czech Republic->Slovakia","Czech Republic","Slovakia",2016,NA,158
+"Czech Republic->Slovenia","Czech Republic","Slovenia",2016,NA,159
+"Czech Republic->Spain","Czech Republic","Spain",2016,NA,160
+"Czech Republic->Sweden","Czech Republic","Sweden",2016,NA,161
+"Czech Republic->United Kingdom","Czech Republic","United Kingdom",2016,NA,162
+"Denmark->Austria","Denmark","Austria",2016,NA,163
+"Denmark->Belgium","Denmark","Belgium",2016,NA,164
+"Denmark->Bulgaria","Denmark","Bulgaria",2016,NA,165
+"Denmark->Croatia","Denmark","Croatia",2016,NA,166
+"Denmark->Cyprus","Denmark","Cyprus",2016,NA,167
+"Denmark->Czech Republic","Denmark","Czech Republic",2016,NA,168
+"Denmark->Estonia","Denmark","Estonia",2016,NA,169
+"Denmark->Finland","Denmark","Finland",2016,NA,170
+"Denmark->France","Denmark","France",2016,NA,171
+"Denmark->Germany","Denmark","Germany",2016,NA,172
+"Denmark->Greece","Denmark","Greece",2016,NA,173
+"Denmark->Hungary","Denmark","Hungary",2016,NA,174
+"Denmark->Ireland","Denmark","Ireland",2016,NA,175
+"Denmark->Italy","Denmark","Italy",2016,NA,176
+"Denmark->Latvia","Denmark","Latvia",2016,NA,177
+"Denmark->Lithuania","Denmark","Lithuania",2016,NA,178
+"Denmark->Luxembourg","Denmark","Luxembourg",2016,NA,179
+"Denmark->Malta","Denmark","Malta",2016,NA,180
+"Denmark->Netherlands","Denmark","Netherlands",2016,NA,181
+"Denmark->Poland","Denmark","Poland",2016,NA,182
+"Denmark->Portugal","Denmark","Portugal",2016,NA,183
+"Denmark->Romania","Denmark","Romania",2016,NA,184
+"Denmark->Slovakia","Denmark","Slovakia",2016,NA,185
+"Denmark->Slovenia","Denmark","Slovenia",2016,NA,186
+"Denmark->Spain","Denmark","Spain",2016,NA,187
+"Denmark->Sweden","Denmark","Sweden",2016,20347.6225,188
+"Denmark->United Kingdom","Denmark","United Kingdom",2016,NA,189
+"Estonia->Austria","Estonia","Austria",2016,NA,190
+"Estonia->Belgium","Estonia","Belgium",2016,NA,191
+"Estonia->Bulgaria","Estonia","Bulgaria",2016,NA,192
+"Estonia->Croatia","Estonia","Croatia",2016,NA,193
+"Estonia->Cyprus","Estonia","Cyprus",2016,NA,194
+"Estonia->Czech Republic","Estonia","Czech Republic",2016,NA,195
+"Estonia->Denmark","Estonia","Denmark",2016,NA,196
+"Estonia->Finland","Estonia","Finland",2016,30974.4775,197
+"Estonia->France","Estonia","France",2016,NA,198
+"Estonia->Germany","Estonia","Germany",2016,NA,199
+"Estonia->Greece","Estonia","Greece",2016,NA,200
+"Estonia->Hungary","Estonia","Hungary",2016,NA,201
+"Estonia->Ireland","Estonia","Ireland",2016,NA,202
+"Estonia->Italy","Estonia","Italy",2016,NA,203
+"Estonia->Latvia","Estonia","Latvia",2016,NA,204
+"Estonia->Lithuania","Estonia","Lithuania",2016,NA,205
+"Estonia->Luxembourg","Estonia","Luxembourg",2016,NA,206
+"Estonia->Malta","Estonia","Malta",2016,NA,207
+"Estonia->Netherlands","Estonia","Netherlands",2016,NA,208
+"Estonia->Poland","Estonia","Poland",2016,NA,209
+"Estonia->Portugal","Estonia","Portugal",2016,NA,210
+"Estonia->Romania","Estonia","Romania",2016,NA,211
+"Estonia->Slovakia","Estonia","Slovakia",2016,NA,212
+"Estonia->Slovenia","Estonia","Slovenia",2016,NA,213
+"Estonia->Spain","Estonia","Spain",2016,NA,214
+"Estonia->Sweden","Estonia","Sweden",2016,NA,215
+"Estonia->United Kingdom","Estonia","United Kingdom",2016,NA,216
+"Finland->Austria","Finland","Austria",2016,NA,217
+"Finland->Belgium","Finland","Belgium",2016,NA,218
+"Finland->Bulgaria","Finland","Bulgaria",2016,NA,219
+"Finland->Croatia","Finland","Croatia",2016,NA,220
+"Finland->Cyprus","Finland","Cyprus",2016,NA,221
+"Finland->Czech Republic","Finland","Czech Republic",2016,NA,222
+"Finland->Denmark","Finland","Denmark",2016,NA,223
+"Finland->Estonia","Finland","Estonia",2016,NA,224
+"Finland->France","Finland","France",2016,NA,225
+"Finland->Germany","Finland","Germany",2016,NA,226
+"Finland->Greece","Finland","Greece",2016,NA,227
+"Finland->Hungary","Finland","Hungary",2016,NA,228
+"Finland->Ireland","Finland","Ireland",2016,NA,229
+"Finland->Italy","Finland","Italy",2016,NA,230
+"Finland->Latvia","Finland","Latvia",2016,NA,231
+"Finland->Lithuania","Finland","Lithuania",2016,NA,232
+"Finland->Luxembourg","Finland","Luxembourg",2016,NA,233
+"Finland->Malta","Finland","Malta",2016,NA,234
+"Finland->Netherlands","Finland","Netherlands",2016,NA,235
+"Finland->Poland","Finland","Poland",2016,NA,236
+"Finland->Portugal","Finland","Portugal",2016,NA,237
+"Finland->Romania","Finland","Romania",2016,NA,238
+"Finland->Slovakia","Finland","Slovakia",2016,NA,239
+"Finland->Slovenia","Finland","Slovenia",2016,NA,240
+"Finland->Spain","Finland","Spain",2016,NA,241
+"Finland->Sweden","Finland","Sweden",2016,77828.13,242
+"Finland->United Kingdom","Finland","United Kingdom",2016,NA,243
+"France->Austria","France","Austria",2016,NA,244
+"France->Belgium","France","Belgium",2016,116825.89,245
+"France->Bulgaria","France","Bulgaria",2016,NA,246
+"France->Croatia","France","Croatia",2016,NA,247
+"France->Cyprus","France","Cyprus",2016,NA,248
+"France->Czech Republic","France","Czech Republic",2016,NA,249
+"France->Denmark","France","Denmark",2016,NA,250
+"France->Estonia","France","Estonia",2016,NA,251
+"France->Finland","France","Finland",2016,NA,252
+"France->Germany","France","Germany",2016,NA,253
+"France->Greece","France","Greece",2016,NA,254
+"France->Hungary","France","Hungary",2016,NA,255
+"France->Ireland","France","Ireland",2016,NA,256
+"France->Italy","France","Italy",2016,81111.325,257
+"France->Latvia","France","Latvia",2016,NA,258
+"France->Lithuania","France","Lithuania",2016,NA,259
+"France->Luxembourg","France","Luxembourg",2016,36094.2525,260
+"France->Malta","France","Malta",2016,NA,261
+"France->Netherlands","France","Netherlands",2016,19237.965,262
+"France->Poland","France","Poland",2016,NA,263
+"France->Portugal","France","Portugal",2016,NA,264
+"France->Romania","France","Romania",2016,NA,265
+"France->Slovakia","France","Slovakia",2016,NA,266
+"France->Slovenia","France","Slovenia",2016,NA,267
+"France->Spain","France","Spain",2016,142074.74,268
+"France->Sweden","France","Sweden",2016,NA,269
+"France->United Kingdom","France","United Kingdom",2016,134078.5,270
+"Germany->Austria","Germany","Austria",2016,156861.0975,271
+"Germany->Belgium","Germany","Belgium",2016,51480.755,272
+"Germany->Bulgaria","Germany","Bulgaria",2016,NA,273
+"Germany->Croatia","Germany","Croatia",2016,NA,274
+"Germany->Cyprus","Germany","Cyprus",2016,NA,275
+"Germany->Czech Republic","Germany","Czech Republic",2016,NA,276
+"Germany->Denmark","Germany","Denmark",2016,25019.595,277
+"Germany->Estonia","Germany","Estonia",2016,NA,278
+"Germany->Finland","Germany","Finland",2016,NA,279
+"Germany->France","Germany","France",2016,104169.29,280
+"Germany->Greece","Germany","Greece",2016,NA,281
+"Germany->Hungary","Germany","Hungary",2016,NA,282
+"Germany->Ireland","Germany","Ireland",2016,9754.89833333333,283
+"Germany->Italy","Germany","Italy",2016,164267.05,284
+"Germany->Latvia","Germany","Latvia",2016,NA,285
+"Germany->Lithuania","Germany","Lithuania",2016,NA,286
+"Germany->Luxembourg","Germany","Luxembourg",2016,15860.1775,287
+"Germany->Malta","Germany","Malta",2016,NA,288
+"Germany->Netherlands","Germany","Netherlands",2016,71975.27,289
+"Germany->Poland","Germany","Poland",2016,NA,290
+"Germany->Portugal","Germany","Portugal",2016,NA,291
+"Germany->Romania","Germany","Romania",2016,NA,292
+"Germany->Slovakia","Germany","Slovakia",2016,NA,293
+"Germany->Slovenia","Germany","Slovenia",2016,NA,294
+"Germany->Spain","Germany","Spain",2016,109158.39,295
+"Germany->Sweden","Germany","Sweden",2016,34143.7225,296
+"Germany->United Kingdom","Germany","United Kingdom",2016,260592.25,297
+"Greece->Austria","Greece","Austria",2016,NA,298
+"Greece->Belgium","Greece","Belgium",2016,NA,299
+"Greece->Bulgaria","Greece","Bulgaria",2016,NA,300
+"Greece->Croatia","Greece","Croatia",2016,NA,301
+"Greece->Cyprus","Greece","Cyprus",2016,NA,302
+"Greece->Czech Republic","Greece","Czech Republic",2016,NA,303
+"Greece->Denmark","Greece","Denmark",2016,NA,304
+"Greece->Estonia","Greece","Estonia",2016,NA,305
+"Greece->Finland","Greece","Finland",2016,NA,306
+"Greece->France","Greece","France",2016,NA,307
+"Greece->Germany","Greece","Germany",2016,NA,308
+"Greece->Hungary","Greece","Hungary",2016,NA,309
+"Greece->Ireland","Greece","Ireland",2016,NA,310
+"Greece->Italy","Greece","Italy",2016,NA,311
+"Greece->Latvia","Greece","Latvia",2016,NA,312
+"Greece->Lithuania","Greece","Lithuania",2016,NA,313
+"Greece->Luxembourg","Greece","Luxembourg",2016,NA,314
+"Greece->Malta","Greece","Malta",2016,NA,315
+"Greece->Netherlands","Greece","Netherlands",2016,NA,316
+"Greece->Poland","Greece","Poland",2016,NA,317
+"Greece->Portugal","Greece","Portugal",2016,NA,318
+"Greece->Romania","Greece","Romania",2016,NA,319
+"Greece->Slovakia","Greece","Slovakia",2016,NA,320
+"Greece->Slovenia","Greece","Slovenia",2016,NA,321
+"Greece->Spain","Greece","Spain",2016,NA,322
+"Greece->Sweden","Greece","Sweden",2016,NA,323
+"Greece->United Kingdom","Greece","United Kingdom",2016,NA,324
+"Hungary->Austria","Hungary","Austria",2016,39841.1916666667,325
+"Hungary->Belgium","Hungary","Belgium",2016,NA,326
+"Hungary->Bulgaria","Hungary","Bulgaria",2016,NA,327
+"Hungary->Croatia","Hungary","Croatia",2016,NA,328
+"Hungary->Cyprus","Hungary","Cyprus",2016,NA,329
+"Hungary->Czech Republic","Hungary","Czech Republic",2016,NA,330
+"Hungary->Denmark","Hungary","Denmark",2016,NA,331
+"Hungary->Estonia","Hungary","Estonia",2016,NA,332
+"Hungary->Finland","Hungary","Finland",2016,NA,333
+"Hungary->France","Hungary","France",2016,NA,334
+"Hungary->Germany","Hungary","Germany",2016,NA,335
+"Hungary->Greece","Hungary","Greece",2016,NA,336
+"Hungary->Ireland","Hungary","Ireland",2016,NA,337
+"Hungary->Italy","Hungary","Italy",2016,NA,338
+"Hungary->Latvia","Hungary","Latvia",2016,NA,339
+"Hungary->Lithuania","Hungary","Lithuania",2016,NA,340
+"Hungary->Luxembourg","Hungary","Luxembourg",2016,NA,341
+"Hungary->Malta","Hungary","Malta",2016,NA,342
+"Hungary->Netherlands","Hungary","Netherlands",2016,NA,343
+"Hungary->Poland","Hungary","Poland",2016,NA,344
+"Hungary->Portugal","Hungary","Portugal",2016,NA,345
+"Hungary->Romania","Hungary","Romania",2016,NA,346
+"Hungary->Slovakia","Hungary","Slovakia",2016,NA,347
+"Hungary->Slovenia","Hungary","Slovenia",2016,NA,348
+"Hungary->Spain","Hungary","Spain",2016,NA,349
+"Hungary->Sweden","Hungary","Sweden",2016,10961.06,350
+"Hungary->United Kingdom","Hungary","United Kingdom",2016,NA,351
+"Ireland->Austria","Ireland","Austria",2016,NA,352
+"Ireland->Belgium","Ireland","Belgium",2016,NA,353
+"Ireland->Bulgaria","Ireland","Bulgaria",2016,NA,354
+"Ireland->Croatia","Ireland","Croatia",2016,NA,355
+"Ireland->Cyprus","Ireland","Cyprus",2016,NA,356
+"Ireland->Czech Republic","Ireland","Czech Republic",2016,NA,357
+"Ireland->Denmark","Ireland","Denmark",2016,NA,358
+"Ireland->Estonia","Ireland","Estonia",2016,NA,359
+"Ireland->Finland","Ireland","Finland",2016,NA,360
+"Ireland->France","Ireland","France",2016,NA,361
+"Ireland->Germany","Ireland","Germany",2016,NA,362
+"Ireland->Greece","Ireland","Greece",2016,NA,363
+"Ireland->Hungary","Ireland","Hungary",2016,NA,364
+"Ireland->Italy","Ireland","Italy",2016,NA,365
+"Ireland->Latvia","Ireland","Latvia",2016,NA,366
+"Ireland->Lithuania","Ireland","Lithuania",2016,NA,367
+"Ireland->Luxembourg","Ireland","Luxembourg",2016,NA,368
+"Ireland->Malta","Ireland","Malta",2016,NA,369
+"Ireland->Netherlands","Ireland","Netherlands",2016,NA,370
+"Ireland->Poland","Ireland","Poland",2016,NA,371
+"Ireland->Portugal","Ireland","Portugal",2016,NA,372
+"Ireland->Romania","Ireland","Romania",2016,NA,373
+"Ireland->Slovakia","Ireland","Slovakia",2016,NA,374
+"Ireland->Slovenia","Ireland","Slovenia",2016,NA,375
+"Ireland->Spain","Ireland","Spain",2016,NA,376
+"Ireland->Sweden","Ireland","Sweden",2016,NA,377
+"Ireland->United Kingdom","Ireland","United Kingdom",2016,223228,378
+"Italy->Austria","Italy","Austria",2016,19496.9,379
+"Italy->Belgium","Italy","Belgium",2016,59371.5141666667,380
+"Italy->Bulgaria","Italy","Bulgaria",2016,NA,381
+"Italy->Croatia","Italy","Croatia",2016,NA,382
+"Italy->Cyprus","Italy","Cyprus",2016,NA,383
+"Italy->Czech Republic","Italy","Czech Republic",2016,NA,384
+"Italy->Denmark","Italy","Denmark",2016,NA,385
+"Italy->Estonia","Italy","Estonia",2016,NA,386
+"Italy->Finland","Italy","Finland",2016,NA,387
+"Italy->France","Italy","France",2016,126579.9125,388
+"Italy->Germany","Italy","Germany",2016,NA,389
+"Italy->Greece","Italy","Greece",2016,NA,390
+"Italy->Hungary","Italy","Hungary",2016,NA,391
+"Italy->Ireland","Italy","Ireland",2016,NA,392
+"Italy->Latvia","Italy","Latvia",2016,NA,393
+"Italy->Lithuania","Italy","Lithuania",2016,NA,394
+"Italy->Luxembourg","Italy","Luxembourg",2016,11209.92,395
+"Italy->Malta","Italy","Malta",2016,NA,396
+"Italy->Netherlands","Italy","Netherlands",2016,16746.61,397
+"Italy->Poland","Italy","Poland",2016,NA,398
+"Italy->Portugal","Italy","Portugal",2016,NA,399
+"Italy->Romania","Italy","Romania",2016,NA,400
+"Italy->Slovakia","Italy","Slovakia",2016,NA,401
+"Italy->Slovenia","Italy","Slovenia",2016,NA,402
+"Italy->Spain","Italy","Spain",2016,NA,403
+"Italy->Sweden","Italy","Sweden",2016,NA,404
+"Italy->United Kingdom","Italy","United Kingdom",2016,168865.5,405
+"Latvia->Austria","Latvia","Austria",2016,NA,406
+"Latvia->Belgium","Latvia","Belgium",2016,NA,407
+"Latvia->Bulgaria","Latvia","Bulgaria",2016,NA,408
+"Latvia->Croatia","Latvia","Croatia",2016,NA,409
+"Latvia->Cyprus","Latvia","Cyprus",2016,NA,410
+"Latvia->Czech Republic","Latvia","Czech Republic",2016,NA,411
+"Latvia->Denmark","Latvia","Denmark",2016,NA,412
+"Latvia->Estonia","Latvia","Estonia",2016,NA,413
+"Latvia->Finland","Latvia","Finland",2016,NA,414
+"Latvia->France","Latvia","France",2016,NA,415
+"Latvia->Germany","Latvia","Germany",2016,NA,416
+"Latvia->Greece","Latvia","Greece",2016,NA,417
+"Latvia->Hungary","Latvia","Hungary",2016,NA,418
+"Latvia->Ireland","Latvia","Ireland",2016,NA,419
+"Latvia->Italy","Latvia","Italy",2016,NA,420
+"Latvia->Lithuania","Latvia","Lithuania",2016,NA,421
+"Latvia->Luxembourg","Latvia","Luxembourg",2016,NA,422
+"Latvia->Malta","Latvia","Malta",2016,NA,423
+"Latvia->Netherlands","Latvia","Netherlands",2016,NA,424
+"Latvia->Poland","Latvia","Poland",2016,NA,425
+"Latvia->Portugal","Latvia","Portugal",2016,NA,426
+"Latvia->Romania","Latvia","Romania",2016,NA,427
+"Latvia->Slovakia","Latvia","Slovakia",2016,NA,428
+"Latvia->Slovenia","Latvia","Slovenia",2016,NA,429
+"Latvia->Spain","Latvia","Spain",2016,NA,430
+"Latvia->Sweden","Latvia","Sweden",2016,NA,431
+"Latvia->United Kingdom","Latvia","United Kingdom",2016,84541.75,432
+"Lithuania->Austria","Lithuania","Austria",2016,NA,433
+"Lithuania->Belgium","Lithuania","Belgium",2016,NA,434
+"Lithuania->Bulgaria","Lithuania","Bulgaria",2016,NA,435
+"Lithuania->Croatia","Lithuania","Croatia",2016,NA,436
+"Lithuania->Cyprus","Lithuania","Cyprus",2016,NA,437
+"Lithuania->Czech Republic","Lithuania","Czech Republic",2016,NA,438
+"Lithuania->Denmark","Lithuania","Denmark",2016,NA,439
+"Lithuania->Estonia","Lithuania","Estonia",2016,NA,440
+"Lithuania->Finland","Lithuania","Finland",2016,NA,441
+"Lithuania->France","Lithuania","France",2016,NA,442
+"Lithuania->Germany","Lithuania","Germany",2016,NA,443
+"Lithuania->Greece","Lithuania","Greece",2016,NA,444
+"Lithuania->Hungary","Lithuania","Hungary",2016,NA,445
+"Lithuania->Ireland","Lithuania","Ireland",2016,35551.3025,446
+"Lithuania->Italy","Lithuania","Italy",2016,NA,447
+"Lithuania->Latvia","Lithuania","Latvia",2016,NA,448
+"Lithuania->Luxembourg","Lithuania","Luxembourg",2016,NA,449
+"Lithuania->Malta","Lithuania","Malta",2016,NA,450
+"Lithuania->Netherlands","Lithuania","Netherlands",2016,NA,451
+"Lithuania->Poland","Lithuania","Poland",2016,NA,452
+"Lithuania->Portugal","Lithuania","Portugal",2016,NA,453
+"Lithuania->Romania","Lithuania","Romania",2016,NA,454
+"Lithuania->Slovakia","Lithuania","Slovakia",2016,NA,455
+"Lithuania->Slovenia","Lithuania","Slovenia",2016,NA,456
+"Lithuania->Spain","Lithuania","Spain",2016,NA,457
+"Lithuania->Sweden","Lithuania","Sweden",2016,NA,458
+"Lithuania->United Kingdom","Lithuania","United Kingdom",2016,158505,459
+"Luxembourg->Austria","Luxembourg","Austria",2016,NA,460
+"Luxembourg->Belgium","Luxembourg","Belgium",2016,7564.25833333333,461
+"Luxembourg->Bulgaria","Luxembourg","Bulgaria",2016,NA,462
+"Luxembourg->Croatia","Luxembourg","Croatia",2016,NA,463
+"Luxembourg->Cyprus","Luxembourg","Cyprus",2016,NA,464
+"Luxembourg->Czech Republic","Luxembourg","Czech Republic",2016,NA,465
+"Luxembourg->Denmark","Luxembourg","Denmark",2016,NA,466
+"Luxembourg->Estonia","Luxembourg","Estonia",2016,NA,467
+"Luxembourg->Finland","Luxembourg","Finland",2016,NA,468
+"Luxembourg->France","Luxembourg","France",2016,NA,469
+"Luxembourg->Germany","Luxembourg","Germany",2016,NA,470
+"Luxembourg->Greece","Luxembourg","Greece",2016,NA,471
+"Luxembourg->Hungary","Luxembourg","Hungary",2016,NA,472
+"Luxembourg->Ireland","Luxembourg","Ireland",2016,NA,473
+"Luxembourg->Italy","Luxembourg","Italy",2016,NA,474
+"Luxembourg->Latvia","Luxembourg","Latvia",2016,NA,475
+"Luxembourg->Lithuania","Luxembourg","Lithuania",2016,NA,476
+"Luxembourg->Malta","Luxembourg","Malta",2016,NA,477
+"Luxembourg->Netherlands","Luxembourg","Netherlands",2016,NA,478
+"Luxembourg->Poland","Luxembourg","Poland",2016,NA,479
+"Luxembourg->Portugal","Luxembourg","Portugal",2016,NA,480
+"Luxembourg->Romania","Luxembourg","Romania",2016,NA,481
+"Luxembourg->Slovakia","Luxembourg","Slovakia",2016,NA,482
+"Luxembourg->Slovenia","Luxembourg","Slovenia",2016,NA,483
+"Luxembourg->Spain","Luxembourg","Spain",2016,NA,484
+"Luxembourg->Sweden","Luxembourg","Sweden",2016,NA,485
+"Luxembourg->United Kingdom","Luxembourg","United Kingdom",2016,NA,486
+"Malta->Austria","Malta","Austria",2016,NA,487
+"Malta->Belgium","Malta","Belgium",2016,NA,488
+"Malta->Bulgaria","Malta","Bulgaria",2016,NA,489
+"Malta->Croatia","Malta","Croatia",2016,NA,490
+"Malta->Cyprus","Malta","Cyprus",2016,NA,491
+"Malta->Czech Republic","Malta","Czech Republic",2016,NA,492
+"Malta->Denmark","Malta","Denmark",2016,NA,493
+"Malta->Estonia","Malta","Estonia",2016,NA,494
+"Malta->Finland","Malta","Finland",2016,NA,495
+"Malta->France","Malta","France",2016,NA,496
+"Malta->Germany","Malta","Germany",2016,NA,497
+"Malta->Greece","Malta","Greece",2016,NA,498
+"Malta->Hungary","Malta","Hungary",2016,NA,499
+"Malta->Ireland","Malta","Ireland",2016,NA,500
+"Malta->Italy","Malta","Italy",2016,NA,501
+"Malta->Latvia","Malta","Latvia",2016,NA,502
+"Malta->Lithuania","Malta","Lithuania",2016,NA,503
+"Malta->Luxembourg","Malta","Luxembourg",2016,NA,504
+"Malta->Netherlands","Malta","Netherlands",2016,NA,505
+"Malta->Poland","Malta","Poland",2016,NA,506
+"Malta->Portugal","Malta","Portugal",2016,NA,507
+"Malta->Romania","Malta","Romania",2016,NA,508
+"Malta->Slovakia","Malta","Slovakia",2016,NA,509
+"Malta->Slovenia","Malta","Slovenia",2016,NA,510
+"Malta->Spain","Malta","Spain",2016,NA,511
+"Malta->Sweden","Malta","Sweden",2016,NA,512
+"Malta->United Kingdom","Malta","United Kingdom",2016,NA,513
+"Netherlands->Austria","Netherlands","Austria",2016,NA,514
+"Netherlands->Belgium","Netherlands","Belgium",2016,65330.225,515
+"Netherlands->Bulgaria","Netherlands","Bulgaria",2016,NA,516
+"Netherlands->Croatia","Netherlands","Croatia",2016,NA,517
+"Netherlands->Cyprus","Netherlands","Cyprus",2016,NA,518
+"Netherlands->Czech Republic","Netherlands","Czech Republic",2016,NA,519
+"Netherlands->Denmark","Netherlands","Denmark",2016,10545.4208333333,520
+"Netherlands->Estonia","Netherlands","Estonia",2016,NA,521
+"Netherlands->Finland","Netherlands","Finland",2016,NA,522
+"Netherlands->France","Netherlands","France",2016,NA,523
+"Netherlands->Germany","Netherlands","Germany",2016,NA,524
+"Netherlands->Greece","Netherlands","Greece",2016,NA,525
+"Netherlands->Hungary","Netherlands","Hungary",2016,NA,526
+"Netherlands->Ireland","Netherlands","Ireland",2016,NA,527
+"Netherlands->Italy","Netherlands","Italy",2016,NA,528
+"Netherlands->Latvia","Netherlands","Latvia",2016,NA,529
+"Netherlands->Lithuania","Netherlands","Lithuania",2016,NA,530
+"Netherlands->Luxembourg","Netherlands","Luxembourg",2016,3543.84416666667,531
+"Netherlands->Malta","Netherlands","Malta",2016,NA,532
+"Netherlands->Poland","Netherlands","Poland",2016,NA,533
+"Netherlands->Portugal","Netherlands","Portugal",2016,NA,534
+"Netherlands->Romania","Netherlands","Romania",2016,NA,535
+"Netherlands->Slovakia","Netherlands","Slovakia",2016,NA,536
+"Netherlands->Slovenia","Netherlands","Slovenia",2016,NA,537
+"Netherlands->Spain","Netherlands","Spain",2016,NA,538
+"Netherlands->Sweden","Netherlands","Sweden",2016,NA,539
+"Netherlands->United Kingdom","Netherlands","United Kingdom",2016,54409.1666666667,540
+"Poland->Austria","Poland","Austria",2016,57589.9525,541
+"Poland->Belgium","Poland","Belgium",2016,54712.7191666667,542
+"Poland->Bulgaria","Poland","Bulgaria",2016,NA,543
+"Poland->Croatia","Poland","Croatia",2016,NA,544
+"Poland->Cyprus","Poland","Cyprus",2016,NA,545
+"Poland->Czech Republic","Poland","Czech Republic",2016,NA,546
+"Poland->Denmark","Poland","Denmark",2016,NA,547
+"Poland->Estonia","Poland","Estonia",2016,NA,548
+"Poland->Finland","Poland","Finland",2016,NA,549
+"Poland->France","Poland","France",2016,NA,550
+"Poland->Germany","Poland","Germany",2016,NA,551
+"Poland->Greece","Poland","Greece",2016,NA,552
+"Poland->Hungary","Poland","Hungary",2016,NA,553
+"Poland->Ireland","Poland","Ireland",2016,108196.215,554
+"Poland->Italy","Poland","Italy",2016,108950.025,555
+"Poland->Latvia","Poland","Latvia",2016,NA,556
+"Poland->Lithuania","Poland","Lithuania",2016,NA,557
+"Poland->Luxembourg","Poland","Luxembourg",2016,NA,558
+"Poland->Malta","Poland","Malta",2016,NA,559
+"Poland->Netherlands","Poland","Netherlands",2016,70896.91,560
+"Poland->Portugal","Poland","Portugal",2016,NA,561
+"Poland->Romania","Poland","Romania",2016,NA,562
+"Poland->Slovakia","Poland","Slovakia",2016,NA,563
+"Poland->Slovenia","Poland","Slovenia",2016,NA,564
+"Poland->Spain","Poland","Spain",2016,54492.7658333333,565
+"Poland->Sweden","Poland","Sweden",2016,57215.585,566
+"Poland->United Kingdom","Poland","United Kingdom",2016,825226.25,567
+"Portugal->Austria","Portugal","Austria",2016,NA,568
+"Portugal->Belgium","Portugal","Belgium",2016,29779.5975,569
+"Portugal->Bulgaria","Portugal","Bulgaria",2016,NA,570
+"Portugal->Croatia","Portugal","Croatia",2016,NA,571
+"Portugal->Cyprus","Portugal","Cyprus",2016,NA,572
+"Portugal->Czech Republic","Portugal","Czech Republic",2016,NA,573
+"Portugal->Denmark","Portugal","Denmark",2016,NA,574
+"Portugal->Estonia","Portugal","Estonia",2016,NA,575
+"Portugal->Finland","Portugal","Finland",2016,NA,576
+"Portugal->France","Portugal","France",2016,435970.8375,577
+"Portugal->Germany","Portugal","Germany",2016,NA,578
+"Portugal->Greece","Portugal","Greece",2016,NA,579
+"Portugal->Hungary","Portugal","Hungary",2016,NA,580
+"Portugal->Ireland","Portugal","Ireland",2016,NA,581
+"Portugal->Italy","Portugal","Italy",2016,NA,582
+"Portugal->Latvia","Portugal","Latvia",2016,NA,583
+"Portugal->Lithuania","Portugal","Lithuania",2016,NA,584
+"Portugal->Luxembourg","Portugal","Luxembourg",2016,47686.39,585
+"Portugal->Malta","Portugal","Malta",2016,NA,586
+"Portugal->Netherlands","Portugal","Netherlands",2016,NA,587
+"Portugal->Poland","Portugal","Poland",2016,NA,588
+"Portugal->Romania","Portugal","Romania",2016,NA,589
+"Portugal->Slovakia","Portugal","Slovakia",2016,NA,590
+"Portugal->Slovenia","Portugal","Slovenia",2016,NA,591
+"Portugal->Spain","Portugal","Spain",2016,87607.5325,592
+"Portugal->Sweden","Portugal","Sweden",2016,NA,593
+"Portugal->United Kingdom","Portugal","United Kingdom",2016,121041.333333333,594
+"Romania->Austria","Romania","Austria",2016,78681.1725,595
+"Romania->Belgium","Romania","Belgium",2016,NA,596
+"Romania->Bulgaria","Romania","Bulgaria",2016,NA,597
+"Romania->Croatia","Romania","Croatia",2016,NA,598
+"Romania->Cyprus","Romania","Cyprus",2016,16720.15,599
+"Romania->Czech Republic","Romania","Czech Republic",2016,NA,600
+"Romania->Denmark","Romania","Denmark",2016,NA,601
+"Romania->Estonia","Romania","Estonia",2016,NA,602
+"Romania->Finland","Romania","Finland",2016,NA,603
+"Romania->France","Romania","France",2016,93939.67,604
+"Romania->Germany","Romania","Germany",2016,NA,605
+"Romania->Greece","Romania","Greece",2016,NA,606
+"Romania->Hungary","Romania","Hungary",2016,76151.44,607
+"Romania->Ireland","Romania","Ireland",2016,27621.5708333333,608
+"Romania->Italy","Romania","Italy",2016,1043047.925,609
+"Romania->Latvia","Romania","Latvia",2016,NA,610
+"Romania->Lithuania","Romania","Lithuania",2016,NA,611
+"Romania->Luxembourg","Romania","Luxembourg",2016,NA,612
+"Romania->Malta","Romania","Malta",2016,NA,613
+"Romania->Netherlands","Romania","Netherlands",2016,NA,614
+"Romania->Poland","Romania","Poland",2016,NA,615
+"Romania->Portugal","Romania","Portugal",2016,NA,616
+"Romania->Slovakia","Romania","Slovakia",2016,NA,617
+"Romania->Slovenia","Romania","Slovenia",2016,NA,618
+"Romania->Spain","Romania","Spain",2016,568930.235,619
+"Romania->Sweden","Romania","Sweden",2016,22167.1825,620
+"Romania->United Kingdom","Romania","United Kingdom",2016,NA,621
+"Slovakia->Austria","Slovakia","Austria",2016,30657.5991666667,622
+"Slovakia->Belgium","Slovakia","Belgium",2016,NA,623
+"Slovakia->Bulgaria","Slovakia","Bulgaria",2016,NA,624
+"Slovakia->Croatia","Slovakia","Croatia",2016,NA,625
+"Slovakia->Cyprus","Slovakia","Cyprus",2016,NA,626
+"Slovakia->Czech Republic","Slovakia","Czech Republic",2016,101992.3675,627
+"Slovakia->Denmark","Slovakia","Denmark",2016,NA,628
+"Slovakia->Estonia","Slovakia","Estonia",2016,NA,629
+"Slovakia->Finland","Slovakia","Finland",2016,NA,630
+"Slovakia->France","Slovakia","France",2016,NA,631
+"Slovakia->Germany","Slovakia","Germany",2016,NA,632
+"Slovakia->Greece","Slovakia","Greece",2016,NA,633
+"Slovakia->Hungary","Slovakia","Hungary",2016,NA,634
+"Slovakia->Ireland","Slovakia","Ireland",2016,NA,635
+"Slovakia->Italy","Slovakia","Italy",2016,NA,636
+"Slovakia->Latvia","Slovakia","Latvia",2016,NA,637
+"Slovakia->Lithuania","Slovakia","Lithuania",2016,NA,638
+"Slovakia->Luxembourg","Slovakia","Luxembourg",2016,NA,639
+"Slovakia->Malta","Slovakia","Malta",2016,NA,640
+"Slovakia->Netherlands","Slovakia","Netherlands",2016,NA,641
+"Slovakia->Poland","Slovakia","Poland",2016,NA,642
+"Slovakia->Portugal","Slovakia","Portugal",2016,NA,643
+"Slovakia->Romania","Slovakia","Romania",2016,NA,644
+"Slovakia->Slovenia","Slovakia","Slovenia",2016,NA,645
+"Slovakia->Spain","Slovakia","Spain",2016,NA,646
+"Slovakia->Sweden","Slovakia","Sweden",2016,NA,647
+"Slovakia->United Kingdom","Slovakia","United Kingdom",2016,NA,648
+"Slovenia->Austria","Slovenia","Austria",2016,NA,649
+"Slovenia->Belgium","Slovenia","Belgium",2016,NA,650
+"Slovenia->Bulgaria","Slovenia","Bulgaria",2016,NA,651
+"Slovenia->Croatia","Slovenia","Croatia",2016,NA,652
+"Slovenia->Cyprus","Slovenia","Cyprus",2016,NA,653
+"Slovenia->Czech Republic","Slovenia","Czech Republic",2016,NA,654
+"Slovenia->Denmark","Slovenia","Denmark",2016,NA,655
+"Slovenia->Estonia","Slovenia","Estonia",2016,NA,656
+"Slovenia->Finland","Slovenia","Finland",2016,NA,657
+"Slovenia->France","Slovenia","France",2016,NA,658
+"Slovenia->Germany","Slovenia","Germany",2016,NA,659
+"Slovenia->Greece","Slovenia","Greece",2016,NA,660
+"Slovenia->Hungary","Slovenia","Hungary",2016,NA,661
+"Slovenia->Ireland","Slovenia","Ireland",2016,NA,662
+"Slovenia->Italy","Slovenia","Italy",2016,NA,663
+"Slovenia->Latvia","Slovenia","Latvia",2016,NA,664
+"Slovenia->Lithuania","Slovenia","Lithuania",2016,NA,665
+"Slovenia->Luxembourg","Slovenia","Luxembourg",2016,NA,666
+"Slovenia->Malta","Slovenia","Malta",2016,NA,667
+"Slovenia->Netherlands","Slovenia","Netherlands",2016,NA,668
+"Slovenia->Poland","Slovenia","Poland",2016,NA,669
+"Slovenia->Portugal","Slovenia","Portugal",2016,NA,670
+"Slovenia->Romania","Slovenia","Romania",2016,NA,671
+"Slovenia->Slovakia","Slovenia","Slovakia",2016,NA,672
+"Slovenia->Spain","Slovenia","Spain",2016,NA,673
+"Slovenia->Sweden","Slovenia","Sweden",2016,NA,674
+"Slovenia->United Kingdom","Slovenia","United Kingdom",2016,NA,675
+"Spain->Austria","Spain","Austria",2016,NA,676
+"Spain->Belgium","Spain","Belgium",2016,27080.4633333333,677
+"Spain->Bulgaria","Spain","Bulgaria",2016,NA,678
+"Spain->Croatia","Spain","Croatia",2016,NA,679
+"Spain->Cyprus","Spain","Cyprus",2016,NA,680
+"Spain->Czech Republic","Spain","Czech Republic",2016,NA,681
+"Spain->Denmark","Spain","Denmark",2016,NA,682
+"Spain->Estonia","Spain","Estonia",2016,NA,683
+"Spain->Finland","Spain","Finland",2016,NA,684
+"Spain->France","Spain","France",2016,130300.595,685
+"Spain->Germany","Spain","Germany",2016,NA,686
+"Spain->Greece","Spain","Greece",2016,NA,687
+"Spain->Hungary","Spain","Hungary",2016,NA,688
+"Spain->Ireland","Spain","Ireland",2016,NA,689
+"Spain->Italy","Spain","Italy",2016,NA,690
+"Spain->Latvia","Spain","Latvia",2016,NA,691
+"Spain->Lithuania","Spain","Lithuania",2016,NA,692
+"Spain->Luxembourg","Spain","Luxembourg",2016,NA,693
+"Spain->Malta","Spain","Malta",2016,NA,694
+"Spain->Netherlands","Spain","Netherlands",2016,NA,695
+"Spain->Poland","Spain","Poland",2016,NA,696
+"Spain->Portugal","Spain","Portugal",2016,NA,697
+"Spain->Romania","Spain","Romania",2016,NA,698
+"Spain->Slovakia","Spain","Slovakia",2016,NA,699
+"Spain->Slovenia","Spain","Slovenia",2016,NA,700
+"Spain->Sweden","Spain","Sweden",2016,NA,701
+"Spain->United Kingdom","Spain","United Kingdom",2016,114932.5,702
+"Sweden->Austria","Sweden","Austria",2016,NA,703
+"Sweden->Belgium","Sweden","Belgium",2016,NA,704
+"Sweden->Bulgaria","Sweden","Bulgaria",2016,NA,705
+"Sweden->Croatia","Sweden","Croatia",2016,NA,706
+"Sweden->Cyprus","Sweden","Cyprus",2016,NA,707
+"Sweden->Czech Republic","Sweden","Czech Republic",2016,NA,708
+"Sweden->Denmark","Sweden","Denmark",2016,16721.9075,709
+"Sweden->Estonia","Sweden","Estonia",2016,NA,710
+"Sweden->Finland","Sweden","Finland",2016,24952.9575,711
+"Sweden->France","Sweden","France",2016,NA,712
+"Sweden->Germany","Sweden","Germany",2016,NA,713
+"Sweden->Greece","Sweden","Greece",2016,NA,714
+"Sweden->Hungary","Sweden","Hungary",2016,NA,715
+"Sweden->Ireland","Sweden","Ireland",2016,NA,716
+"Sweden->Italy","Sweden","Italy",2016,NA,717
+"Sweden->Latvia","Sweden","Latvia",2016,NA,718
+"Sweden->Lithuania","Sweden","Lithuania",2016,NA,719
+"Sweden->Luxembourg","Sweden","Luxembourg",2016,NA,720
+"Sweden->Malta","Sweden","Malta",2016,NA,721
+"Sweden->Netherlands","Sweden","Netherlands",2016,NA,722
+"Sweden->Poland","Sweden","Poland",2016,NA,723
+"Sweden->Portugal","Sweden","Portugal",2016,NA,724
+"Sweden->Romania","Sweden","Romania",2016,NA,725
+"Sweden->Slovakia","Sweden","Slovakia",2016,NA,726
+"Sweden->Slovenia","Sweden","Slovenia",2016,NA,727
+"Sweden->Spain","Sweden","Spain",2016,NA,728
+"Sweden->United Kingdom","Sweden","United Kingdom",2016,NA,729
+"United Kingdom->Austria","United Kingdom","Austria",2016,NA,730
+"United Kingdom->Belgium","United Kingdom","Belgium",2016,NA,731
+"United Kingdom->Bulgaria","United Kingdom","Bulgaria",2016,NA,732
+"United Kingdom->Croatia","United Kingdom","Croatia",2016,NA,733
+"United Kingdom->Cyprus","United Kingdom","Cyprus",2016,14468.025,734
+"United Kingdom->Czech Republic","United Kingdom","Czech Republic",2016,NA,735
+"United Kingdom->Denmark","United Kingdom","Denmark",2016,17269.015,736
+"United Kingdom->Estonia","United Kingdom","Estonia",2016,NA,737
+"United Kingdom->Finland","United Kingdom","Finland",2016,NA,738
+"United Kingdom->France","United Kingdom","France",2016,84316.24,739
+"United Kingdom->Germany","United Kingdom","Germany",2016,NA,740
+"United Kingdom->Greece","United Kingdom","Greece",2016,NA,741
+"United Kingdom->Hungary","United Kingdom","Hungary",2016,NA,742
+"United Kingdom->Ireland","United Kingdom","Ireland",2016,166496.075,743
+"United Kingdom->Italy","United Kingdom","Italy",2016,NA,744
+"United Kingdom->Latvia","United Kingdom","Latvia",2016,NA,745
+"United Kingdom->Lithuania","United Kingdom","Lithuania",2016,NA,746
+"United Kingdom->Luxembourg","United Kingdom","Luxembourg",2016,4360.015,747
+"United Kingdom->Malta","United Kingdom","Malta",2016,NA,748
+"United Kingdom->Netherlands","United Kingdom","Netherlands",2016,33969.2325,749
+"United Kingdom->Poland","United Kingdom","Poland",2016,NA,750
+"United Kingdom->Portugal","United Kingdom","Portugal",2016,6767.325,751
+"United Kingdom->Romania","United Kingdom","Romania",2016,NA,752
+"United Kingdom->Slovakia","United Kingdom","Slovakia",2016,NA,753
+"United Kingdom->Slovenia","United Kingdom","Slovenia",2016,NA,754
+"United Kingdom->Spain","United Kingdom","Spain",2016,121959.22,755
+"United Kingdom->Sweden","United Kingdom","Sweden",2016,16801.3375,756
+"Austria->Belgium","Austria","Belgium",2017,NA,1
+"Austria->Bulgaria","Austria","Bulgaria",2017,NA,2
+"Austria->Croatia","Austria","Croatia",2017,NA,3
+"Austria->Cyprus","Austria","Cyprus",2017,NA,4
+"Austria->Czech Republic","Austria","Czech Republic",2017,NA,5
+"Austria->Denmark","Austria","Denmark",2017,NA,6
+"Austria->Estonia","Austria","Estonia",2017,NA,7
+"Austria->Finland","Austria","Finland",2017,NA,8
+"Austria->France","Austria","France",2017,NA,9
+"Austria->Germany","Austria","Germany",2017,113623.880833333,10
+"Austria->Greece","Austria","Greece",2017,NA,11
+"Austria->Hungary","Austria","Hungary",2017,NA,12
+"Austria->Ireland","Austria","Ireland",2017,NA,13
+"Austria->Italy","Austria","Italy",2017,NA,14
+"Austria->Latvia","Austria","Latvia",2017,NA,15
+"Austria->Lithuania","Austria","Lithuania",2017,NA,16
+"Austria->Luxembourg","Austria","Luxembourg",2017,NA,17
+"Austria->Malta","Austria","Malta",2017,NA,18
+"Austria->Netherlands","Austria","Netherlands",2017,NA,19
+"Austria->Poland","Austria","Poland",2017,NA,20
+"Austria->Portugal","Austria","Portugal",2017,NA,21
+"Austria->Romania","Austria","Romania",2017,NA,22
+"Austria->Slovakia","Austria","Slovakia",2017,NA,23
+"Austria->Slovenia","Austria","Slovenia",2017,NA,24
+"Austria->Spain","Austria","Spain",2017,NA,25
+"Austria->Sweden","Austria","Sweden",2017,NA,26
+"Austria->United Kingdom","Austria","United Kingdom",2017,NA,27
+"Belgium->Austria","Belgium","Austria",2017,NA,28
+"Belgium->Bulgaria","Belgium","Bulgaria",2017,NA,29
+"Belgium->Croatia","Belgium","Croatia",2017,NA,30
+"Belgium->Cyprus","Belgium","Cyprus",2017,NA,31
+"Belgium->Czech Republic","Belgium","Czech Republic",2017,NA,32
+"Belgium->Denmark","Belgium","Denmark",2017,NA,33
+"Belgium->Estonia","Belgium","Estonia",2017,NA,34
+"Belgium->Finland","Belgium","Finland",2017,NA,35
+"Belgium->France","Belgium","France",2017,94402.3325,36
+"Belgium->Germany","Belgium","Germany",2017,27077.3983333333,37
+"Belgium->Greece","Belgium","Greece",2017,NA,38
+"Belgium->Hungary","Belgium","Hungary",2017,NA,39
+"Belgium->Ireland","Belgium","Ireland",2017,NA,40
+"Belgium->Italy","Belgium","Italy",2017,NA,41
+"Belgium->Latvia","Belgium","Latvia",2017,NA,42
+"Belgium->Lithuania","Belgium","Lithuania",2017,NA,43
+"Belgium->Luxembourg","Belgium","Luxembourg",2017,22947.615,44
+"Belgium->Malta","Belgium","Malta",2017,NA,45
+"Belgium->Netherlands","Belgium","Netherlands",2017,34246.365,46
+"Belgium->Poland","Belgium","Poland",2017,NA,47
+"Belgium->Portugal","Belgium","Portugal",2017,NA,48
+"Belgium->Romania","Belgium","Romania",2017,NA,49
+"Belgium->Slovakia","Belgium","Slovakia",2017,NA,50
+"Belgium->Slovenia","Belgium","Slovenia",2017,NA,51
+"Belgium->Spain","Belgium","Spain",2017,NA,52
+"Belgium->Sweden","Belgium","Sweden",2017,NA,53
+"Belgium->United Kingdom","Belgium","United Kingdom",2017,NA,54
+"Bulgaria->Austria","Bulgaria","Austria",2017,NA,55
+"Bulgaria->Belgium","Bulgaria","Belgium",2017,NA,56
+"Bulgaria->Croatia","Bulgaria","Croatia",2017,NA,57
+"Bulgaria->Cyprus","Bulgaria","Cyprus",2017,11157.79,58
+"Bulgaria->Czech Republic","Bulgaria","Czech Republic",2017,NA,59
+"Bulgaria->Denmark","Bulgaria","Denmark",2017,NA,60
+"Bulgaria->Estonia","Bulgaria","Estonia",2017,NA,61
+"Bulgaria->Finland","Bulgaria","Finland",2017,NA,62
+"Bulgaria->France","Bulgaria","France",2017,NA,63
+"Bulgaria->Germany","Bulgaria","Germany",2017,183657.5325,64
+"Bulgaria->Greece","Bulgaria","Greece",2017,NA,65
+"Bulgaria->Hungary","Bulgaria","Hungary",2017,NA,66
+"Bulgaria->Ireland","Bulgaria","Ireland",2017,NA,67
+"Bulgaria->Italy","Bulgaria","Italy",2017,49785.7,68
+"Bulgaria->Latvia","Bulgaria","Latvia",2017,NA,69
+"Bulgaria->Lithuania","Bulgaria","Lithuania",2017,NA,70
+"Bulgaria->Luxembourg","Bulgaria","Luxembourg",2017,NA,71
+"Bulgaria->Malta","Bulgaria","Malta",2017,NA,72
+"Bulgaria->Netherlands","Bulgaria","Netherlands",2017,NA,73
+"Bulgaria->Poland","Bulgaria","Poland",2017,NA,74
+"Bulgaria->Portugal","Bulgaria","Portugal",2017,NA,75
+"Bulgaria->Romania","Bulgaria","Romania",2017,NA,76
+"Bulgaria->Slovakia","Bulgaria","Slovakia",2017,NA,77
+"Bulgaria->Slovenia","Bulgaria","Slovenia",2017,NA,78
+"Bulgaria->Spain","Bulgaria","Spain",2017,140874.835,79
+"Bulgaria->Sweden","Bulgaria","Sweden",2017,NA,80
+"Bulgaria->United Kingdom","Bulgaria","United Kingdom",2017,NA,81
+"Croatia->Austria","Croatia","Austria",2017,42317.6,82
+"Croatia->Belgium","Croatia","Belgium",2017,NA,83
+"Croatia->Bulgaria","Croatia","Bulgaria",2017,NA,84
+"Croatia->Cyprus","Croatia","Cyprus",2017,NA,85
+"Croatia->Czech Republic","Croatia","Czech Republic",2017,NA,86
+"Croatia->Denmark","Croatia","Denmark",2017,NA,87
+"Croatia->Estonia","Croatia","Estonia",2017,NA,88
+"Croatia->Finland","Croatia","Finland",2017,NA,89
+"Croatia->France","Croatia","France",2017,NA,90
+"Croatia->Germany","Croatia","Germany",2017,162525.0225,91
+"Croatia->Greece","Croatia","Greece",2017,NA,92
+"Croatia->Hungary","Croatia","Hungary",2017,NA,93
+"Croatia->Ireland","Croatia","Ireland",2017,NA,94
+"Croatia->Italy","Croatia","Italy",2017,NA,95
+"Croatia->Latvia","Croatia","Latvia",2017,NA,96
+"Croatia->Lithuania","Croatia","Lithuania",2017,NA,97
+"Croatia->Luxembourg","Croatia","Luxembourg",2017,NA,98
+"Croatia->Malta","Croatia","Malta",2017,NA,99
+"Croatia->Netherlands","Croatia","Netherlands",2017,NA,100
+"Croatia->Poland","Croatia","Poland",2017,NA,101
+"Croatia->Portugal","Croatia","Portugal",2017,NA,102
+"Croatia->Romania","Croatia","Romania",2017,NA,103
+"Croatia->Slovakia","Croatia","Slovakia",2017,NA,104
+"Croatia->Slovenia","Croatia","Slovenia",2017,NA,105
+"Croatia->Spain","Croatia","Spain",2017,NA,106
+"Croatia->Sweden","Croatia","Sweden",2017,NA,107
+"Croatia->United Kingdom","Croatia","United Kingdom",2017,NA,108
+"Cyprus->Austria","Cyprus","Austria",2017,NA,109
+"Cyprus->Belgium","Cyprus","Belgium",2017,NA,110
+"Cyprus->Bulgaria","Cyprus","Bulgaria",2017,NA,111
+"Cyprus->Croatia","Cyprus","Croatia",2017,NA,112
+"Cyprus->Czech Republic","Cyprus","Czech Republic",2017,NA,113
+"Cyprus->Denmark","Cyprus","Denmark",2017,NA,114
+"Cyprus->Estonia","Cyprus","Estonia",2017,NA,115
+"Cyprus->Finland","Cyprus","Finland",2017,NA,116
+"Cyprus->France","Cyprus","France",2017,NA,117
+"Cyprus->Germany","Cyprus","Germany",2017,NA,118
+"Cyprus->Greece","Cyprus","Greece",2017,NA,119
+"Cyprus->Hungary","Cyprus","Hungary",2017,NA,120
+"Cyprus->Ireland","Cyprus","Ireland",2017,NA,121
+"Cyprus->Italy","Cyprus","Italy",2017,NA,122
+"Cyprus->Latvia","Cyprus","Latvia",2017,NA,123
+"Cyprus->Lithuania","Cyprus","Lithuania",2017,NA,124
+"Cyprus->Luxembourg","Cyprus","Luxembourg",2017,NA,125
+"Cyprus->Malta","Cyprus","Malta",2017,NA,126
+"Cyprus->Netherlands","Cyprus","Netherlands",2017,NA,127
+"Cyprus->Poland","Cyprus","Poland",2017,NA,128
+"Cyprus->Portugal","Cyprus","Portugal",2017,NA,129
+"Cyprus->Romania","Cyprus","Romania",2017,NA,130
+"Cyprus->Slovakia","Cyprus","Slovakia",2017,NA,131
+"Cyprus->Slovenia","Cyprus","Slovenia",2017,NA,132
+"Cyprus->Spain","Cyprus","Spain",2017,NA,133
+"Cyprus->Sweden","Cyprus","Sweden",2017,NA,134
+"Cyprus->United Kingdom","Cyprus","United Kingdom",2017,48137.6666666667,135
+"Czech Republic->Austria","Czech Republic","Austria",2017,NA,136
+"Czech Republic->Belgium","Czech Republic","Belgium",2017,NA,137
+"Czech Republic->Bulgaria","Czech Republic","Bulgaria",2017,NA,138
+"Czech Republic->Croatia","Czech Republic","Croatia",2017,NA,139
+"Czech Republic->Cyprus","Czech Republic","Cyprus",2017,NA,140
+"Czech Republic->Denmark","Czech Republic","Denmark",2017,NA,141
+"Czech Republic->Estonia","Czech Republic","Estonia",2017,NA,142
+"Czech Republic->Finland","Czech Republic","Finland",2017,NA,143
+"Czech Republic->France","Czech Republic","France",2017,NA,144
+"Czech Republic->Germany","Czech Republic","Germany",2017,68206.14,145
+"Czech Republic->Greece","Czech Republic","Greece",2017,NA,146
+"Czech Republic->Hungary","Czech Republic","Hungary",2017,NA,147
+"Czech Republic->Ireland","Czech Republic","Ireland",2017,NA,148
+"Czech Republic->Italy","Czech Republic","Italy",2017,NA,149
+"Czech Republic->Latvia","Czech Republic","Latvia",2017,NA,150
+"Czech Republic->Lithuania","Czech Republic","Lithuania",2017,NA,151
+"Czech Republic->Luxembourg","Czech Republic","Luxembourg",2017,NA,152
+"Czech Republic->Malta","Czech Republic","Malta",2017,NA,153
+"Czech Republic->Netherlands","Czech Republic","Netherlands",2017,NA,154
+"Czech Republic->Poland","Czech Republic","Poland",2017,NA,155
+"Czech Republic->Portugal","Czech Republic","Portugal",2017,NA,156
+"Czech Republic->Romania","Czech Republic","Romania",2017,NA,157
+"Czech Republic->Slovakia","Czech Republic","Slovakia",2017,NA,158
+"Czech Republic->Slovenia","Czech Republic","Slovenia",2017,NA,159
+"Czech Republic->Spain","Czech Republic","Spain",2017,NA,160
+"Czech Republic->Sweden","Czech Republic","Sweden",2017,NA,161
+"Czech Republic->United Kingdom","Czech Republic","United Kingdom",2017,NA,162
+"Denmark->Austria","Denmark","Austria",2017,NA,163
+"Denmark->Belgium","Denmark","Belgium",2017,NA,164
+"Denmark->Bulgaria","Denmark","Bulgaria",2017,NA,165
+"Denmark->Croatia","Denmark","Croatia",2017,NA,166
+"Denmark->Cyprus","Denmark","Cyprus",2017,NA,167
+"Denmark->Czech Republic","Denmark","Czech Republic",2017,NA,168
+"Denmark->Estonia","Denmark","Estonia",2017,NA,169
+"Denmark->Finland","Denmark","Finland",2017,NA,170
+"Denmark->France","Denmark","France",2017,NA,171
+"Denmark->Germany","Denmark","Germany",2017,NA,172
+"Denmark->Greece","Denmark","Greece",2017,NA,173
+"Denmark->Hungary","Denmark","Hungary",2017,NA,174
+"Denmark->Ireland","Denmark","Ireland",2017,NA,175
+"Denmark->Italy","Denmark","Italy",2017,NA,176
+"Denmark->Latvia","Denmark","Latvia",2017,NA,177
+"Denmark->Lithuania","Denmark","Lithuania",2017,NA,178
+"Denmark->Luxembourg","Denmark","Luxembourg",2017,NA,179
+"Denmark->Malta","Denmark","Malta",2017,NA,180
+"Denmark->Netherlands","Denmark","Netherlands",2017,NA,181
+"Denmark->Poland","Denmark","Poland",2017,NA,182
+"Denmark->Portugal","Denmark","Portugal",2017,NA,183
+"Denmark->Romania","Denmark","Romania",2017,NA,184
+"Denmark->Slovakia","Denmark","Slovakia",2017,NA,185
+"Denmark->Slovenia","Denmark","Slovenia",2017,NA,186
+"Denmark->Spain","Denmark","Spain",2017,NA,187
+"Denmark->Sweden","Denmark","Sweden",2017,21963.66,188
+"Denmark->United Kingdom","Denmark","United Kingdom",2017,NA,189
+"Estonia->Austria","Estonia","Austria",2017,NA,190
+"Estonia->Belgium","Estonia","Belgium",2017,NA,191
+"Estonia->Bulgaria","Estonia","Bulgaria",2017,NA,192
+"Estonia->Croatia","Estonia","Croatia",2017,NA,193
+"Estonia->Cyprus","Estonia","Cyprus",2017,NA,194
+"Estonia->Czech Republic","Estonia","Czech Republic",2017,NA,195
+"Estonia->Denmark","Estonia","Denmark",2017,NA,196
+"Estonia->Finland","Estonia","Finland",2017,31003.57,197
+"Estonia->France","Estonia","France",2017,NA,198
+"Estonia->Germany","Estonia","Germany",2017,NA,199
+"Estonia->Greece","Estonia","Greece",2017,NA,200
+"Estonia->Hungary","Estonia","Hungary",2017,NA,201
+"Estonia->Ireland","Estonia","Ireland",2017,NA,202
+"Estonia->Italy","Estonia","Italy",2017,NA,203
+"Estonia->Latvia","Estonia","Latvia",2017,NA,204
+"Estonia->Lithuania","Estonia","Lithuania",2017,NA,205
+"Estonia->Luxembourg","Estonia","Luxembourg",2017,NA,206
+"Estonia->Malta","Estonia","Malta",2017,NA,207
+"Estonia->Netherlands","Estonia","Netherlands",2017,NA,208
+"Estonia->Poland","Estonia","Poland",2017,NA,209
+"Estonia->Portugal","Estonia","Portugal",2017,NA,210
+"Estonia->Romania","Estonia","Romania",2017,NA,211
+"Estonia->Slovakia","Estonia","Slovakia",2017,NA,212
+"Estonia->Slovenia","Estonia","Slovenia",2017,NA,213
+"Estonia->Spain","Estonia","Spain",2017,NA,214
+"Estonia->Sweden","Estonia","Sweden",2017,NA,215
+"Estonia->United Kingdom","Estonia","United Kingdom",2017,NA,216
+"Finland->Austria","Finland","Austria",2017,NA,217
+"Finland->Belgium","Finland","Belgium",2017,NA,218
+"Finland->Bulgaria","Finland","Bulgaria",2017,NA,219
+"Finland->Croatia","Finland","Croatia",2017,NA,220
+"Finland->Cyprus","Finland","Cyprus",2017,NA,221
+"Finland->Czech Republic","Finland","Czech Republic",2017,NA,222
+"Finland->Denmark","Finland","Denmark",2017,NA,223
+"Finland->Estonia","Finland","Estonia",2017,NA,224
+"Finland->France","Finland","France",2017,NA,225
+"Finland->Germany","Finland","Germany",2017,NA,226
+"Finland->Greece","Finland","Greece",2017,NA,227
+"Finland->Hungary","Finland","Hungary",2017,NA,228
+"Finland->Ireland","Finland","Ireland",2017,NA,229
+"Finland->Italy","Finland","Italy",2017,NA,230
+"Finland->Latvia","Finland","Latvia",2017,NA,231
+"Finland->Lithuania","Finland","Lithuania",2017,NA,232
+"Finland->Luxembourg","Finland","Luxembourg",2017,NA,233
+"Finland->Malta","Finland","Malta",2017,NA,234
+"Finland->Netherlands","Finland","Netherlands",2017,NA,235
+"Finland->Poland","Finland","Poland",2017,NA,236
+"Finland->Portugal","Finland","Portugal",2017,NA,237
+"Finland->Romania","Finland","Romania",2017,NA,238
+"Finland->Slovakia","Finland","Slovakia",2017,NA,239
+"Finland->Slovenia","Finland","Slovenia",2017,NA,240
+"Finland->Spain","Finland","Spain",2017,NA,241
+"Finland->Sweden","Finland","Sweden",2017,72594.46,242
+"Finland->United Kingdom","Finland","United Kingdom",2017,NA,243
+"France->Austria","France","Austria",2017,NA,244
+"France->Belgium","France","Belgium",2017,119901.3125,245
+"France->Bulgaria","France","Bulgaria",2017,NA,246
+"France->Croatia","France","Croatia",2017,NA,247
+"France->Cyprus","France","Cyprus",2017,NA,248
+"France->Czech Republic","France","Czech Republic",2017,NA,249
+"France->Denmark","France","Denmark",2017,NA,250
+"France->Estonia","France","Estonia",2017,NA,251
+"France->Finland","France","Finland",2017,NA,252
+"France->Germany","France","Germany",2017,93045.825,253
+"France->Greece","France","Greece",2017,NA,254
+"France->Hungary","France","Hungary",2017,NA,255
+"France->Ireland","France","Ireland",2017,NA,256
+"France->Italy","France","Italy",2017,NA,257
+"France->Latvia","France","Latvia",2017,NA,258
+"France->Lithuania","France","Lithuania",2017,NA,259
+"France->Luxembourg","France","Luxembourg",2017,32006.8,260
+"France->Malta","France","Malta",2017,NA,261
+"France->Netherlands","France","Netherlands",2017,16589.67,262
+"France->Poland","France","Poland",2017,NA,263
+"France->Portugal","France","Portugal",2017,NA,264
+"France->Romania","France","Romania",2017,NA,265
+"France->Slovakia","France","Slovakia",2017,NA,266
+"France->Slovenia","France","Slovenia",2017,NA,267
+"France->Spain","France","Spain",2017,138057.3075,268
+"France->Sweden","France","Sweden",2017,NA,269
+"France->United Kingdom","France","United Kingdom",2017,149358.25,270
+"Germany->Austria","Germany","Austria",2017,158691.87,271
+"Germany->Belgium","Germany","Belgium",2017,57096.1325,272
+"Germany->Bulgaria","Germany","Bulgaria",2017,NA,273
+"Germany->Croatia","Germany","Croatia",2017,NA,274
+"Germany->Cyprus","Germany","Cyprus",2017,NA,275
+"Germany->Czech Republic","Germany","Czech Republic",2017,NA,276
+"Germany->Denmark","Germany","Denmark",2017,31649.7675,277
+"Germany->Estonia","Germany","Estonia",2017,NA,278
+"Germany->Finland","Germany","Finland",2017,NA,279
+"Germany->France","Germany","France",2017,103135.49,280
+"Germany->Greece","Germany","Greece",2017,NA,281
+"Germany->Hungary","Germany","Hungary",2017,NA,282
+"Germany->Ireland","Germany","Ireland",2017,10692.6475,283
+"Germany->Italy","Germany","Italy",2017,168932.125,284
+"Germany->Latvia","Germany","Latvia",2017,NA,285
+"Germany->Lithuania","Germany","Lithuania",2017,NA,286
+"Germany->Luxembourg","Germany","Luxembourg",2017,14452.25,287
+"Germany->Malta","Germany","Malta",2017,NA,288
+"Germany->Netherlands","Germany","Netherlands",2017,72825.415,289
+"Germany->Poland","Germany","Poland",2017,NA,290
+"Germany->Portugal","Germany","Portugal",2017,NA,291
+"Germany->Romania","Germany","Romania",2017,NA,292
+"Germany->Slovakia","Germany","Slovakia",2017,NA,293
+"Germany->Slovenia","Germany","Slovenia",2017,NA,294
+"Germany->Spain","Germany","Spain",2017,113296.3025,295
+"Germany->Sweden","Germany","Sweden",2017,32426.955,296
+"Germany->United Kingdom","Germany","United Kingdom",2017,261926.5,297
+"Greece->Austria","Greece","Austria",2017,NA,298
+"Greece->Belgium","Greece","Belgium",2017,NA,299
+"Greece->Bulgaria","Greece","Bulgaria",2017,NA,300
+"Greece->Croatia","Greece","Croatia",2017,NA,301
+"Greece->Cyprus","Greece","Cyprus",2017,NA,302
+"Greece->Czech Republic","Greece","Czech Republic",2017,NA,303
+"Greece->Denmark","Greece","Denmark",2017,NA,304
+"Greece->Estonia","Greece","Estonia",2017,NA,305
+"Greece->Finland","Greece","Finland",2017,NA,306
+"Greece->France","Greece","France",2017,NA,307
+"Greece->Germany","Greece","Germany",2017,NA,308
+"Greece->Hungary","Greece","Hungary",2017,NA,309
+"Greece->Ireland","Greece","Ireland",2017,NA,310
+"Greece->Italy","Greece","Italy",2017,NA,311
+"Greece->Latvia","Greece","Latvia",2017,NA,312
+"Greece->Lithuania","Greece","Lithuania",2017,NA,313
+"Greece->Luxembourg","Greece","Luxembourg",2017,NA,314
+"Greece->Malta","Greece","Malta",2017,NA,315
+"Greece->Netherlands","Greece","Netherlands",2017,NA,316
+"Greece->Poland","Greece","Poland",2017,NA,317
+"Greece->Portugal","Greece","Portugal",2017,NA,318
+"Greece->Romania","Greece","Romania",2017,NA,319
+"Greece->Slovakia","Greece","Slovakia",2017,NA,320
+"Greece->Slovenia","Greece","Slovenia",2017,NA,321
+"Greece->Spain","Greece","Spain",2017,NA,322
+"Greece->Sweden","Greece","Sweden",2017,NA,323
+"Greece->United Kingdom","Greece","United Kingdom",2017,NA,324
+"Hungary->Austria","Hungary","Austria",2017,52073.655,325
+"Hungary->Belgium","Hungary","Belgium",2017,NA,326
+"Hungary->Bulgaria","Hungary","Bulgaria",2017,NA,327
+"Hungary->Croatia","Hungary","Croatia",2017,NA,328
+"Hungary->Cyprus","Hungary","Cyprus",2017,NA,329
+"Hungary->Czech Republic","Hungary","Czech Republic",2017,NA,330
+"Hungary->Denmark","Hungary","Denmark",2017,NA,331
+"Hungary->Estonia","Hungary","Estonia",2017,NA,332
+"Hungary->Finland","Hungary","Finland",2017,NA,333
+"Hungary->France","Hungary","France",2017,NA,334
+"Hungary->Germany","Hungary","Germany",2017,145441.79,335
+"Hungary->Greece","Hungary","Greece",2017,NA,336
+"Hungary->Ireland","Hungary","Ireland",2017,NA,337
+"Hungary->Italy","Hungary","Italy",2017,NA,338
+"Hungary->Latvia","Hungary","Latvia",2017,NA,339
+"Hungary->Lithuania","Hungary","Lithuania",2017,NA,340
+"Hungary->Luxembourg","Hungary","Luxembourg",2017,NA,341
+"Hungary->Malta","Hungary","Malta",2017,NA,342
+"Hungary->Netherlands","Hungary","Netherlands",2017,NA,343
+"Hungary->Poland","Hungary","Poland",2017,NA,344
+"Hungary->Portugal","Hungary","Portugal",2017,NA,345
+"Hungary->Romania","Hungary","Romania",2017,NA,346
+"Hungary->Slovakia","Hungary","Slovakia",2017,NA,347
+"Hungary->Slovenia","Hungary","Slovenia",2017,NA,348
+"Hungary->Spain","Hungary","Spain",2017,NA,349
+"Hungary->Sweden","Hungary","Sweden",2017,NA,350
+"Hungary->United Kingdom","Hungary","United Kingdom",2017,NA,351
+"Ireland->Austria","Ireland","Austria",2017,NA,352
+"Ireland->Belgium","Ireland","Belgium",2017,NA,353
+"Ireland->Bulgaria","Ireland","Bulgaria",2017,NA,354
+"Ireland->Croatia","Ireland","Croatia",2017,NA,355
+"Ireland->Cyprus","Ireland","Cyprus",2017,NA,356
+"Ireland->Czech Republic","Ireland","Czech Republic",2017,NA,357
+"Ireland->Denmark","Ireland","Denmark",2017,NA,358
+"Ireland->Estonia","Ireland","Estonia",2017,NA,359
+"Ireland->Finland","Ireland","Finland",2017,NA,360
+"Ireland->France","Ireland","France",2017,NA,361
+"Ireland->Germany","Ireland","Germany",2017,NA,362
+"Ireland->Greece","Ireland","Greece",2017,NA,363
+"Ireland->Hungary","Ireland","Hungary",2017,NA,364
+"Ireland->Italy","Ireland","Italy",2017,NA,365
+"Ireland->Latvia","Ireland","Latvia",2017,NA,366
+"Ireland->Lithuania","Ireland","Lithuania",2017,NA,367
+"Ireland->Luxembourg","Ireland","Luxembourg",2017,NA,368
+"Ireland->Malta","Ireland","Malta",2017,NA,369
+"Ireland->Netherlands","Ireland","Netherlands",2017,NA,370
+"Ireland->Poland","Ireland","Poland",2017,NA,371
+"Ireland->Portugal","Ireland","Portugal",2017,NA,372
+"Ireland->Romania","Ireland","Romania",2017,NA,373
+"Ireland->Slovakia","Ireland","Slovakia",2017,NA,374
+"Ireland->Slovenia","Ireland","Slovenia",2017,NA,375
+"Ireland->Spain","Ireland","Spain",2017,NA,376
+"Ireland->Sweden","Ireland","Sweden",2017,NA,377
+"Ireland->United Kingdom","Ireland","United Kingdom",2017,217443.25,378
+"Italy->Austria","Italy","Austria",2017,18138.0475,379
+"Italy->Belgium","Italy","Belgium",2017,56796.4275,380
+"Italy->Bulgaria","Italy","Bulgaria",2017,NA,381
+"Italy->Croatia","Italy","Croatia",2017,NA,382
+"Italy->Cyprus","Italy","Cyprus",2017,NA,383
+"Italy->Czech Republic","Italy","Czech Republic",2017,NA,384
+"Italy->Denmark","Italy","Denmark",2017,NA,385
+"Italy->Estonia","Italy","Estonia",2017,NA,386
+"Italy->Finland","Italy","Finland",2017,NA,387
+"Italy->France","Italy","France",2017,114117.65,388
+"Italy->Germany","Italy","Germany",2017,341990.56,389
+"Italy->Greece","Italy","Greece",2017,NA,390
+"Italy->Hungary","Italy","Hungary",2017,NA,391
+"Italy->Ireland","Italy","Ireland",2017,NA,392
+"Italy->Latvia","Italy","Latvia",2017,NA,393
+"Italy->Lithuania","Italy","Lithuania",2017,NA,394
+"Italy->Luxembourg","Italy","Luxembourg",2017,11581.5016666667,395
+"Italy->Malta","Italy","Malta",2017,NA,396
+"Italy->Netherlands","Italy","Netherlands",2017,16904.7233333333,397
+"Italy->Poland","Italy","Poland",2017,NA,398
+"Italy->Portugal","Italy","Portugal",2017,NA,399
+"Italy->Romania","Italy","Romania",2017,NA,400
+"Italy->Slovakia","Italy","Slovakia",2017,NA,401
+"Italy->Slovenia","Italy","Slovenia",2017,NA,402
+"Italy->Spain","Italy","Spain",2017,NA,403
+"Italy->Sweden","Italy","Sweden",2017,NA,404
+"Italy->United Kingdom","Italy","United Kingdom",2017,168319.5,405
+"Latvia->Austria","Latvia","Austria",2017,NA,406
+"Latvia->Belgium","Latvia","Belgium",2017,NA,407
+"Latvia->Bulgaria","Latvia","Bulgaria",2017,NA,408
+"Latvia->Croatia","Latvia","Croatia",2017,NA,409
+"Latvia->Cyprus","Latvia","Cyprus",2017,NA,410
+"Latvia->Czech Republic","Latvia","Czech Republic",2017,NA,411
+"Latvia->Denmark","Latvia","Denmark",2017,NA,412
+"Latvia->Estonia","Latvia","Estonia",2017,NA,413
+"Latvia->Finland","Latvia","Finland",2017,NA,414
+"Latvia->France","Latvia","France",2017,NA,415
+"Latvia->Germany","Latvia","Germany",2017,NA,416
+"Latvia->Greece","Latvia","Greece",2017,NA,417
+"Latvia->Hungary","Latvia","Hungary",2017,NA,418
+"Latvia->Ireland","Latvia","Ireland",2017,20523.8233333333,419
+"Latvia->Italy","Latvia","Italy",2017,NA,420
+"Latvia->Lithuania","Latvia","Lithuania",2017,NA,421
+"Latvia->Luxembourg","Latvia","Luxembourg",2017,NA,422
+"Latvia->Malta","Latvia","Malta",2017,NA,423
+"Latvia->Netherlands","Latvia","Netherlands",2017,NA,424
+"Latvia->Poland","Latvia","Poland",2017,NA,425
+"Latvia->Portugal","Latvia","Portugal",2017,NA,426
+"Latvia->Romania","Latvia","Romania",2017,NA,427
+"Latvia->Slovakia","Latvia","Slovakia",2017,NA,428
+"Latvia->Slovenia","Latvia","Slovenia",2017,NA,429
+"Latvia->Spain","Latvia","Spain",2017,NA,430
+"Latvia->Sweden","Latvia","Sweden",2017,NA,431
+"Latvia->United Kingdom","Latvia","United Kingdom",2017,NA,432
+"Lithuania->Austria","Lithuania","Austria",2017,NA,433
+"Lithuania->Belgium","Lithuania","Belgium",2017,NA,434
+"Lithuania->Bulgaria","Lithuania","Bulgaria",2017,NA,435
+"Lithuania->Croatia","Lithuania","Croatia",2017,NA,436
+"Lithuania->Cyprus","Lithuania","Cyprus",2017,NA,437
+"Lithuania->Czech Republic","Lithuania","Czech Republic",2017,NA,438
+"Lithuania->Denmark","Lithuania","Denmark",2017,NA,439
+"Lithuania->Estonia","Lithuania","Estonia",2017,NA,440
+"Lithuania->Finland","Lithuania","Finland",2017,NA,441
+"Lithuania->France","Lithuania","France",2017,NA,442
+"Lithuania->Germany","Lithuania","Germany",2017,42549.945,443
+"Lithuania->Greece","Lithuania","Greece",2017,NA,444
+"Lithuania->Hungary","Lithuania","Hungary",2017,NA,445
+"Lithuania->Ireland","Lithuania","Ireland",2017,33474.11,446
+"Lithuania->Italy","Lithuania","Italy",2017,NA,447
+"Lithuania->Latvia","Lithuania","Latvia",2017,NA,448
+"Lithuania->Luxembourg","Lithuania","Luxembourg",2017,NA,449
+"Lithuania->Malta","Lithuania","Malta",2017,NA,450
+"Lithuania->Netherlands","Lithuania","Netherlands",2017,NA,451
+"Lithuania->Poland","Lithuania","Poland",2017,NA,452
+"Lithuania->Portugal","Lithuania","Portugal",2017,NA,453
+"Lithuania->Romania","Lithuania","Romania",2017,NA,454
+"Lithuania->Slovakia","Lithuania","Slovakia",2017,NA,455
+"Lithuania->Slovenia","Lithuania","Slovenia",2017,NA,456
+"Lithuania->Spain","Lithuania","Spain",2017,NA,457
+"Lithuania->Sweden","Lithuania","Sweden",2017,NA,458
+"Lithuania->United Kingdom","Lithuania","United Kingdom",2017,158754.5,459
+"Luxembourg->Austria","Luxembourg","Austria",2017,NA,460
+"Luxembourg->Belgium","Luxembourg","Belgium",2017,8463.91416666667,461
+"Luxembourg->Bulgaria","Luxembourg","Bulgaria",2017,NA,462
+"Luxembourg->Croatia","Luxembourg","Croatia",2017,NA,463
+"Luxembourg->Cyprus","Luxembourg","Cyprus",2017,NA,464
+"Luxembourg->Czech Republic","Luxembourg","Czech Republic",2017,NA,465
+"Luxembourg->Denmark","Luxembourg","Denmark",2017,NA,466
+"Luxembourg->Estonia","Luxembourg","Estonia",2017,NA,467
+"Luxembourg->Finland","Luxembourg","Finland",2017,NA,468
+"Luxembourg->France","Luxembourg","France",2017,NA,469
+"Luxembourg->Germany","Luxembourg","Germany",2017,24319.8,470
+"Luxembourg->Greece","Luxembourg","Greece",2017,NA,471
+"Luxembourg->Hungary","Luxembourg","Hungary",2017,NA,472
+"Luxembourg->Ireland","Luxembourg","Ireland",2017,NA,473
+"Luxembourg->Italy","Luxembourg","Italy",2017,NA,474
+"Luxembourg->Latvia","Luxembourg","Latvia",2017,NA,475
+"Luxembourg->Lithuania","Luxembourg","Lithuania",2017,NA,476
+"Luxembourg->Malta","Luxembourg","Malta",2017,NA,477
+"Luxembourg->Netherlands","Luxembourg","Netherlands",2017,NA,478
+"Luxembourg->Poland","Luxembourg","Poland",2017,NA,479
+"Luxembourg->Portugal","Luxembourg","Portugal",2017,NA,480
+"Luxembourg->Romania","Luxembourg","Romania",2017,NA,481
+"Luxembourg->Slovakia","Luxembourg","Slovakia",2017,NA,482
+"Luxembourg->Slovenia","Luxembourg","Slovenia",2017,NA,483
+"Luxembourg->Spain","Luxembourg","Spain",2017,NA,484
+"Luxembourg->Sweden","Luxembourg","Sweden",2017,NA,485
+"Luxembourg->United Kingdom","Luxembourg","United Kingdom",2017,NA,486
+"Malta->Austria","Malta","Austria",2017,NA,487
+"Malta->Belgium","Malta","Belgium",2017,NA,488
+"Malta->Bulgaria","Malta","Bulgaria",2017,NA,489
+"Malta->Croatia","Malta","Croatia",2017,NA,490
+"Malta->Cyprus","Malta","Cyprus",2017,NA,491
+"Malta->Czech Republic","Malta","Czech Republic",2017,NA,492
+"Malta->Denmark","Malta","Denmark",2017,NA,493
+"Malta->Estonia","Malta","Estonia",2017,NA,494
+"Malta->Finland","Malta","Finland",2017,NA,495
+"Malta->France","Malta","France",2017,NA,496
+"Malta->Germany","Malta","Germany",2017,NA,497
+"Malta->Greece","Malta","Greece",2017,NA,498
+"Malta->Hungary","Malta","Hungary",2017,NA,499
+"Malta->Ireland","Malta","Ireland",2017,NA,500
+"Malta->Italy","Malta","Italy",2017,NA,501
+"Malta->Latvia","Malta","Latvia",2017,NA,502
+"Malta->Lithuania","Malta","Lithuania",2017,NA,503
+"Malta->Luxembourg","Malta","Luxembourg",2017,NA,504
+"Malta->Netherlands","Malta","Netherlands",2017,NA,505
+"Malta->Poland","Malta","Poland",2017,NA,506
+"Malta->Portugal","Malta","Portugal",2017,NA,507
+"Malta->Romania","Malta","Romania",2017,NA,508
+"Malta->Slovakia","Malta","Slovakia",2017,NA,509
+"Malta->Slovenia","Malta","Slovenia",2017,NA,510
+"Malta->Spain","Malta","Spain",2017,NA,511
+"Malta->Sweden","Malta","Sweden",2017,NA,512
+"Malta->United Kingdom","Malta","United Kingdom",2017,NA,513
+"Netherlands->Austria","Netherlands","Austria",2017,NA,514
+"Netherlands->Belgium","Netherlands","Belgium",2017,72316.67,515
+"Netherlands->Bulgaria","Netherlands","Bulgaria",2017,NA,516
+"Netherlands->Croatia","Netherlands","Croatia",2017,NA,517
+"Netherlands->Cyprus","Netherlands","Cyprus",2017,NA,518
+"Netherlands->Czech Republic","Netherlands","Czech Republic",2017,NA,519
+"Netherlands->Denmark","Netherlands","Denmark",2017,NA,520
+"Netherlands->Estonia","Netherlands","Estonia",2017,NA,521
+"Netherlands->Finland","Netherlands","Finland",2017,NA,522
+"Netherlands->France","Netherlands","France",2017,NA,523
+"Netherlands->Germany","Netherlands","Germany",2017,83755.245,524
+"Netherlands->Greece","Netherlands","Greece",2017,NA,525
+"Netherlands->Hungary","Netherlands","Hungary",2017,NA,526
+"Netherlands->Ireland","Netherlands","Ireland",2017,NA,527
+"Netherlands->Italy","Netherlands","Italy",2017,NA,528
+"Netherlands->Latvia","Netherlands","Latvia",2017,NA,529
+"Netherlands->Lithuania","Netherlands","Lithuania",2017,NA,530
+"Netherlands->Luxembourg","Netherlands","Luxembourg",2017,NA,531
+"Netherlands->Malta","Netherlands","Malta",2017,NA,532
+"Netherlands->Poland","Netherlands","Poland",2017,NA,533
+"Netherlands->Portugal","Netherlands","Portugal",2017,NA,534
+"Netherlands->Romania","Netherlands","Romania",2017,NA,535
+"Netherlands->Slovakia","Netherlands","Slovakia",2017,NA,536
+"Netherlands->Slovenia","Netherlands","Slovenia",2017,NA,537
+"Netherlands->Spain","Netherlands","Spain",2017,32917.645,538
+"Netherlands->Sweden","Netherlands","Sweden",2017,12084.2225,539
+"Netherlands->United Kingdom","Netherlands","United Kingdom",2017,NA,540
+"Poland->Austria","Poland","Austria",2017,54360.48,541
+"Poland->Belgium","Poland","Belgium",2017,62614.2866666667,542
+"Poland->Bulgaria","Poland","Bulgaria",2017,NA,543
+"Poland->Croatia","Poland","Croatia",2017,NA,544
+"Poland->Cyprus","Poland","Cyprus",2017,NA,545
+"Poland->Czech Republic","Poland","Czech Republic",2017,NA,546
+"Poland->Denmark","Poland","Denmark",2017,27776.2716666667,547
+"Poland->Estonia","Poland","Estonia",2017,NA,548
+"Poland->Finland","Poland","Finland",2017,NA,549
+"Poland->France","Poland","France",2017,NA,550
+"Poland->Germany","Poland","Germany",2017,1224548.655,551
+"Poland->Greece","Poland","Greece",2017,NA,552
+"Poland->Hungary","Poland","Hungary",2017,NA,553
+"Poland->Ireland","Poland","Ireland",2017,113971.96,554
+"Poland->Italy","Poland","Italy",2017,103124.075,555
+"Poland->Latvia","Poland","Latvia",2017,NA,556
+"Poland->Lithuania","Poland","Lithuania",2017,NA,557
+"Poland->Luxembourg","Poland","Luxembourg",2017,NA,558
+"Poland->Malta","Poland","Malta",2017,NA,559
+"Poland->Netherlands","Poland","Netherlands",2017,82774.1575,560
+"Poland->Portugal","Poland","Portugal",2017,NA,561
+"Poland->Romania","Poland","Romania",2017,NA,562
+"Poland->Slovakia","Poland","Slovakia",2017,NA,563
+"Poland->Slovenia","Poland","Slovenia",2017,NA,564
+"Poland->Spain","Poland","Spain",2017,NA,565
+"Poland->Sweden","Poland","Sweden",2017,58140.765,566
+"Poland->United Kingdom","Poland","United Kingdom",2017,795675.25,567
+"Portugal->Austria","Portugal","Austria",2017,NA,568
+"Portugal->Belgium","Portugal","Belgium",2017,NA,569
+"Portugal->Bulgaria","Portugal","Bulgaria",2017,NA,570
+"Portugal->Croatia","Portugal","Croatia",2017,NA,571
+"Portugal->Cyprus","Portugal","Cyprus",2017,NA,572
+"Portugal->Czech Republic","Portugal","Czech Republic",2017,NA,573
+"Portugal->Denmark","Portugal","Denmark",2017,NA,574
+"Portugal->Estonia","Portugal","Estonia",2017,NA,575
+"Portugal->Finland","Portugal","Finland",2017,NA,576
+"Portugal->France","Portugal","France",2017,447845.4275,577
+"Portugal->Germany","Portugal","Germany",2017,86921.2258333333,578
+"Portugal->Greece","Portugal","Greece",2017,NA,579
+"Portugal->Hungary","Portugal","Hungary",2017,NA,580
+"Portugal->Ireland","Portugal","Ireland",2017,NA,581
+"Portugal->Italy","Portugal","Italy",2017,NA,582
+"Portugal->Latvia","Portugal","Latvia",2017,NA,583
+"Portugal->Lithuania","Portugal","Lithuania",2017,NA,584
+"Portugal->Luxembourg","Portugal","Luxembourg",2017,51496.8275,585
+"Portugal->Malta","Portugal","Malta",2017,NA,586
+"Portugal->Netherlands","Portugal","Netherlands",2017,NA,587
+"Portugal->Poland","Portugal","Poland",2017,NA,588
+"Portugal->Romania","Portugal","Romania",2017,NA,589
+"Portugal->Slovakia","Portugal","Slovakia",2017,NA,590
+"Portugal->Slovenia","Portugal","Slovenia",2017,NA,591
+"Portugal->Spain","Portugal","Spain",2017,79856.8175,592
+"Portugal->Sweden","Portugal","Sweden",2017,NA,593
+"Portugal->United Kingdom","Portugal","United Kingdom",2017,128722.75,594
+"Romania->Austria","Romania","Austria",2017,87911.08,595
+"Romania->Belgium","Romania","Belgium",2017,64293.0725,596
+"Romania->Bulgaria","Romania","Bulgaria",2017,NA,597
+"Romania->Croatia","Romania","Croatia",2017,NA,598
+"Romania->Cyprus","Romania","Cyprus",2017,NA,599
+"Romania->Czech Republic","Romania","Czech Republic",2017,NA,600
+"Romania->Denmark","Romania","Denmark",2017,NA,601
+"Romania->Estonia","Romania","Estonia",2017,NA,602
+"Romania->Finland","Romania","Finland",2017,NA,603
+"Romania->France","Romania","France",2017,88745.9083333333,604
+"Romania->Germany","Romania","Germany",2017,523099.4475,605
+"Romania->Greece","Romania","Greece",2017,NA,606
+"Romania->Hungary","Romania","Hungary",2017,65453.8025,607
+"Romania->Ireland","Romania","Ireland",2017,29417.2125,608
+"Romania->Italy","Romania","Italy",2017,1037238.4,609
+"Romania->Latvia","Romania","Latvia",2017,NA,610
+"Romania->Lithuania","Romania","Lithuania",2017,NA,611
+"Romania->Luxembourg","Romania","Luxembourg",2017,NA,612
+"Romania->Malta","Romania","Malta",2017,NA,613
+"Romania->Netherlands","Romania","Netherlands",2017,NA,614
+"Romania->Poland","Romania","Poland",2017,NA,615
+"Romania->Portugal","Romania","Portugal",2017,NA,616
+"Romania->Slovakia","Romania","Slovakia",2017,NA,617
+"Romania->Slovenia","Romania","Slovenia",2017,NA,618
+"Romania->Spain","Romania","Spain",2017,570285.28,619
+"Romania->Sweden","Romania","Sweden",2017,25769.9675,620
+"Romania->United Kingdom","Romania","United Kingdom",2017,NA,621
+"Slovakia->Austria","Slovakia","Austria",2017,35200.6733333333,622
+"Slovakia->Belgium","Slovakia","Belgium",2017,NA,623
+"Slovakia->Bulgaria","Slovakia","Bulgaria",2017,NA,624
+"Slovakia->Croatia","Slovakia","Croatia",2017,NA,625
+"Slovakia->Cyprus","Slovakia","Cyprus",2017,NA,626
+"Slovakia->Czech Republic","Slovakia","Czech Republic",2017,116371.2575,627
+"Slovakia->Denmark","Slovakia","Denmark",2017,NA,628
+"Slovakia->Estonia","Slovakia","Estonia",2017,NA,629
+"Slovakia->Finland","Slovakia","Finland",2017,NA,630
+"Slovakia->France","Slovakia","France",2017,NA,631
+"Slovakia->Germany","Slovakia","Germany",2017,NA,632
+"Slovakia->Greece","Slovakia","Greece",2017,NA,633
+"Slovakia->Hungary","Slovakia","Hungary",2017,NA,634
+"Slovakia->Ireland","Slovakia","Ireland",2017,NA,635
+"Slovakia->Italy","Slovakia","Italy",2017,NA,636
+"Slovakia->Latvia","Slovakia","Latvia",2017,NA,637
+"Slovakia->Lithuania","Slovakia","Lithuania",2017,NA,638
+"Slovakia->Luxembourg","Slovakia","Luxembourg",2017,NA,639
+"Slovakia->Malta","Slovakia","Malta",2017,NA,640
+"Slovakia->Netherlands","Slovakia","Netherlands",2017,NA,641
+"Slovakia->Poland","Slovakia","Poland",2017,NA,642
+"Slovakia->Portugal","Slovakia","Portugal",2017,NA,643
+"Slovakia->Romania","Slovakia","Romania",2017,NA,644
+"Slovakia->Slovenia","Slovakia","Slovenia",2017,NA,645
+"Slovakia->Spain","Slovakia","Spain",2017,NA,646
+"Slovakia->Sweden","Slovakia","Sweden",2017,NA,647
+"Slovakia->United Kingdom","Slovakia","United Kingdom",2017,NA,648
+"Slovenia->Austria","Slovenia","Austria",2017,NA,649
+"Slovenia->Belgium","Slovenia","Belgium",2017,NA,650
+"Slovenia->Bulgaria","Slovenia","Bulgaria",2017,NA,651
+"Slovenia->Croatia","Slovenia","Croatia",2017,NA,652
+"Slovenia->Cyprus","Slovenia","Cyprus",2017,NA,653
+"Slovenia->Czech Republic","Slovenia","Czech Republic",2017,NA,654
+"Slovenia->Denmark","Slovenia","Denmark",2017,NA,655
+"Slovenia->Estonia","Slovenia","Estonia",2017,NA,656
+"Slovenia->Finland","Slovenia","Finland",2017,NA,657
+"Slovenia->France","Slovenia","France",2017,NA,658
+"Slovenia->Germany","Slovenia","Germany",2017,NA,659
+"Slovenia->Greece","Slovenia","Greece",2017,NA,660
+"Slovenia->Hungary","Slovenia","Hungary",2017,NA,661
+"Slovenia->Ireland","Slovenia","Ireland",2017,NA,662
+"Slovenia->Italy","Slovenia","Italy",2017,NA,663
+"Slovenia->Latvia","Slovenia","Latvia",2017,NA,664
+"Slovenia->Lithuania","Slovenia","Lithuania",2017,NA,665
+"Slovenia->Luxembourg","Slovenia","Luxembourg",2017,NA,666
+"Slovenia->Malta","Slovenia","Malta",2017,NA,667
+"Slovenia->Netherlands","Slovenia","Netherlands",2017,NA,668
+"Slovenia->Poland","Slovenia","Poland",2017,NA,669
+"Slovenia->Portugal","Slovenia","Portugal",2017,NA,670
+"Slovenia->Romania","Slovenia","Romania",2017,NA,671
+"Slovenia->Slovakia","Slovenia","Slovakia",2017,NA,672
+"Slovenia->Spain","Slovenia","Spain",2017,NA,673
+"Slovenia->Sweden","Slovenia","Sweden",2017,NA,674
+"Slovenia->United Kingdom","Slovenia","United Kingdom",2017,NA,675
+"Spain->Austria","Spain","Austria",2017,NA,676
+"Spain->Belgium","Spain","Belgium",2017,27331.9025,677
+"Spain->Bulgaria","Spain","Bulgaria",2017,NA,678
+"Spain->Croatia","Spain","Croatia",2017,NA,679
+"Spain->Cyprus","Spain","Cyprus",2017,NA,680
+"Spain->Czech Republic","Spain","Czech Republic",2017,NA,681
+"Spain->Denmark","Spain","Denmark",2017,NA,682
+"Spain->Estonia","Spain","Estonia",2017,NA,683
+"Spain->Finland","Spain","Finland",2017,NA,684
+"Spain->France","Spain","France",2017,131703.095833333,685
+"Spain->Germany","Spain","Germany",2017,93249.4825,686
+"Spain->Greece","Spain","Greece",2017,NA,687
+"Spain->Hungary","Spain","Hungary",2017,NA,688
+"Spain->Ireland","Spain","Ireland",2017,NA,689
+"Spain->Italy","Spain","Italy",2017,NA,690
+"Spain->Latvia","Spain","Latvia",2017,NA,691
+"Spain->Lithuania","Spain","Lithuania",2017,NA,692
+"Spain->Luxembourg","Spain","Luxembourg",2017,NA,693
+"Spain->Malta","Spain","Malta",2017,NA,694
+"Spain->Netherlands","Spain","Netherlands",2017,15541.7116666667,695
+"Spain->Poland","Spain","Poland",2017,NA,696
+"Spain->Portugal","Spain","Portugal",2017,NA,697
+"Spain->Romania","Spain","Romania",2017,NA,698
+"Spain->Slovakia","Spain","Slovakia",2017,NA,699
+"Spain->Slovenia","Spain","Slovenia",2017,NA,700
+"Spain->Sweden","Spain","Sweden",2017,10435.9775,701
+"Spain->United Kingdom","Spain","United Kingdom",2017,117409.75,702
+"Sweden->Austria","Sweden","Austria",2017,NA,703
+"Sweden->Belgium","Sweden","Belgium",2017,NA,704
+"Sweden->Bulgaria","Sweden","Bulgaria",2017,NA,705
+"Sweden->Croatia","Sweden","Croatia",2017,NA,706
+"Sweden->Cyprus","Sweden","Cyprus",2017,NA,707
+"Sweden->Czech Republic","Sweden","Czech Republic",2017,NA,708
+"Sweden->Denmark","Sweden","Denmark",2017,14715.9675,709
+"Sweden->Estonia","Sweden","Estonia",2017,NA,710
+"Sweden->Finland","Sweden","Finland",2017,25501.2,711
+"Sweden->France","Sweden","France",2017,NA,712
+"Sweden->Germany","Sweden","Germany",2017,NA,713
+"Sweden->Greece","Sweden","Greece",2017,NA,714
+"Sweden->Hungary","Sweden","Hungary",2017,NA,715
+"Sweden->Ireland","Sweden","Ireland",2017,NA,716
+"Sweden->Italy","Sweden","Italy",2017,NA,717
+"Sweden->Latvia","Sweden","Latvia",2017,NA,718
+"Sweden->Lithuania","Sweden","Lithuania",2017,NA,719
+"Sweden->Luxembourg","Sweden","Luxembourg",2017,NA,720
+"Sweden->Malta","Sweden","Malta",2017,NA,721
+"Sweden->Netherlands","Sweden","Netherlands",2017,NA,722
+"Sweden->Poland","Sweden","Poland",2017,NA,723
+"Sweden->Portugal","Sweden","Portugal",2017,NA,724
+"Sweden->Romania","Sweden","Romania",2017,NA,725
+"Sweden->Slovakia","Sweden","Slovakia",2017,NA,726
+"Sweden->Slovenia","Sweden","Slovenia",2017,NA,727
+"Sweden->Spain","Sweden","Spain",2017,NA,728
+"Sweden->United Kingdom","Sweden","United Kingdom",2017,NA,729
+"United Kingdom->Austria","United Kingdom","Austria",2017,NA,730
+"United Kingdom->Belgium","United Kingdom","Belgium",2017,17576.96,731
+"United Kingdom->Bulgaria","United Kingdom","Bulgaria",2017,NA,732
+"United Kingdom->Croatia","United Kingdom","Croatia",2017,NA,733
+"United Kingdom->Cyprus","United Kingdom","Cyprus",2017,13413.6916666667,734
+"United Kingdom->Czech Republic","United Kingdom","Czech Republic",2017,NA,735
+"United Kingdom->Denmark","United Kingdom","Denmark",2017,18177.2925,736
+"United Kingdom->Estonia","United Kingdom","Estonia",2017,NA,737
+"United Kingdom->Finland","United Kingdom","Finland",2017,NA,738
+"United Kingdom->France","United Kingdom","France",2017,84797.435,739
+"United Kingdom->Germany","United Kingdom","Germany",2017,74612.3233333333,740
+"United Kingdom->Greece","United Kingdom","Greece",2017,NA,741
+"United Kingdom->Hungary","United Kingdom","Hungary",2017,NA,742
+"United Kingdom->Ireland","United Kingdom","Ireland",2017,181268.365,743
+"United Kingdom->Italy","United Kingdom","Italy",2017,NA,744
+"United Kingdom->Latvia","United Kingdom","Latvia",2017,NA,745
+"United Kingdom->Lithuania","United Kingdom","Lithuania",2017,NA,746
+"United Kingdom->Luxembourg","United Kingdom","Luxembourg",2017,NA,747
+"United Kingdom->Malta","United Kingdom","Malta",2017,NA,748
+"United Kingdom->Netherlands","United Kingdom","Netherlands",2017,31204.63,749
+"United Kingdom->Poland","United Kingdom","Poland",2017,NA,750
+"United Kingdom->Portugal","United Kingdom","Portugal",2017,6328.57333333333,751
+"United Kingdom->Romania","United Kingdom","Romania",2017,NA,752
+"United Kingdom->Slovakia","United Kingdom","Slovakia",2017,NA,753
+"United Kingdom->Slovenia","United Kingdom","Slovenia",2017,NA,754
+"United Kingdom->Spain","United Kingdom","Spain",2017,111056.0675,755
+"United Kingdom->Sweden","United Kingdom","Sweden",2017,NA,756
