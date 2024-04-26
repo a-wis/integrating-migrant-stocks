@@ -1,6 +1,5 @@
-##
-## mcmc1 parameter plots
-## mcmc3 total, imm and emi plots
+##  manipulation and saving of model results
+## total, imm and emi plots
 ##
 
 
@@ -12,30 +11,18 @@ library(metafolio)
 library(ss3sim)
 library(tidyverse)
 library(scales)
-# devtools::install_github("guiastrennec/ggplus")
+# devtools::install_github("guiastrennec/ggplus") 
+# this package was not updated for newer versions of R - proceed with caution
 library(ggplus)
 library(rayshader)
 
-# load(file = "C:/Users/dyildiz.VID-CALC1/Documents/m9_lfs_cov2_091218.RData")
-# d5 from jags9_clean.R
-# dinput <- d5 %>%
-#   select(orig, dest, year, eurostat, mau, dau, LFS, corridor) %>%
-#   gather(eurostat, dau, mau, LFS, key = "source", value = "flow")
-
-# dinput <- read.csv("./data/input_15_64_LFS_corrected.csv")
-
-# write.csv(dinput, "./data/jags_calc_input.csv", row.names = F)
-#
-# library(dplyr)
-# dinput_source_year <- dinput %>%
-#   select(year, source, flow) %>%
-#   group_by(year, source) %>%
-#   summarise(flow = sum(flow, na.rm = T))
+dinput_source_year <- dinput %>%
+  select(year, source, flow) %>%
+  group_by(year, source) %>%
+  summarise(flow = sum(flow, na.rm = T))
 
 # functions for building summary stats
 source("code/read_functions.R")
-# data for building summary stats
-# load(file = "./model/d1.RData");
 
 # data frames for building summary states
 corridors <- dinput %>%
@@ -46,8 +33,6 @@ years <- dinput %>%
   select(year) %>%
   mutate(node_id = 1:n())
 
-# m5 changed to m
-# from model
 y <- ggs(m, family = "^y1") %>%
   add_node() %>%
   add_corridor() %>%
@@ -60,8 +45,8 @@ y <- ggs(m, family = "^y1") %>%
 
 
 
-model_name <- "m_estimate_eu18_"
-folder_name <- "Paper/estimate_eurostat/"
+model_name <- ""
+folder_name <- "figures"
 
 
 # colours for plots
@@ -80,18 +65,12 @@ col0 <- c("darkgrey", "red", "peru", "green3", "royalblue", "magenta2")
 
 tot_y <- y_stats(y)
 
-tot_un <- read_csv("C:/Users/dyildiz.VID-CALC1/Dropbox/ec-rand/data/total.csv") %>%
-   filter(source =="un")
-
 # 15-64
 tot_d <- dinput %>%
-  # bind_rows(tot_un) %>%
   group_by(year, source) %>%
   summarise(flow = sum(flow, na.rm = T)) %>%
   mutate(source_name = source,
-    source_name = ifelse(source_name == "eurostat", "Eurostat", source_name))
-# %>%
-  # mutate(source_name = ifelse(source_name == "un", "UN DESA (total population)", source_name))
+  source_name = ifelse(source_name == "eurostat", "Eurostat", source_name))
 
 tot <- tot_y %>%
   mutate(source_name = "Estimate") %>%
@@ -109,13 +88,15 @@ tot <- tot_y %>%
          source = fct_relevel(source, "Estimate")) %>%
   mutate(flow = ifelse(flow == 0, NA, flow))
 
-table_name <- paste0("figures/", folder_name, model_name,"tot_y.csv")
+# READ ####
+#if you want to save, uncomment
+# this needs to be saved for validation
+# table_name <- paste0("results/", model_name,"tot_y.csv")
 # write.csv(tot_y, table_name, row.names = F)
 
 
 p <- ggplot(data = (tot %>% filter(year>=2011, source != "UN DESA (total population)" )),
-       # mapping = aes(x = as.integer(year), y = flow/1e06, ymin = (flow - sd)/1e06, ymax = (flow + sd)/1e06)) +
-        mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
+      mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
   geom_line(mapping = aes(colour = source)) +
   geom_ribbon(mapping = aes(fill = source), alpha = 0.4) +
   geom_point(data = tot %>% filter(year >= 2011),
@@ -128,44 +109,10 @@ p <- ggplot(data = (tot %>% filter(year>=2011, source != "UN DESA (total populat
   guides(fill = FALSE)
 
 
-plot_name <- paste0("figures/", folder_name,model_name,"total_80ci.pdf")
-pdf(plot_name)
+# plot_name <- paste0("figures/", model_name,"total_80ci.pdf")
+# pdf(plot_name)
 p
-dev.off()
-
-# without UN DESA
-
-tot2 <- tot %>%
-  filter(source != "UN DESA (total population)") %>%
-  mutate(source = factor(source, levels = c("Estimate", "Census", "Eurostat (w. Missing)", "Facebook DAU", "Facebook MAU", "LFS")))
-
-# col0 <- c("darkgrey", gg_color_hue(5))
-
-col0 <- c("darkgrey",  "peru", "red","green3", "royalblue", "magenta2")
-
-p <- ggplot(data = tot2,
-            mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
-  geom_line(mapping = aes(colour = source)) +
-  geom_ribbon(mapping = aes(fill = source), alpha = 0.4) +
-  geom_point(data = tot2 %>% filter(year >= 2011),
-             mapping = aes(colour = source)) +
-  theme_bw() +
-  scale_color_manual(values = col0, drop=FALSE) +
-  scale_fill_manual(values = col0, drop=FALSE) +
-  scale_x_continuous(breaks = min(dinput$year):max(dinput$year)) +
-  labs(x= "Year", y= "Stocks of EU movers (millions), 15 - 64", colour = "", fill = "") +
-  guides(fill = FALSE)
-
-plot_name <- paste0("figures/", folder_name,model_name,"total_withoutUN_80ci.pdf")
-pdf(plot_name)
-p
-dev.off()
-
-plot_name <- paste0("./figures/",folder_name,model_name,"total.png")
-png(plot_name, height = 6, width = 5.5, units = "in", res = 300)
-p
-dev.off()
-
+# dev.off()
 
 ##
 ## immm and emi flows
@@ -205,18 +152,16 @@ imm$name[imm$name == "United Kingdom"] = "UK"
 eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
-table_name <- paste0("figures/", folder_name, model_name,"imm_y.csv")
+# table_name <- paste0("results/", model_name,"imm_y.csv")
 # write.csv(imm, table_name, row.names = F)
 
 col0 <- c("darkgrey", "peru", "red", "green3", "royalblue", "magenta2")
 scaleFUN <- function(x) sprintf("%.2f", x)
 p <- ggplot(data = imm %>% filter(year>=2011),
         mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
-       # mapping = aes(x = as.integer(year), y = flow/1e06, ymin = (flow - sd)/1e06, ymax = (flow + sd)/1e06)) +
   facet_geo(facets = "name", grid = eu_grid1) +
   geom_line(mapping = aes(colour = source)) +
   geom_ribbon(mapping = aes(fill = source), alpha = 0.4) +
-  # geom_ribbon(data = filter(tot, source =="Estimate"), fill = col0[1], alpha = 0.4) +
   geom_point(mapping = aes(colour = source)) +
   theme_bw() +
   scale_color_manual(values = col0, drop=FALSE) +
@@ -229,10 +174,10 @@ p <- ggplot(data = imm %>% filter(year>=2011),
   ggtitle(paste0("Immigration"))
 
 
-plot_name <- paste0("figures/", folder_name,model_name,"imm2.png")
-png(plot_name, width = 10, height = 10, units = "in", res = 300)
+# plot_name <- paste0("results/", model_name,"imm2.png")
+# png(plot_name, width = 10, height = 10, units = "in", res = 300)
 p
-dev.off()
+# dev.off()
 
 
 emi_y <- y_stats((y), type = "emi") %>%
@@ -269,7 +214,7 @@ eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
 
-table_name <- paste0("./figures/", folder_name, model_name,"emi_y.csv")
+# table_name <- paste0("results/", model_name,"emi_y.csv")
 # write.csv(emi, table_name, row.names = F)
 
 col0 <- c("darkgrey", "peru", "red", "green3", "royalblue", "magenta2")
@@ -294,10 +239,10 @@ p <- ggplot(data = emi %>% filter(year>=min(dinput$year)),
 
 
 
-plot_name <- paste0("figures/", folder_name,model_name,"emi.png")
-png(plot_name, width = 10, height = 10, units = "in", res = 300)
+# plot_name <- paste0("figures/", folder_name,model_name,"emi.png")
+# png(plot_name, width = 10, height = 10, units = "in", res = 300)
 p
-dev.off()
+# dev.off()
 
 
 
@@ -307,7 +252,6 @@ dev.off()
 ## bilat flows
 ##
 bilat_y <- y %>%
-   # filter(Iteration >= 500) %>%
   y_stats(type = "bilat")
 
 
@@ -324,10 +268,9 @@ bilat <- bilat_y %>%
          source_name = ifelse(source == "LFS", "LFS", source_name),
          source_name = ifelse(source == "census", "Census", source_name),
          dest = plyr::revalue(dest, c("Czech Republic" = "Czechia")),
-         # orig = plyr::revalue(orig, c("Czech Republic" = "Czechia")),
-         # orig = plyr::revalue(orig, c("United Kingdom" = "UK")),
          dest = plyr::revalue(dest, c("United Kingdom" = "UK")))
-table_name <- paste0("./figures/", folder_name, model_name,"bilat_y.csv")
+
+# table_name <- paste0("results/", model_name,"bilat_y.csv")
 # write.csv(bilat_y, table_name, row.names = F)
 
 ggplot(data = bilat,
@@ -368,9 +311,9 @@ bilat_country_imm$orig[bilat_country_imm$orig == "United Kingdom"] = "UK"
 eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
-plotname <- paste0("figures/", model_name, country, "_logimm_11_7.pdf")
+# plotname <- paste0("figures/", country, "_logimm_11_7.pdf")
 
-pdf(plotname, height = 7, width = 11)
+# pdf(plotname, height = 7, width = 11)
 ggplot(data = bilat_country_imm %>% filter(year>=min(dinput$year)),
        mapping = aes(x = year, y = log(flow), ymin = log(lwr80), ymax = log(upp80)))+
   facet_geo(facets = "orig", grid = eu_grid1) +
@@ -385,7 +328,7 @@ ggplot(data = bilat_country_imm %>% filter(year>=min(dinput$year)),
   labs(x= "Year", y= "Migrants (log)", colour = "", fill = "") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   guides(fill = FALSE)
-dev.off()
+# dev.off()
 
 
 # Netherlands total immigration
@@ -408,62 +351,7 @@ p <- ggplot(data =(total_country_imm %>% filter(source_name != "mau", source_nam
   guides(fill = FALSE)
 
 
-plot_name <- paste0("figures/",folder_name,model_name,"total_netherlands.png")
-png(plot_name, height = 6, width = 5.5, units = "in", res = 300)
 p
-dev.off()
-
-
-
-# all countries just imm estimates
-
-
-
-for(i in 1:length(unique(imm$name))){
-country <- unique(imm$name)[i]
-plot_name <- paste0("figures/", country,"_allcountries.png")
-
-p <-  ggplot(data =(imm %>%
-                 filter(name == country) %>% filter(source_name == "Estimate")),
-            mapping = aes(x = year, y = flow/1e06)) +
-  geom_line(mapping = aes(colour = source)) +
-  geom_ribbon(mapping = aes(ymin = lwr80/1e06, ymax = upp80/1e06), alpha = 0.4) +
-  theme_bw() +
-  expand_limits(y = c(0)) +
-  scale_color_manual(values = col0, drop = FALSE) +
-  scale_fill_manual(values = col0, drop = FALSE) +
-  scale_x_continuous(breaks = min(dinput$year):max(dinput$year)) +
-  labs(x= "Year", y= "Stocks of EU movers (millions), 15 - 64", colour = "", fill = "") +
-  theme(legend.position = "none") +
-  ggtitle(i) +
-  guides(fill = FALSE)
-png(plot_name)
-print(p)
-dev.off()
-}
-
-pdf("figures/allcountries.pdf")
-for(i in seq(1, length(unique(imm$name)), 4)){
-
-  p <- ggplot(data =(imm[imm$name %in% unique(imm$name)[i:(i+3)],] %>% filter(source=="Estimate")),
-              mapping = aes(x = year, y = flow/1e06)) +
-    geom_line(mapping = aes(colour = source)) +
-    geom_ribbon(mapping = aes(ymin = lwr80/1e06, ymax = upp80/1e06), alpha = 0.4) +
-    theme_bw() +
-    expand_limits(y = c(0)) +
-    scale_color_manual(values = col0, drop = FALSE) +
-    scale_fill_manual(values = col0, drop = FALSE) +
-    scale_x_continuous(breaks = min(dinput$year):max(dinput$year)) +
-    labs(x= "Year", y= "Stocks of EU movers (millions), 15 - 64", colour = "", fill = "") +
-    theme(legend.position = "none") +
-    # ggtitle(i) +
-    guides(fill = FALSE) +
-    facet_wrap(~ name, ncol = 2)
-
-print(p)
-}
-dev.off()
-
 
 
 
@@ -503,7 +391,6 @@ ggplot(data = bilat_country_emi %>% filter(year>=min(dinput$year)),
   facet_geo(facets = "dest", grid = eu_grid1) +
   geom_line(mapping = aes(colour = source)) +
   geom_ribbon(mapping = aes(fill = source), alpha = 0.4) +
-  # geom_ribbon(data = filter(tot, source =="Estimate"), fill = col0[1], alpha = 0.4) +
   geom_point(mapping = aes(colour = source)) +
   theme_bw() +
   scale_color_manual(values = col0, drop=FALSE) +

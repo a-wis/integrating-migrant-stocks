@@ -1,7 +1,5 @@
-##
-## mcmc1 parameter plots
-
-## mcmc3 total, imm and emi plots
+## convergence of parameters - not shown in the article
+## 
 ##
 
 library(tidyverse)
@@ -11,9 +9,7 @@ library(ggmcmc)
 source("code/read_functions.R")
 
 
-# load(file = "./model/m5.RData"); 
-# load(file = "./model/d1.RData"); 
-model_name <- "m_est_eu18_"
+#model_name <- "m_est_eu18_"
 
 eurostat <- ggs(m, family = "eurostat") %>%  
   mutate(Para = gsub("\\[.*", "", Parameter)) %>% 
@@ -52,8 +48,6 @@ ggplot(summary_eurostat_2018) +
   xlim(c(0, 15)) +
   ylim(c(0, 15)) +
   theme_bw()
-
-# ggsave("./figures/est_obs_eu18.png")
 
 summary_eurostat_2015 <- eu %>% 
   filter(year == "2015") %>% 
@@ -116,9 +110,9 @@ summary_tau_lfs <- tau_lfs %>%
 kappa_fbmau_2019 <- ggs(m, family = "kappa_fbmau_2019")
 kappa_fbdau_2019 <- ggs(m, family = "kappa_fbdau_2019")
 
-
-plot_name <- paste0("figures/", model_name, "traceplots", ".pdf")
-pdf(plot_name,  height = 12, width = 12)
+#it is advisable to save this as a pdf - uncomment next two lines and l.134
+# plot_name <- paste0("figures/", model_name, "traceplots", ".pdf")
+# pdf(plot_name,  height = 12, width = 12)
 ggs_traceplot(mu)
 ggs_traceplot(gamma_eu)
 ggs_traceplot(gamma_lfs)
@@ -135,12 +129,12 @@ ggs_traceplot(tau_census)
 ggs_traceplot(intercept)
 ggs_traceplot(slope)
 ggs_traceplot(sigma)
-dev.off()
+# dev.off()
 
 
 
-plot_name <- paste0("figures/", model_name, "density", ".pdf")
-pdf(plot_name,  height = 12, width = 12)
+# plot_name <- paste0("figures/", model_name, "density", ".pdf")
+# pdf(plot_name,  height = 12, width = 12)
 ggs_density(mu)
 ggs_density(gamma_eu)
 ggs_density(gamma_lfs)
@@ -159,34 +153,21 @@ ggs_density(slope)
 ggs_density(sigma)
 ggs_density(kappa_fbmau_2019)
 ggs_density(kappa_fbdau_2019)
-dev.off()
+# dev.off()
  
 
 
-plot_name <- plot_name <- paste0("figures/", model_name, "taus", ".pdf")
-pdf(plot_name,  height = 12, width = 12)
+# plot_name <- plot_name <- paste0("figures/", model_name, "taus", ".pdf")
+# pdf(plot_name,  height = 12, width = 12)
 ggs_density(tau_eurostat)
 ggs_density(tau_census)
 ggs_density(tau_fbmau)
 ggs_density(tau_fbdau)
 ggs_density(tau_y1)
-dev.off()
+# dev.off()
 
 
 ggs_traceplot(tau_eurostat)
-
-
-# precision to weight the age-sex estimates
-summary_tau_census <- tau_census %>% 
-  summarise(mean = mean(value), 
-            median = median(value), 
-            min = min(value), 
-            max = max(value), 
-            upp80 = quantile(x = value, probs = 0.9), 
-            low80 = quantile(x = value, probs = 0.1), 
-            upp50 = quantile(x = value, probs = 0.75),
-            lwr50 = quantile(x = value, probs = 0.25))
-
 
 summary_tau_eurostat <- tau_eurostat %>% 
   summarise(mean = mean(value), 

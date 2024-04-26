@@ -1,3 +1,5 @@
+# functions to be read before analysis
+
 add_node <- function(D){
   D %>%
     mutate(node_id = str_extract(string = Parameter, pattern =  "\\[.*?\\]"),

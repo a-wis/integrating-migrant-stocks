@@ -1,3 +1,7 @@
+# this file rea ds in and prepares data to be used in 
+# main model S1 
+# naive model
+
 rm(list = ls())
 library(tidyverse)
 library(stringr)
@@ -28,7 +32,7 @@ corrname4 <- expand.grid(dest = sort(countries_name), orig = sort(countries_name
          corridor_name = as.factor(corridor_name))
 
 
-d1 <- read.csv("./data/Eurostat_2010_2018_15_64.csv") %>% 
+d1 <- read.csv("data/Eurostat_2010_2018_15_64.csv") %>% 
   mutate(eurostat  = ifelse(eurostat == 0, NA, eurostat)) %>% 
   filter(year > 2010)
 
@@ -39,7 +43,7 @@ d1.4 <- left_join(corrname4, d1) %>%
            corridor = as.numeric(corridor_name))
 
 
-d1.1 <-  read.csv("./data/IMEM_undercount.csv", sep= ";") %>% 
+d1.1 <-  read.csv("data/IMEM_undercount.csv", sep= ";") %>% 
   rename(cov_eurostat_gr = gamma_group) %>% 
   mutate(cov_eurostat_gr = ifelse(is.na(cov_eurostat_gr), 3, cov_eurostat_gr))
 
@@ -76,7 +80,7 @@ d1.3 <- d1.2 %>%
 
 # Eurostat census
  
-d2 <- read.csv("./data/Eurostat_census_2011.csv") %>% 
+d2 <- read.csv("data/Eurostat_census_2011.csv") %>% 
   mutate(census = ifelse(census == 0, NA, census))
  
 
@@ -84,7 +88,7 @@ d2 <- read.csv("./data/Eurostat_census_2011.csv") %>%
 
 # Facebook June 2019 fbmau = mau_est if mau_est==NA use mau
 
-d6 <- read.csv("./data/Fb_all_2016_2019_users_pop_coverage.csv") %>% 
+d6 <- read.csv("data/Fb_all_2016_2019_users_pop_coverage.csv") %>% 
   filter(date != "2018-03-01", 
          date != "2018-04-01",
          date != "2018-05-01",
@@ -154,7 +158,6 @@ d6.1 <- d6.1 %>%
   select(-test)
  
 
-# write.csv(d6.1, "./Paper/data_july19/Facebook_mau_coverage.csv", row.names = F)
 # same coverage groups as the EC report 
 d6.2 <- d6.1 %>% 
   mutate(year = paste0("Y_",year)) %>% 
@@ -182,7 +185,7 @@ d6.2 <- d6.1 %>%
   mutate(year = as.numeric(str_extract(year, "[[:digit:]]+")))
 
 
-# write.csv(d6.2, "./Paper/data_july19/Facebook_mau_coverage_oldgr.csv", row.names = F)
+
 
 # DAU coverage group
 
@@ -206,9 +209,6 @@ d6.3 <- d6.9 %>%
   gather(year, cov_dau_gr, cov_dau_gr_2018:cov_dau_gr_2019) %>% 
   mutate(year = as.numeric(str_extract(year, "[[:digit:]]+")))
 
-
-
-# write.csv(d6.3, "./Paper/data_july19/Facebook_dau_coverage.csv", row.names = F)
 
 
 d6.4 <- d6.9 %>% 
@@ -258,6 +258,99 @@ d5 <- left_join(d1.3, d6.6) %>%
          fbmau_censored_ind = ifelse((fbmau > 1000 & year >= 2018), 1, 0)) %>% 
   filter(year > 2010)
 
+
+###
+###
+# Estimate Eurostat removal of % of data per year ####
+# removal is done at random
+###
+###
+# this can be rewritten as a function
+d5.S3 <- d5 %>% 
+  filter(!is.na(eurostat)) %>% 
+  group_by(year) %>% 
+  sample_frac(0.05) %>% 
+  mutate(eurostat_na=1) %>% 
+  select(orig, dest, year, eurostat_na)
+
+d5.S4 <- d5 %>% 
+  filter(!is.na(eurostat)) %>% 
+  group_by(year) %>% 
+  sample_frac(0.1) %>% 
+  mutate(eurostat_na=1) %>% 
+  select(orig, dest, year, eurostat_na)
+
+d5.S5 <- d5 %>% 
+  filter(!is.na(eurostat)) %>% 
+  group_by(year) %>% 
+  sample_frac(0.2) %>% 
+  mutate(eurostat_na=1) %>% 
+  select(orig, dest, year, eurostat_na)
+
+d5.S6 <- d5 %>% 
+  d5 %>% 
+  mutate(eurostat = ifelse(year==2016, NA, eurostat))
+
+d5.S7 <- d5 %>% 
+  d5 %>% 
+  mutate(eurostat = ifelse(year==2018, NA, eurostat))
+
+d5.oo1 <- d5 %>% 
+  d5 %>% 
+  mutate(eurostat = ifelse(year==2017, NA, eurostat))
+
+d5.oo2 <- d5 %>% 
+  d5 %>% 
+  mutate(eurostat = ifelse(year==2018, NA, eurostat))
+
+
+# joininig with main data
+d52.S3 <- left_join(d5, d5.S3) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+d52.S4 <- left_join(d5, d5.S4) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+d52.S5 <- left_join(d5, d5.S5) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+d52.S6 <- left_join(d5, d5.S6) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+d52.S7 <- left_join(d5, d5.S7) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+# out of sample datasets
+d52.oo1 <- left_join(d5, d5.oo1) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+d52.oo2 <- left_join(d5, d5.oo2) %>% 
+  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
+  select(-eurostat_na, -eurostat) %>% 
+  rename(eurostat = eurostat2)
+
+
+# READ #### 
+# for running model S3-7 and oo1 and oo2
+# the below two lines need to be uncommented and edited 
+# e.g. to run S3 model, it needs to be:
+# d5 <- d52.S3
+# rm(d52.S3)
+
+
+
 # indices to run the model for required rows
 ind_eurostat <- which(!is.na(d5$eurostat))
 ind_fbmau2016 <- which(!is.na(d5$fbmau)& d5$year == 2016)
@@ -282,12 +375,6 @@ scale_fbdau <- d5$dau_ratio
 dinput <- d5 %>% 
   select(orig, dest, year, eurostat, census, fbmau, fbdau, LFS, corridor) %>% 
   gather(eurostat, census, fbdau, fbmau, LFS, key = "source", value = "flow")
-
-# write.csv(dinput, "./Paper/data_july19/input_update_2019_march_june_fbmau_oldcovgr_prec.csv", row.names = F)
-# write.csv(dinput, "./Paper/data_july19/input_update_2019_march_fbmau_oldcovgr.csv", row.names = F)
-# write.csv(dinput, "./data/input_15_64_LFS_corrected.csv", row.names = F)
-# write.csv(d5, "./model/datam3.csv", row.names = F)
-# write.csv(d5, "./Paper/data_july19/input_update_2019_17july.csv", row.names = F)
 
 
 # data list for the JAGS model
@@ -319,48 +406,5 @@ d <- list(N = nrow(d5),
           scale_fbmau = scale_fbmau, 
           scale_fbdau = scale_fbdau)
 
-# save(d, file = "./Paper/data_july19/datalist_update_2019_march_fbmau_newcov_ratio.Rdata")
-##
-## jags run
-##
+# you can save object d and other dXXX objects
 
-# set up parallelisation
-# stopCluster(cl)
-cl <- makePSOCKcluster(names = 10)
-tmp <- clusterEvalQ(cl = cl, expr = library(dclone))
-parLoadModule(cl = cl, name = 'glm', quiet = TRUE)
-parLoadModule(cl = cl, name = 'lecuyer', quiet = TRUE)
-
-
-
-
-#####
-### Important add random effects in params######
-#####
-
-
-# run model
-(s0 <- Sys.time())
-m <- jags.parfit(cl = cl,   
-                  n.chains = 3, n.adapt = 1e02, n.update = 5e02, n.iter = 1e03, 
-                  thin=10,
-                  data = d, model = "./code/main_model.txt", 
-                  params = c("y1", "tau_y1", "sigma_y1", 
-                             "beta", "mu_beta", "beta1", "mu_beta1",
-                             "tau_beta", "tau_beta1", "sigma_beta1","sigma_beta2", "sigma_beta3", 
-                             "eurostat",
-                             "gamma_eurostat", "tau_eurostat", "intercept_eurostat", "slope_eurostat",
-                             "gamma_fbmau","gamma_fbmau_2016", "gamma_fbmau_2017", 
-                             "gamma_fbmau_2018", "gamma_fbmau_2019", "gamma_fbdau_2018", "gamma_fbdau_2019",
-                             "tau_fbmau", "intercept_fbmau", "slope_fbmau", 
-                             "gamma_fbdau", "tau_fbdau", "intercept_fbdau", "slope_fbdau",
-                             "kappa_fbmau_2019", "kappa_fbdau_2019",
-                             "gamma_lfs", "tau_lfs","intercept_lfs", "slope_lfs",
-                             "gamma_census", "tau_census", 
-                             "gamma_ons", "tau_ons", "gamma_nso", "tau_nso"))
-
-
-s1 <- Sys.time() - s0
-s1
-
-# save(m, file = "W:/Users/dyildiz/Desktop/m_eurostat_only.RData", compress = "xz")
