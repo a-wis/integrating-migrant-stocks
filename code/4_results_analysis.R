@@ -40,11 +40,6 @@ y <- ggs(m, family = "^y1") %>%
 
 
 
-
-
-
-
-
 model_name <- ""
 folder_name <- "figures"
 
@@ -91,13 +86,13 @@ tot <- tot_y %>%
 # READ ####
 #if you want to save, uncomment
 # this needs to be saved for validation
-# table_name <- paste0("results/", model_name,"tot_y.csv")
+# table_name <- paste0("results/", model_name,"_tot_y.csv")
 # write.csv(tot_y, table_name, row.names = F)
 
 
 p <- ggplot(data = (tot %>% filter(year>=2011, source != "UN DESA (total population)" )),
       mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
-  geom_line(mapping = aes(colour = source)) +
+  # geom_line(mapping = aes(colour = source)) +
   geom_ribbon(mapping = aes(fill = source), alpha = 0.4) +
   geom_point(data = tot %>% filter(year >= 2011),
                                    mapping = aes(colour = source)) +
@@ -109,7 +104,7 @@ p <- ggplot(data = (tot %>% filter(year>=2011, source != "UN DESA (total populat
   guides(fill = FALSE)
 
 
-# plot_name <- paste0("figures/", model_name,"total_80ci.pdf")
+# plot_name <- paste0("figures/", model_name,"_total_80ci.pdf")
 # pdf(plot_name)
 p
 # dev.off()
@@ -152,7 +147,7 @@ imm$name[imm$name == "United Kingdom"] = "UK"
 eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
-# table_name <- paste0("results/", model_name,"imm_y.csv")
+# table_name <- paste0("results/", model_name,"_imm_y.csv")
 # write.csv(imm, table_name, row.names = F)
 
 col0 <- c("darkgrey", "peru", "red", "green3", "royalblue", "magenta2")
@@ -214,7 +209,7 @@ eu_grid1$name[eu_grid1$name == "Czech Republic"] = "Czechia"
 eu_grid1$name[eu_grid1$name == "United Kingdom"] = "UK"
 
 
-# table_name <- paste0("results/", model_name,"emi_y.csv")
+# table_name <- paste0("results/", model_name,"_emi_y.csv")
 # write.csv(emi, table_name, row.names = F)
 
 col0 <- c("darkgrey", "peru", "red", "green3", "royalblue", "magenta2")
@@ -270,7 +265,7 @@ bilat <- bilat_y %>%
          dest = plyr::revalue(dest, c("Czech Republic" = "Czechia")),
          dest = plyr::revalue(dest, c("United Kingdom" = "UK")))
 
-# table_name <- paste0("results/", model_name,"bilat_y.csv")
+# table_name <- paste0("results/", model_name,"_bilat_y.csv")
 # write.csv(bilat_y, table_name, row.names = F)
 
 ggplot(data = bilat,
@@ -424,33 +419,5 @@ ggplot(data = bilat_uk_imm %>% filter(year>=min(dinput$year)),
   guides(fill = FALSE)
 dev.off()
 
-
-#Comparison plot
-
-eu_tot_imm <- read_excel("data/migr_pop3ctb.xls", sheet = "Data", skip = 12)[1:38,-c(2,3,4)] %>%
-  rename(name = "GEO/TIME") %>%
-  gather(year, eu_tot, c(2,3,4,5)) %>%
-  mutate(eu_tot = as.numeric(eu_tot),
-         year = as.numeric(year)) %>%
-  filter(!is.na(eu_tot))
-
-imm_compare_eu_tot <- imm %>%
-  filter(year %in% 2014:2017,
-         source == "Estimate") %>%
-  left_join(eu_tot_imm)
-
-
-p <- ggplot(data = imm_compare_eu_tot, aes(x = flow, y = eu_tot, colour = as.factor(year))) +
-  geom_point() +
-  geom_abline(intercept = 0, slope = 1) +
-  scale_x_continuous(breaks = seq(0, max(imm_compare_eu_tot$flow), by = 500000)) +
-  scale_y_continuous(breaks = seq(0, max(imm_compare_eu_tot$flow), by = 500000), limits = c(0, 2.8e06)) +
-  labs(x = "Estimate",y = "Eurostat total immigration") +
- labs(colour = "Year")
-
-plot_name <- paste0("figures/", folder_name, model_name, "EU_vs_est_imm.pdf")
-pdf(plot_name)
-p
-dev.off()
 
 

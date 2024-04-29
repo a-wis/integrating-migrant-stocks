@@ -12,7 +12,7 @@ tot_d <- dinput %>%
                                  source == "LFS" ~ "LFS (w. Missing)"))
 
 
-tot <- tot_y1 %>%
+tot <- tot_y %>%
   mutate(source_name = "Estimate") %>%
   rename(flow = total) %>%
   bind_rows(tot_d) %>%
@@ -25,10 +25,7 @@ table_name <- paste0(folder_name, model_name,"_tot.csv")
 col0 <- c("darkgrey",  "peru", "red","green3", "royalblue", "magenta2")
 shape0 <- c(16, 17, 15, 18, 7, 8)
 
-png("./paper figures/total1.png",  width = 8,  height = 6, units = "in", res = 300)
-png("./paper figures/total2.png",  width = 10, height = 8, units = "in", res = 300)
-png("./paper figures/total3.png",  width = 10, height = 8, units = "in", res = 300)
-png("./paper figures/total4_131223.png",  width = 16, height = 12, units = "in", res = 300)
+# png("./figures/total4_131223.png",  width = 16, height = 12, units = "in", res = 300)
 
 ggplot(data = tot,
        mapping = aes(x = year, y = flow/1e06, ymin = lwr80/1e06, ymax = upp80/1e06)) +
@@ -107,7 +104,7 @@ bilat_d <- dinput %>%
          orig = plyr::revalue(orig, c("United Kingdom" = "UK")),
          dest = plyr::revalue(dest, c("United Kingdom" = "UK"))) 
 
-bilat <- bilat_y1 %>%
+bilat <- bilat_y %>%
   mutate(source_name = "Estimate", 
          flow = total, 
          orig = plyr::revalue(orig, c("United Kingdom" = "UK")),
