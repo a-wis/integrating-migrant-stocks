@@ -6,7 +6,16 @@ library(tidyverse)
 library(forcats)
 library(stringr)
 library(ggmcmc)
-source("code/read_functions.R")
+source("code/0_read_functions.R")
+
+corridors <- dinput %>%
+  select(orig, dest, corridor) %>%
+  distinct()
+
+years <- dinput %>%
+  select(year) %>%
+  mutate(node_id = 1:n())
+
 
 
 #model_name <- "m_est_eu18_"
