@@ -1,4 +1,4 @@
-# this file rea ds in and prepares data to be used in 
+# this file reads in and prepares data to be used in 
 # main model S1 
 # naive model
 
@@ -6,25 +6,23 @@ rm(list = ls())
 library(tidyverse)
 library(stringr)
 library(forcats)
+library(rjags)
 library(dclone)
 library(readxl)
 library(eurostat)
 
  
- ###############################################################
- ###############################################################
- #                     15 - 64 year olds                      #
- ###############################################################
- ###############################################################
+# 15 - 64 year olds #
+
  
-# Eurostat 
+# Eurostat ####
 # updated in 1 July 2019
 # includes 2018 data 
 
  # added this line because eu_countries do not include UK anymore
 countries_name <- c(eu_countries$name, "United Kingdom")
  
- 
+# all corridors all years 
 corrname4 <- expand.grid(dest = sort(countries_name), orig = sort(countries_name), year = seq(2011,2019, by = 1)) %>% 
   select(orig, dest, year) %>% 
   filter(orig != dest) %>% 
@@ -42,7 +40,7 @@ d1.4 <- left_join(corrname4, d1) %>%
          corridor_name = as.factor(corridor_name),
            corridor = as.numeric(corridor_name))
 
-
+# Eurostat undercount groups from IMEM
 d1.1 <-  read.csv("data/IMEM_undercount.csv", sep= ";") %>% 
   rename(cov_eurostat_gr = gamma_group) %>% 
   mutate(cov_eurostat_gr = ifelse(is.na(cov_eurostat_gr), 3, cov_eurostat_gr))
@@ -78,13 +76,13 @@ d1.3 <- d1.2 %>%
 
 
 
-# Eurostat census
+# Eurostat census 2011 ####
  
 d2 <- read.csv("data/Eurostat_census_2011.csv") %>% 
   mutate(census = ifelse(census == 0, NA, census))
  
 
-
+# Facebook ####
 
 # Facebook June 2019 fbmau = mau_est if mau_est==NA use mau
 
@@ -96,7 +94,7 @@ d6 <- read.csv("data/Fb_all_2016_2019_users_pop_coverage.csv") %>%
   select(corridor_name, corridor, orig, dest, mau, year, month, date, mau_est, dau, mau_cov, dau_cov) 
 
 
-# mfbmau is average of mau_est in march, april, may, june 
+# fbmau is average of mau_est in march, april, may, june 
 # if is.nan(fbmau) then is average of mau
 
 d6.7 <- d6 %>% 
@@ -147,7 +145,7 @@ d6.1 <- d6.9 %>%
   select(-corridor_name, -corridor, -orig, -fbmau, -fbdau, -dau_cov) %>% 
   distinct() 
 
-# MAU 2017 coverage
+# MAU 2017 coverage use average of 2016 and 2018
 for(i in 1:length(unique(d6.1$dest))){
   d6.1 %>% filter(dest == d6.1$dest[i])
   d6.1$test[d6.1$year==2017] = ((d6.1$mau_cov[d6.1$year==2016] + d6.1$mau_cov[d6.1$year==2018])/2)
@@ -158,7 +156,7 @@ d6.1 <- d6.1 %>%
   select(-test)
  
 
-# same coverage groups as the EC report 
+# same coverage groups as the EC report (Gendronneau et al, 2019)
 d6.2 <- d6.1 %>% 
   mutate(year = paste0("Y_",year)) %>% 
   spread(year, mau_cov) %>% 
@@ -238,15 +236,14 @@ d6.6 <- left_join(corrname4, d6.9) %>%
   mutate(corridor = as.numeric(as.factor(corridor_name)))
 
 
-
-
+# LFS ####
 # LFS and year and destination specific coverage
 
 d4 <- read.csv("./data/LFS_corrected_full_corridors.csv") %>% 
   mutate(dest_year = paste0(dest, "_", year), 
          cov_lfs_dest_year = as.numeric(as.factor(dest_year)))
 
-# All sources combined
+# Combine all sources ####
 
 
 d5 <- left_join(d1.3, d6.6) %>% 
@@ -259,11 +256,10 @@ d5 <- left_join(d1.3, d6.6) %>%
   filter(year > 2010)
 
 
-###
+
 ###
 # Estimate Eurostat removal of % of data per year ####
 # removal is done at random
-###
 ###
 # this can be rewritten as a function
 d5.S3 <- d5 %>% 
