@@ -18,11 +18,6 @@ parLoadModule(cl = cl, name = 'lecuyer', quiet = TRUE)
 
 
 
-####
-# Important add random effects in params######
-####
-
-
 # run main model ####
 # Denoted S1 in the paper #
 (s0 <- Sys.time())
