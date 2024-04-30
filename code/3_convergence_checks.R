@@ -34,7 +34,7 @@ eu <- eurostat %>%
 eurostat_2018_obs <-dinput %>% 
   filter(source == "eurostat", 
          year == "2018") %>% 
-  mutate(stock = log(flow))
+  mutate(stock = log(stock))
 
 summary_eurostat_2018 <- eu %>% 
   filter(year == "2018") %>% 
@@ -86,7 +86,6 @@ sigma <- ggs(m, family = "sigma")
 beta <- ggs(m, family = "beta")
 beta1 <- ggs(m, family = "^beta\\[1") 
 beta2 <- ggs(m, family = "^beta\\[2,")
-omega <- ggs(m, family = "^omega")
 gamma <- ggs(m, family = "^gamma")
 gamma_fbmau_2016 <- ggs(m, family = "gamma_fbmau_2016") 
 gamma_fbmau_2017 <- ggs(m, family = "gamma_fbmau_2017") 
@@ -96,8 +95,6 @@ gamma_eu <- ggs(m, family = "^gamma_eurostat")
 gamma_fbmau <- ggs(m, family = "^gamma_fbmau")
 gamma_lfs <- ggs(m, family = "^gamma_lfs")
 gamma_census <- ggs(m, family = "^gamma_census")
-lambda <- ggs(m, family = "^lambda")
-delta_covmau <- ggs(m, family = "delta_covmau")
 tau_eurostat <- ggs(m, family = "tau_eurostat")
 tau_fbmau <- ggs(m, family = "tau_fbmau")
 tau_fbdau <- ggs(m, family = "tau_fbdau")
