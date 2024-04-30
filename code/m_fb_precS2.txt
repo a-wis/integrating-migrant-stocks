@@ -33,16 +33,26 @@ model{
     fbmau[i] ~ dnorm(y1[i] + log(gamma_fbmau_2017[cov_mau_gr[i]]), tau_fbmau)
     }
   
-  for(i in infbmau1819){
+  for(i in infbmau2018){
     fbmau_censored_ind[i] ~ dinterval(fbmau_censored[i], 1000)
     fbmau_censored[i] ~ dnorm(fbmau_hat[i], tau_fbmau)
     fbmau_hat[i] <- y1[i] + log(gamma_fbmau_2018[cov_mau_gr[i]])
     }
-  
-  for(i in infbdau){
-    fbdau[i] ~ dnorm(y1[i] + log(gamma_fbdau[cov_dau_gr[i]]), tau_fbdau)
+  for(i in infbmau2019){
+    fbmau_censored_ind[i] ~ dinterval(fbmau_censored[i], 1000)
+    fbmau_censored[i] ~ dnorm(fbmau_hat[i], tau_fbmau)
+    fbmau_hat[i] <- y1[i] + log(gamma_fbmau_2019[cov_mau_gr[i]]) + log(kappa_fbmau_2019[i])
+    }
+
+	
+  for(i in infbdau2018){
+    fbdau[i] ~ dnorm(y1[i] + log(gamma_fbdau_2018[cov_dau_gr[i]]), tau_fbdau)
    }
     
+  for(i in infbdau2019){
+   fbdau[i] ~ dnorm(y1[i] + log(gamma_fbdau_2019[cov_dau_gr[i]]) + log(kappa_fbdau_2019[i]), tau_fbdau)
+  }
+  
   for(i in inlfs){
     lfs[i] ~ dnorm(y1[i] + log(gamma_lfs[cov_lfs_dest_year[i]]), tau_lfs[i])
     tau_lfs[i] <- intercept_lfs + slope_lfs * lfs2[i]
@@ -115,24 +125,51 @@ model{
   gamma_census ~ dnorm(1,100)I(0,1)
   
   # grouped facebook coverage
-  gamma_fbmau_2016[1] ~ dnorm(0.35, 100)I(0.001,1)
-  gamma_fbmau_2016[2] ~ dnorm(0.50, 100)I(0.001,1)
-  gamma_fbmau_2016[3] ~ dnorm(0.70, 100)I(0.001,)
-  gamma_fbmau_2016[4] ~ dnorm(0.85, 100)I(0.001,)
-  gamma_fbmau_2017[1] ~ dnorm(0.45, 100)I(0.001,1)
-  gamma_fbmau_2017[2] ~ dnorm(0.60, 100)I(0.001,1)
-  gamma_fbmau_2017[3] ~ dnorm(0.80, 100)I(0.001,)
-  gamma_fbmau_2017[4] ~ dnorm(1.15, 100)I(0.001,)
-  gamma_fbmau_2018[1] ~ dnorm(0.55, 100)I(0.001,1)
-  gamma_fbmau_2018[2] ~ dnorm(0.70, 100)I(0.001,1)
-  gamma_fbmau_2018[3] ~ dnorm(0.90, 100)I(0.001,)
-  gamma_fbmau_2018[4] ~ dnorm(1.05, 100)I(0.001,)
-  gamma_fbmau_2018[5] ~ dnorm(1.50, 100)I(0.001,)
+  # group by year and cov_gr and use the mean value
+  gamma_fbmau_2016[1] ~ dnorm(0.35, 10)I(0.001,1)
+  gamma_fbmau_2016[2] ~ dnorm(0.50, 10)I(0.001,1)
+  gamma_fbmau_2016[3] ~ dnorm(0.60, 10)I(0.001,)
+  gamma_fbmau_2016[4] ~ dnorm(0.85, 10)I(0.001,)
+  
+  gamma_fbmau_2017[1] ~ dnorm(0.45, 10)I(0.001,1)
+  gamma_fbmau_2017[2] ~ dnorm(0.60, 10)I(0.001,1)
+  gamma_fbmau_2017[3] ~ dnorm(0.75, 10)I(0.001,)
+  gamma_fbmau_2017[4] ~ dnorm(1.15, 10)I(0.001,)
+  
+  gamma_fbmau_2018[1] ~ dnorm(0.55, 10)I(0.001,1)
+  gamma_fbmau_2018[2] ~ dnorm(0.70, 10)I(0.001,1)
+  gamma_fbmau_2018[3] ~ dnorm(0.85, 10)I(0.001,)
+  gamma_fbmau_2018[4] ~ dnorm(1.05, 10)I(0.001,)
+  gamma_fbmau_2018[5] ~ dnorm(1.50, 10)I(0.001,)
+  
+  gamma_fbmau_2019[1] ~ dnorm(0.55, 10)I(0.001,1)
+  gamma_fbmau_2019[2] ~ dnorm(0.70, 10)I(0.001,1)
+  gamma_fbmau_2019[3] ~ dnorm(0.85, 10)I(0.001,)
+  gamma_fbmau_2019[4] ~ dnorm(1.00, 10)I(0.001,)
+  gamma_fbmau_2019[5] ~ dnorm(1.40, 10)I(0.001,)
+   
+  gamma_fbdau_2018[1] ~ dnorm(0.35, 10)I(0.001,1)
+  gamma_fbdau_2018[2] ~ dnorm(0.50, 10)I(0.001,1)
+  gamma_fbdau_2018[3] ~ dnorm(0.65, 10)I(0.001,)
+  gamma_fbdau_2018[4] ~ dnorm(0.85, 10)I(0.001,)
+  gamma_fbdau_2018[5] ~ dnorm(1.10, 10)I(0.001,)
+  
+  gamma_fbdau_2019[1] ~ dnorm(0.35, 10)I(0.001,1)
+  gamma_fbdau_2019[2] ~ dnorm(0.50, 10)I(0.001,1)
+  gamma_fbdau_2019[3] ~ dnorm(0.65, 10)I(0.001,)
+  gamma_fbdau_2019[4] ~ dnorm(0.85, 10)I(0.001,)
+  gamma_fbdau_2019[5] ~ dnorm(1.05, 10)I(0.001,)
  
   
-  gamma_fbdau[1] ~ dnorm(0.35, 100)I(0.001,1)
-  gamma_fbdau[2] ~ dnorm(0.50, 100)I(0.001,1)
-  gamma_fbdau[3] ~ dnorm(0.70, 100)I(0.001,)
-  gamma_fbdau[4] ~ dnorm(0.90, 100)I(0.001,)
-  gamma_fbdau[5] ~ dnorm(1.00, 100)I(0.001,)
+  
+  # 2019 scaling factor
+  for(i in infbmau2019){
+  kappa_fbmau_2019[i] ~ dnorm(scale_fbmau[i], 100)I(0.0001,)
+  }
+  for(i in infbdau2019){
+  kappa_fbdau_2019[i] ~ dnorm(scale_fbdau[i], 100)I(0.0001,)
+  }
+ 
+  
+  
 } 

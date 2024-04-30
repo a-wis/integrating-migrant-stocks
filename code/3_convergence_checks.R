@@ -17,7 +17,6 @@ years <- dinput %>%
   mutate(node_id = 1:n())
 
 
-
 #model_name <- "m_est_eu18_"
 
 eurostat <- ggs(m, family = "eurostat") %>%  
