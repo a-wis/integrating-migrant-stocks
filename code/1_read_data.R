@@ -11,6 +11,7 @@ library(dclone)
 library(readxl)
 library(eurostat)
 
+
  
 # 15 - 64 year olds #
 
@@ -257,7 +258,7 @@ d5 <- left_join(d1.3, d6.6) %>%
 
 
 
-###
+### S3-S5
 # Estimate Eurostat removal of % of data per year ####
 # removal is done at random
 ###
@@ -283,22 +284,6 @@ d5.S5 <- d5 %>%
   mutate(eurostat_na=1) %>% 
   select(orig, dest, year, eurostat_na)
 
-d5.S6 <- d5 %>% 
-  d5 %>% 
-  mutate(eurostat = ifelse(year==2016, NA, eurostat))
-
-d5.S7 <- d5 %>% 
-  d5 %>% 
-  mutate(eurostat = ifelse(year==2018, NA, eurostat))
-
-d5.oo1 <- d5 %>% 
-  d5 %>% 
-  mutate(eurostat = ifelse(year==2017, NA, eurostat))
-
-d5.oo2 <- d5 %>% 
-  d5 %>% 
-  mutate(eurostat = ifelse(year==2018, NA, eurostat))
-
 
 # joininig with main data
 d52.S3 <- left_join(d5, d5.S3) %>% 
@@ -316,36 +301,38 @@ d52.S5 <- left_join(d5, d5.S5) %>%
   select(-eurostat_na, -eurostat) %>% 
   rename(eurostat = eurostat2)
 
-d52.S6 <- left_join(d5, d5.S6) %>% 
-  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
-  select(-eurostat_na, -eurostat) %>% 
-  rename(eurostat = eurostat2)
-
-d52.S7 <- left_join(d5, d5.S7) %>% 
-  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
-  select(-eurostat_na, -eurostat) %>% 
-  rename(eurostat = eurostat2)
-
-# out of sample datasets
-d52.oo1 <- left_join(d5, d5.oo1) %>% 
-  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
-  select(-eurostat_na, -eurostat) %>% 
-  rename(eurostat = eurostat2)
-
-d52.oo2 <- left_join(d5, d5.oo2) %>% 
-  mutate(eurostat2 = ifelse(is.na(eurostat_na), eurostat, NA)) %>% 
-  select(-eurostat_na, -eurostat) %>% 
-  rename(eurostat = eurostat2)
-
-
 # READ #### 
-# for running model S3-7 and oo1 and oo2
+# for running model S3-5 
 # the below two lines need to be uncommented and edited 
 # e.g. to run S3 model, it needs to be:
-# d5 <- d52.S3
+# d5 <- d53.S3
 # rm(d52.S3)
 
+# 
+#for running models S6-7 and out of sample oo1, oo2
+# For each model rerun the code above to replace d5 with complete data
+# S6 
+d5.S6 <- d5 %>% 
+  mutate(eurostat = ifelse(year==2016, NA, eurostat))
+d5 <- d5.S6
 
+#S7
+d5.S7 <- d5 %>% 
+  mutate(eurostat = ifelse(year==2018, NA, eurostat))
+d5 <- d5.S7
+
+#oo1
+d5.oo1 <- d5 %>% 
+  mutate(eurostat = ifelse(year==2017, NA, eurostat))
+d5 <- d5.oo1
+
+#oo2
+d5.oo2 <- d5 %>% 
+  mutate(eurostat = ifelse(year==2018, NA, eurostat))
+d5 <- d5.oo2
+
+# the code below needs to be used for each model seperately to 
+# account for the changes in input data
 
 # indices to run the model for required rows
 ind_eurostat <- which(!is.na(d5$eurostat))
@@ -370,7 +357,7 @@ scale_fbdau <- d5$dau_ratio
 
 dinput <- d5 %>% 
   select(orig, dest, year, eurostat, census, fbmau, fbdau, LFS, corridor) %>% 
-  gather(eurostat, census, fbdau, fbmau, LFS, key = "source", value = "flow")
+  gather(eurostat, census, fbdau, fbmau, LFS, key = "source", value = "stock")
 
 
 # data list for the JAGS model

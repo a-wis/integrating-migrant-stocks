@@ -65,3 +65,23 @@ y_stats <- function(D, type = "total"){
               upp80 = quantile(x = total_chit, probs = 0.9),
               lwr80 = quantile(x = total_chit, probs = 0.1)) 
 }
+
+saveresults <- function(D, type = "total"){
+  if(type == "total"){
+    table_name <- paste0("results/", model_name,"_tot_y.csv")
+    write.csv(D, table_name, row.names = F)
+  }
+  if(type == "imm"){
+    table_name <- paste0("results/", model_name,"_imm_y.csv")
+    write.csv(D, table_name, row.names = F)
+  }
+  if(type == "emi"){
+    table_name <- paste0("results/", model_name,"_emi_y.csv")
+    write.csv(D, table_name, row.names = F)
+  }
+  if(type == "bilat"){
+    table_name <- paste0("results/", model_name,"_bilat_y.csv")
+    write.csv(D, table_name, row.names = F)
+  }
+}
+

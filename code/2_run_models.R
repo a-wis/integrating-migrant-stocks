@@ -4,6 +4,7 @@
 
 library(dclone)
 
+
 ##
 ## jags run
 ##
@@ -51,8 +52,8 @@ s1
 # run model
 (s0 <- Sys.time())
 m <- jags.parfit(cl = cl,   
-                 n.chains = 3, n.adapt = 1e04, n.update = 5e04, n.iter = 1e06, 
-                 thin=1000,
+                 n.chains = 3, n.adapt = 1e02, n.update = 5e02, n.iter = 1e03, 
+                 thin=10,
                  data = d, model = "./code/naive_globalW.txt", 
                  params = c("y1", "tau_y1", "sigma_y1", 
                             "beta", "mu_beta", "beta1", "mu_beta1",
@@ -80,8 +81,8 @@ s1
 # run model
 (s0 <- Sys.time())
 m <- jags.parfit(cl = cl,   
-                 n.chains = 3, n.adapt = 1e04, n.update = 5e04, n.iter = 1e06, 
-                 thin=1000,
+                 n.chains = 3, n.adapt = 1e02, n.update = 5e02, n.iter = 1e03, 
+                 thin=10,
                  data = d, model = "./code/naive2.txt", 
                  params = c("y1", "tau_y1", "sigma_y1", 
                             "beta", "mu_beta", "beta1", "mu_beta1",
@@ -215,3 +216,25 @@ s1
 
 # Out of Sample Prediction ####
 # main model with changed data inputs 
+(s0 <- Sys.time())
+m <- jags.parfit(cl = cl,   
+                 n.chains = 3, n.adapt = 1e02, n.update = 5e02, n.iter = 1e03, 
+                 thin=10,
+                 data = d, model = "./code/main_model.txt", 
+                 params = c("y1", "tau_y1", "sigma_y1", 
+                            "beta", "mu_beta", "beta1", "mu_beta1",
+                            "tau_beta", "tau_beta1", "sigma_beta1","sigma_beta2", "sigma_beta3", 
+                            "eurostat",
+                            "gamma_eurostat", "tau_eurostat", "intercept_eurostat", "slope_eurostat",
+                            "gamma_fbmau","gamma_fbmau_2016", "gamma_fbmau_2017", 
+                            "gamma_fbmau_2018", "gamma_fbmau_2019", "gamma_fbdau_2018", "gamma_fbdau_2019",
+                            "tau_fbmau", "intercept_fbmau", "slope_fbmau", 
+                            "gamma_fbdau", "tau_fbdau", "intercept_fbdau", "slope_fbdau",
+                            "kappa_fbmau_2019", "kappa_fbdau_2019",
+                            "gamma_lfs", "tau_lfs","intercept_lfs", "slope_lfs",
+                            "gamma_census", "tau_census", 
+                            "gamma_ons", "tau_ons", "gamma_nso", "tau_nso"))
+
+
+s1 <- Sys.time() - s0
+s1
