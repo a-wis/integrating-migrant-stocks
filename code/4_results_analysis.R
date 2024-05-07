@@ -16,6 +16,18 @@ library(scales)
 library(ggplus)
 library(rayshader)
 
+# source data: dinput
+# for each model, read the data file by sourcing
+source("code/read_data/S1_read.data.R")
+# source("code/read_data/S3_read.data.R")
+# source("code/read_data/S4_read.data.R")
+# source("code/read_data/S5_read.data.R")
+# source("code/read_data/S6_read.data.R")
+# source("code/read_data/S7_read.data.R")
+# source("code/read_data/oo1_read.data.R")
+
+
+
 dinput_source_year <- dinput %>%
   select(year, source, stock) %>%
   group_by(year, source) %>%
@@ -38,8 +50,8 @@ y <- ggs(m, family = "^y1") %>%
   add_corridor() %>%
   left_join(years)
 
-
-model_name <- ""
+#name the model
+model_name <- "main-model"
 folder_name <- "figures"
 
 
