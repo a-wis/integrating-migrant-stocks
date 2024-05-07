@@ -4,11 +4,12 @@
 # No need to read data separately for each model
 # Start directly from Sensitivity plots
 
-########################################
 
 # Input data from the main model
 # dinput from the main model 
 
+
+library(tidyverse)
 filenames <- list.files(path="results", full.names=TRUE)
 
 
@@ -17,39 +18,37 @@ myMergedData <-
           lapply(list.files(path = "./results/"), read.csv))
 
 
-# ########################################
-# ############# Main results #############
-# ########################################
+
+# ############# S1: Main results #############
+
 
 
 tot_y1   <- read.csv(paste("./results/s1_tot_y.csv")) %>% 
-  mutate(model = "S1")
+  mutate(model = "S1:Main")
 
 imm_y1   <- read.csv("./results/S1_imm_y.csv") %>% 
-  mutate(model = "Main")
+  mutate(model = "S1:Main")
 
 emi_y1   <- read.csv("./results/S1_emi_y.csv") %>% 
-  mutate(model = "Main")
+  mutate(model = "S1:Main")
 
-bilat_y1 <- read.csv("S:/Rand/Paper/update_2019/bilat_y_main_model.csv") %>% select(-X) %>%
-  mutate(model = "Main")
-# 
-# #########################################
-# ### Main model - lower prec in FB cov ###
-# #########################################
-# 
-# 
-# tot_y2   <- read.csv("S:/Rand/Paper/update_2019/tot_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>% 
-#   mutate(model = "Main low precision")
-# 
-# imm_y2   <- read.csv("S:/Rand/Paper/update_2019/imm_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>% 
-#   mutate(model = "Main low precision")
-# 
-# emi_y2   <- read.csv("S:/Rand/Paper/update_2019/emi_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>% 
-#   mutate(model = "Main low precision")
-# 
-# bilat_y2 <- read.csv("S:/Rand/Paper/update_2019/bilat_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>% 
-#   mutate(model = "Main low precision")
+bilat_y1 <- read.csv("./results/S1_bilat_y.csv") %>%
+  mutate(model = "S1:Main")
+
+# ### S2: Main low FB precision ####
+
+
+tot_y2   <- read.csv("S:/Rand/Paper/update_2019/tot_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>%
+  mutate(model = "Main low precision")
+
+imm_y2   <- read.csv("S:/Rand/Paper/update_2019/imm_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>%
+  mutate(model = "Main low precision")
+
+emi_y2   <- read.csv("S:/Rand/Paper/update_2019/emi_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>%
+  mutate(model = "Main low precision")
+
+bilat_y2 <- read.csv("S:/Rand/Paper/update_2019/bilat_y_main_model_low_fb_cov_prec.csv") %>% select(-X) %>%
+  mutate(model = "Main low precision")
 # 
 # #########################################
 # ######## Estimate Eurostat - 10% ########
