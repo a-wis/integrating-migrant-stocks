@@ -1,0 +1,29 @@
+name,alpha2,alpha3,reg_name,order0,order1,n,gap,col0,col1
+Denmark,DK,DNK,Northern Europe,1,1,8,2,#E41A1C,#860F10
+Estonia,EE,EST,Northern Europe,1,2,8,2,#E41A1C,#A11214
+Finland,FI,FIN,Northern Europe,1,3,8,2,#E41A1C,#BC1517
+Ireland,IE,IRL,Northern Europe,1,4,8,2,#E41A1C,#D7181A
+Latvia,LV,LVA,Northern Europe,1,5,8,2,#E41A1C,#E62729
+Lithuania,LT,LTU,Northern Europe,1,6,8,2,#E41A1C,#E94244
+Sweden,SE,SWE,Northern Europe,1,7,8,2,#E41A1C,#EC5D5F
+United Kingdom,GB,GBR,Northern Europe,1,8,8,6,#E41A1C,#EF7879
+Austria,AT,AUT,Western Europe,2,1,6,2,#377EB8,#25547B
+Belgium,BE,BEL,Western Europe,2,2,6,2,#377EB8,#2C6593
+France,FR,FRA,Western Europe,2,3,6,2,#377EB8,#3376AC
+Germany,DE,DEU,Western Europe,2,4,6,2,#377EB8,#4487BD
+Luxembourg,LU,LUX,Western Europe,2,5,6,2,#377EB8,#5F98C6
+Netherlands,NL,NLD,Western Europe,2,6,6,6,#377EB8,#7AA9D0
+Croatia,HR,HRV,Southern Europe,3,1,8,2,#4DAF4A,#2D672C
+Cyprus,CY,CYP,Southern Europe,3,2,8,2,#4DAF4A,#367C34
+Greece,GR,GRC,Southern Europe,3,3,8,2,#4DAF4A,#3F903D
+Italy,IT,ITA,Southern Europe,3,4,8,2,#4DAF4A,#48A546
+Malta,MT,MLT,Southern Europe,3,5,8,2,#4DAF4A,#57B455
+Portugal,PT,PRT,Southern Europe,3,6,8,2,#4DAF4A,#6CBD6A
+Slovenia,SI,SVN,Southern Europe,3,7,8,2,#4DAF4A,#81C77F
+Spain,ES,ESP,Southern Europe,3,8,8,6,#4DAF4A,#96D095
+Bulgaria,BG,BGR,Eastern Europe,4,1,6,2,#984EA3,#65346D
+Czechia,CZ,CZE,Eastern Europe,4,2,6,2,#984EA3,#7A3E82
+Hungary,HU,HUN,Eastern Europe,4,3,6,2,#984EA3,#8E4998
+Poland,PL,POL,Eastern Europe,4,4,6,2,#984EA3,#9F5AA9
+Romania,RO,ROU,Eastern Europe,4,5,6,2,#984EA3,#AD71B5
+Slovakia,SK,SVK,Eastern Europe,4,6,6,6,#984EA3,#BA89C2
