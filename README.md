@@ -19,6 +19,6 @@ Cloé Gendronneau<sup>6</sup>, Stijn Hoorens<sup>6</sup>
 
 <sup>*</sup> Corresponding author
 
-*International Migration Review* (accepted)
+*International Migration Review* (accepted) [https://doi.org/10.1177/01979183241249969](https://doi.org/10.1177/01979183241249969)
 
 This repository contains code to reproduce the results and outputs in the article.
